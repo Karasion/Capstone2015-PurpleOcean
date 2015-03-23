@@ -104,9 +104,80 @@
                 <parameter name="speed" value="20" />
             </action>
         </activity>
+        
+        <!-- add part -->
+        <activity id="activity17">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="right" />
+            </action>
+        </activity>
+        <activity id="activity18">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="straight"/>
+            </action>
+        </activity>
+        <!--  end -->
 	</activities>
 	
 	<triggers>
+	    <!-- add part start -->
+	    <trigger id="collideWithTriggerBox_1" priority="1">
+	        <activities>
+	            <activity ref="activity17"/>
+	        </activities>
+	        
+	        <condition>collideWith:TriggerBox_1</condition>
+	    </trigger>
+	    <trigger id="collideWithTriggerBox_2" priority="1">
+	        <activities>
+	            <activity ref="activity18"/>
+	        </activities>
+	        
+	        <condition>collideWith:TriggerBox_2</condition>
+	    </trigger>
+	    <trigger id="collideWithTriggerBox_3" priority="1">
+	        <activities>
+	            <activity ref="activity17"/>
+	        </activities>
+	        
+	        <condition>collideWith:TriggerBox_3</condition>
+	    </trigger>
+	    <trigger id="collideWithTriggerBox_4" priority="1">
+	        <activities>
+	            <activity ref="activity18"/>
+	        </activities>
+	        
+	        <condition>collideWith:TriggerBox_4</condition>
+	    </trigger>
+	    <trigger id="collideWithTriggerBox_5" priority="1">
+	        <activities>
+	            <activity ref="activity17"/>
+	        </activities>
+	        
+	        <condition>collideWith:TriggerBox_5</condition>
+	    </trigger>
+	    <trigger id="collideWithTriggerBox_6" priority="1">
+	        <activities>
+	            <activity ref="activity18"/>
+	        </activities>
+	        
+	        <condition>collideWith:TriggerBox_6</condition>
+	    </trigger>
+	    <trigger id="collideWithTriggerBox_7" priority="1">
+	        <activities>
+	            <activity ref="activity17"/>
+	        </activities>
+	        
+	        <condition>collideWith:TriggerBox_7</condition>
+	    </trigger>
+	    <trigger id="collideWithTriggerBox_8" priority="1">
+	        <activities>
+	            <activity ref="activity18"/>
+	        </activities>
+	        
+	        <condition>collideWith:TriggerBox_8</condition>
+	    </trigger>
+	    <!-- end -->
         <trigger id="collideWithTrafficLightBox" priority="1">
             <activities>
                 <activity ref="activity15"/>
@@ -120,6 +191,7 @@
 			
 			<activities>
 				<activity ref="activity08"/>
+				<activity ref="activity17"/>
 				<!-- <activity ref="activity10"/>  -->
 				<!-- <activity ref="activity11"/>  -->
 			</activities>

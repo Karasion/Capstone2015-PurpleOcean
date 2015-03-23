@@ -81,4 +81,9 @@
 		</mouse>
 	</controllers>
 	
+	<objectLocator>
+	    <enable>false</enable>
+	    <fileName>trafficObjects.xml</fileName>
+	</objectLocator>
+	
 </settings>
