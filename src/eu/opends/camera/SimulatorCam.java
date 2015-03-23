@@ -30,6 +30,7 @@ import com.jme3.scene.control.CameraControl;
 import com.jme3.scene.shape.Cylinder;
 
 import eu.opends.car.Car;
+import eu.opends.hud.HudDisplay;
 import eu.opends.main.Simulator;
 import eu.opends.tools.PanelCenter;
 
@@ -160,6 +161,10 @@ public class SimulatorCam extends CameraFactory
 	{
 		if(camMode == CameraMode.EGO)
 		{
+			if(HudDisplay.getKeyFlag())
+				HudDisplay.hudAttach();
+			else
+				HudDisplay.hudDetach();
 			if(mirrorMode == MirrorMode.ALL)
 			{
 				backViewPort.setEnabled(true);
@@ -199,6 +204,7 @@ public class SimulatorCam extends CameraFactory
 		}
 		else
 		{
+			HudDisplay.hudDetach();
 			backViewPort.setEnabled(false);
 			leftBackViewPort.setEnabled(false);
 			rightBackViewPort.setEnabled(false);

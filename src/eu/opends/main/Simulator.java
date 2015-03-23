@@ -22,6 +22,7 @@ package eu.opends.main;
 import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
@@ -49,6 +50,7 @@ import eu.opends.drivingTask.settings.SettingsLoader.Setting;
 import eu.opends.effects.EffectCenter;
 import eu.opends.environment.TrafficLightCenter;
 import eu.opends.eyetracker.EyetrackerCenter;
+import eu.opends.hud.HudDisplay;
 import eu.opends.input.KeyBindingCenter;
 import eu.opends.knowledgeBase.KnowledgeBase;
 import eu.opends.multiDriver.MultiDriverClient;
@@ -277,6 +279,7 @@ public class Simulator extends SimulationBasics
     	//getPhysicsSpace().setAccuracy(0.005f);
     	
     	PanelCenter.init(this);
+    	HudDisplay.init(this);
 	
         Joystick[] joysticks = inputManager.getJoysticks();
         if(joysticks != null)
@@ -446,6 +449,7 @@ public class Simulator extends SimulationBasics
 				car.getTransmission().updateRPM(tpf);
 		
 			PanelCenter.update();
+			HudDisplay.update();
 		
 			triggerCenter.doTriggerChecks();
 		

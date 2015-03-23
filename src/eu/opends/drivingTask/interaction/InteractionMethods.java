@@ -25,6 +25,7 @@ import com.jme3.math.FastMath;
 import eu.opends.basics.SimulationBasics;
 import eu.opends.drivingTask.DrivingTaskDataQuery.Layer;
 import eu.opends.main.Simulator;
+import eu.opends.trigger.DisplayNavigatorAction;
 import eu.opends.trigger.GetTimeUntilBrakeAction;
 import eu.opends.trigger.GetTimeUntilSpeedChangeAction;
 import eu.opends.trigger.ManipulateObjectTriggerAction;
@@ -93,6 +94,24 @@ public class InteractionMethods
 			reportError("sendMessage", parameter);
 			return null;
 		}
+	}
+	// add part : trigger action
+	public TriggerAction displayNavigator(SimulationBasics sim, float delay, int repeat, Properties parameterList)
+	{
+		String parameter ="";
+		try {
+			// read naviType
+			parameter = "naviType";
+			String naviType=parameterList.getProperty(parameter);
+			if(naviType == null)
+				throw new Exception();
+			
+			return new DisplayNavigatorAction(naviType);
+		} catch (Exception e) {
+			reportError("displayNavigator", parameter);
+			return null;
+		}
+		
 	}
 	
 	

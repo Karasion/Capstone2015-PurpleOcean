@@ -28,6 +28,7 @@ import eu.opends.canbus.CANClient;
 import eu.opends.car.Car;
 import eu.opends.car.SteeringCar;
 import eu.opends.car.LightTexturesContainer.TurnSignalState;
+import eu.opends.hud.HudDisplay;
 import eu.opends.main.Simulator;
 import eu.opends.niftyGui.MessageBoxGUI;
 import eu.opends.tools.PanelCenter;
@@ -521,6 +522,14 @@ public class SimulatorActionListener implements ActionListener
 			if (value)
 			{
 				((SteeringCar)sim.getCar()).getObjectLocator().toggleThingNode();
+			}
+		}
+		
+		else if (binding.equals(KeyMapping.HUD_DISPLAY.getID()))
+		{
+			if (value)
+			{
+				HudDisplay.keyFlagSettting();
 			}
 		}
 	}

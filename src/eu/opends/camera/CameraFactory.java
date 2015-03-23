@@ -226,7 +226,7 @@ public abstract class CameraFactory
     		mirrorModeString = "off";
     	this.mirrorMode = MirrorMode.valueOf(mirrorModeString.toUpperCase());
     	    	
-    	angleBetweenAdjacentCameras = (float) settingsLoader.getSetting(Setting.General_angleBetweenAdjacentCameras, 40);
+    	angleBetweenAdjacentCameras = (float)settingsLoader.getSetting(Setting.General_angleBetweenAdjacentCameras, 40);
     	if(angleBetweenAdjacentCameras > 90 || angleBetweenAdjacentCameras < 0)
     	{
     		System.err.println("Angle between adjacent cameras must be within 0 to 90 degrees. Set to default: 40 degrees.");
