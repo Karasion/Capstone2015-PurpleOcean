@@ -25,6 +25,8 @@ public class HudDisplay {
 		hudGui = sim.getGuiNode();
 		BitmapFont guiFont = sim.getAssetManager().loadFont("Interface/Fonts/Default.fnt");
 		
+		
+		
 		currentSpeedText = new BitmapText(guiFont,false);
 		currentSpeedText.setName("currentSpeedText");
 		currentSpeedText.setText("");
@@ -33,8 +35,8 @@ public class HudDisplay {
 		currentSpeedText.setLocalTranslation(sim.getSettings().getWidth()/2-100,sim.getSettings().getHeight()/2-100,0);
 		
 		navigatorSign = new Picture("straight");
-		navigatorSign.setImage(sim.getAssetManager(), "Textures/Navigation/crossing_straight.png", true);
-		navigatorSign.setWidth(120);
+		navigatorSign.setImage(sim.getAssetManager(), "Textures/Navigation/right.png", true);
+		navigatorSign.setWidth(100);
 		navigatorSign.setHeight(70);
 		navigatorSign.setPosition(sim.getSettings().getWidth()/2+50, sim.getSettings().getHeight()/2-100);
 		
@@ -63,15 +65,15 @@ public class HudDisplay {
 	{
 		if(navigatorSign.getName().equals("right"))
 		{
-			navigatorSign.setImage(sim.getAssetManager(), "Textures/Navigation/crossing_right.png", true);
+			navigatorSign.setImage(sim.getAssetManager(), "Textures/Navigation/right.png", true);
 		}
 		else if(navigatorSign.getName().equals("left"))
 		{
-			navigatorSign.setImage(sim.getAssetManager(), "Textures/Navigation/crossing_left.png", true);
+			navigatorSign.setImage(sim.getAssetManager(), "Textures/Navigation/left.png", true);
 		}
 		else if(navigatorSign.getName().equals("straight"))
 		{
-			navigatorSign.setImage(sim.getAssetManager(), "Textures/Navigation/crossing_straight.png", true);
+			navigatorSign.setImage(sim.getAssetManager(), "Textures/Navigation/straight.png", true);
 		}
 		
 	}
@@ -125,10 +127,4 @@ public class HudDisplay {
 	{
 		navigatorSign.setName(naviType);
 	}
-	
-	
-	
-	
-	
-
 }
