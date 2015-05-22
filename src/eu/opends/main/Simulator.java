@@ -39,6 +39,7 @@ import eu.opends.analyzer.DataWriter;
 import eu.opends.audio.AudioCenter;
 import eu.opends.basics.InternalMapProcessing;
 import eu.opends.basics.SimulationBasics;
+import eu.opends.bluetooth.*;
 import eu.opends.camera.SimulatorCam;
 import eu.opends.cameraFlight.CameraFlight;
 import eu.opends.cameraFlight.NotEnoughWaypointsException;
@@ -50,7 +51,8 @@ import eu.opends.drivingTask.settings.SettingsLoader.Setting;
 import eu.opends.effects.EffectCenter;
 import eu.opends.environment.TrafficLightCenter;
 import eu.opends.eyetracker.EyetrackerCenter;
-import eu.opends.hud.HudDisplay;
+import eu.opends.hud.HUDManagement;
+import eu.opends.hud.HUDRegister;
 import eu.opends.input.KeyBindingCenter;
 import eu.opends.knowledgeBase.KnowledgeBase;
 import eu.opends.multiDriver.MultiDriverClient;
@@ -273,13 +275,19 @@ public class Simulator extends SimulationBasics
     	// sets up physics, camera, light, shadows and sky
     	super.simpleInitApp();
     	
+    	// start bluetooth server
+        RemoteBluetoothServer.start();
+    	
     	// set gravity
     	gravityConstant = drivingTask.getSceneLoader().getGravity(SimulationDefaults.gravity);
     	getPhysicsSpace().setGravity(new Vector3f(0, -gravityConstant, 0));	
     	//getPhysicsSpace().setAccuracy(0.005f);
     	
     	PanelCenter.init(this);
-    	HudDisplay.init(this);
+    	// add part
+    	HUDRegister.hud_enrollment();
+    	HUDManagement.init(this);
+    	
 	
         Joystick[] joysticks = inputManager.getJoysticks();
         if(joysticks != null)
@@ -449,7 +457,7 @@ public class Simulator extends SimulationBasics
 				car.getTransmission().updateRPM(tpf);
 		
 			PanelCenter.update();
-			HudDisplay.update();
+			HUDManagement.update();
 		
 			triggerCenter.doTriggerChecks();
 		
@@ -533,15 +541,16 @@ public class Simulator extends SimulationBasics
 	 * Will be called when pressing any close-button.
 	 * destroy() will be called subsequently.
 	 */
-	/*
+	
 	@Override
     public void stop()
     {
-		logger.info("started stop()");		
+//		System.out.println("started stop()");		
 		super.stop();
-		logger.info("finished stop()");
+//		System.out.println("finished stop()");
+		System.exit(0);
     }
-	*/
+	
 	
 	
 	/**
@@ -611,7 +620,7 @@ public class Simulator extends SimulationBasics
     	
     		// only show severe jme3-logs
     		java.util.logging.Logger.getLogger("").setLevel(java.util.logging.Level.SEVERE);
-    		
+    		 		    		
 	    	Simulator sim = new Simulator();
 
 	    	if(args.length >= 1)
