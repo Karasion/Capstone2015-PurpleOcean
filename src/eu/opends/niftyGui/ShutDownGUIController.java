@@ -23,6 +23,8 @@ import de.lessvoid.nifty.Nifty;
 import de.lessvoid.nifty.screen.Screen;
 import de.lessvoid.nifty.screen.ScreenController;
 import eu.opends.basics.SimulationBasics;
+import eu.opends.bluetooth.ProcessConnectionThread;
+import eu.opends.bluetooth.RemoteBluetoothServer;
 
 /**
  * 
