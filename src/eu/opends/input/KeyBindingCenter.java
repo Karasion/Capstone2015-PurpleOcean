@@ -152,15 +152,15 @@ public class KeyBindingCenter
         boolean invertSteeringAxis = settingsLoader.getSetting(Setting.Joystick_invertSteeringAxis, false);
         boolean dumpJoystickList = settingsLoader.getSetting(Setting.Joystick_dumpJoystickList, false);
         
-        inputManager.addMapping("Joy Up", new JoyAxisTrigger(controllerID, pedalAxis, invertPedalAxis));
-    	inputManager.addMapping("Joy Down", new JoyAxisTrigger(controllerID, pedalAxis, !invertPedalAxis));
-    	inputManager.addMapping("Joy Right", new JoyAxisTrigger(controllerID, steeringAxis, invertSteeringAxis));
-    	inputManager.addMapping("Joy Left", new JoyAxisTrigger(controllerID, steeringAxis, !invertSteeringAxis));
+        inputManager.addMapping("Joy Up", new JoyAxisTrigger(controllerID, 1, true));
+    	inputManager.addMapping("Joy Down", new JoyAxisTrigger(controllerID, 2, true));
+    	inputManager.addMapping("Joy Right", new JoyAxisTrigger(controllerID, 0, invertSteeringAxis));
+    	inputManager.addMapping("Joy Left", new JoyAxisTrigger(controllerID, 0, !invertSteeringAxis));
     	
         inputManager.addListener(simulatorAnalogListener, "Joy Left", "Joy Right", "Joy Down", "Joy Up");
         
         
-        if(dumpJoystickList)
+        //if(dumpJoystickList)
         	dumpJoysticks();
 	}
 	

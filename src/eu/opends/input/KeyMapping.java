@@ -50,8 +50,8 @@ public class KeyMapping
 	public static KeyMapping TOGGLE_TOPVIEW = new KeyMapping("toggle_topview", "top view on/off", new String[] {"KEY_U"});
 	public static KeyMapping TOGGLE_BACKMIRROR = new KeyMapping("toggle_backmirror", "back view mirror", new String[] {"KEY_BACK"});
 	public static KeyMapping SHIFT_UP = new KeyMapping("shift_up", "shift up", new String[] {"KEY_PGUP"});
-	public static KeyMapping SHIFT_DOWN = new KeyMapping("shift_down", "shift down", new String[] {"KEY_PGDN"});
-	public static KeyMapping TOGGLE_AUTOMATIC = new KeyMapping("toggle_automatic", "automatic/manual transmission", new String[] {"KEY_END"});
+	public static KeyMapping SHIFT_DOWN = new KeyMapping("shift_down", "shift down", new String[] {"KEY_PGDN","BUTTON_1"});
+	public static KeyMapping TOGGLE_AUTOMATIC = new KeyMapping("toggle_automatic", "automatic/manual transmission", new String[] {"KEY_END","BUTTON_0"});
 	public static KeyMapping HORN = new KeyMapping("horn", "horn", new String[] {"KEY_H"});
 	public static KeyMapping TOGGLE_MIN_SPEED = new KeyMapping("toggle_min_speed", "maintain min speed on/off", new String[] {"KEY_D"});
 	public static KeyMapping CRUISE_CONTROL = new KeyMapping("cruise_control", "cruise control on/off", new String[] {"KEY_X"});
@@ -83,7 +83,18 @@ public class KeyMapping
 	public static KeyMapping TURN_LEFT = new KeyMapping("turn_left", "flash left turn signal", new String[] {"KEY_J"});
 	public static KeyMapping TURN_RIGHT = new KeyMapping("turn_right", "flash right turn signal", new String[] {"KEY_K"});
 	public static KeyMapping HAZARD_LIGHTS = new KeyMapping("hazard_lights", "flash hazard lights", new String[] {"KEY_F"});
+	
+	// TODO Insert HUD keys with G-HUB
 	public static KeyMapping HUD_DISPLAY = new KeyMapping("hud_display", "hud on/off", new String[] {"KEY_B"});
+	public static KeyMapping LEFT_KEY = new KeyMapping("ghub_left", "move left to menu cursor ", new String[] {"KEY_F2"});
+	public static KeyMapping RIGHT_KEY = new KeyMapping("ghub_right", "move right to menu cursor ", new String[] {"KEY_F3"});
+	public static KeyMapping PUSH_KEY = new KeyMapping("ghub_push", "menu select ", new String[] {"KEY_N"});
+	public static KeyMapping DOWN_KEY = new KeyMapping("ghub_down", "menu select ", new String[] {"KEY_Z"});
+	public static KeyMapping UP_KEY = new KeyMapping("ghub_up", "menu select ", new String[] {"KEY_C"});
+	
+	// TODO Insert HUD tool keys
+	public static KeyMapping HUD_TOOL = new KeyMapping("hud_tool", "hud tool on/off", new String[] {"KEY_Q"});
+	public static KeyMapping HUD_TOOL_KEY = new KeyMapping("hud_tool_key", "hud element delete", new String[] {"KEY_DELETE"});
 	
 	// analyzer keys
 	public static KeyMapping GOTO_NEXT_DATAPOINT = new KeyMapping("goto_next_datapoint", "next data point", new String[] {"KEY_UP"});
@@ -164,7 +175,15 @@ public class KeyMapping
 		keyMappingList.add(KeyMapping.TURN_LEFT);
 		keyMappingList.add(KeyMapping.TURN_RIGHT);
 		keyMappingList.add(KeyMapping.HAZARD_LIGHTS);
+		// TODO Insert HUD key with G-HUB
 		keyMappingList.add(KeyMapping.HUD_DISPLAY);
+		keyMappingList.add(KeyMapping.LEFT_KEY);
+		keyMappingList.add(KeyMapping.RIGHT_KEY);
+		keyMappingList.add(KeyMapping.PUSH_KEY);
+		keyMappingList.add(KeyMapping.UP_KEY);
+		keyMappingList.add(KeyMapping.DOWN_KEY);
+		keyMappingList.add(KeyMapping.HUD_TOOL);
+		keyMappingList.add(KeyMapping.HUD_TOOL_KEY);
 		
 		SimulationBasics.getDrivingTask().getSettingsLoader().lookUpKeyMappings(keyMappingList);
 		
