@@ -7,10 +7,10 @@
 	<activities>
 		<activity id="activity01">
 			<action id="manipulateObject" delay="0" repeat="4">
-				<parameter name="id" value="RoadworksSign1" />
-				<parameter name="translationX" value="-81" />
-				<parameter name="translationY" value="-1.693" />
-				<parameter name="translationZ" value="-48" />
+				<parameter name="vehicle id" value="car1" />
+				<parameter name="translationX" value="-71.694984" />
+				<parameter name="translationY" value="-0.26789403" />
+				<parameter name="translationZ" value="-49.038643" />
 				<parameter name="rotationX" value="0" />
 				<parameter name="rotationY" value="135" />
 				<parameter name="rotationZ" value="0" />
@@ -45,10 +45,168 @@
 				<parameter name="soundID" value="beep" />
 			</action>
 		</activity>
+		
+		<!-- add part -->
+		<activity id="activity07">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="straight" />
+            </action>
+        </activity>
+        <activity id="activity08">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="left" />
+                <parameter name="distance" value="300"/>
+            </action>
+        </activity>
+        <activity id="activity09">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="left" />
+                <parameter name="distance" value="150"/>
+            </action>
+        </activity>
+        <activity id="activity10">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="left" />
+            </action>
+        </activity>
+        <activity id="activity11">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="right" />
+                <parameter name="distance" value="300"/>
+            </action>
+        </activity>
+        <activity id="activity12">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="right" />
+                <parameter name="distance" value="150"/>
+            </action>
+        </activity>
+        <activity id="activity13">
+            <action id="displayNavigator" delay="0" repeat="0">
+                <parameter name="naviType" value="right" />
+            </action>
+        </activity>
+        <!-- add part -->
+        
 	</activities>
 	
 	<triggers>
-
+		
+		<!-- add part start -->
+	    
+	    <trigger id="collideWithNaviTriggerBox_1" priority="1">
+	        <activities>
+	            <activity ref="activity11"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_1</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_2" priority="1">
+	        <activities>
+	            <activity ref="activity12"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_2</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_3" priority="1">
+	        <activities>
+	            <activity ref="activity13"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_3</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_4" priority="1">
+	        <activities>
+	            <activity ref="activity07"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_4</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_6" priority="1">
+	        <activities>
+	        	<activity ref="activity08"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_6</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_7" priority="1">
+	        <activities>
+	            <activity ref="activity09"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_7</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_8" priority="1">
+	        <activities>
+	            <activity ref="activity10"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_8</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_9" priority="1">
+	        <activities>
+	            <activity ref="activity07"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_9</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_12" priority="1">
+	        <activities>
+	            <activity ref="activity11"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_12</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_13" priority="1">
+	        <activities>
+	            <activity ref="activity12"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_13</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_14" priority="1">
+	        <activities>
+	            <activity ref="activity13"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_14</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_15" priority="1">
+	        <activities>
+	            <activity ref="activity07"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_15</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_18" priority="1">
+	        <activities>
+	            <activity ref="activity08"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_18</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_19" priority="1">
+	        <activities>
+	            <activity ref="activity09"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_19</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_20" priority="1">
+	        <activities>
+	            <activity ref="activity10"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_20</condition>
+	    </trigger>
+	    
+	    <trigger id="collideWithNaviTriggerBox_21" priority="1">
+	        <activities>
+	            <activity ref="activity07"/>
+	        </activities>
+	        <condition>collideWith:NaviTriggerBox_21</condition>
+	    </trigger>
+	    <!-- add part end -->
+	    
 	</triggers>
 	
 </interaction>

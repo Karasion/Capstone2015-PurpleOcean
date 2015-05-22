@@ -8,9 +8,10 @@
 		<showStats>false</showStats>
 	</general>
 	
+	<!--여기서 enable을 true에서 false로 바꾸면 표지판 사라짐-->
 	<objectLocator>
-		<enable>true</enable>
-		<fileName>trafficObjects.txt</fileName>	
+		<enable>false</enable>
+		<fileName>trafficObjects.txt</fileName>
 	</objectLocator>
 	
 	<SIMTD>
@@ -56,11 +57,11 @@
 	<controllers>
 		<joystick>
 			<controllerID>0</controllerID>
-			<steeringAxis>3</steeringAxis>
+			<steeringAxis>0</steeringAxis>
 			<invertSteeringAxis>false</invertSteeringAxis>
-			<pedalAxis>4</pedalAxis>
+			<pedalAxis>3</pedalAxis>
 			<invertPedalAxis>false</invertPedalAxis>
-			<steeringSensitivityFactor>1.0</steeringSensitivityFactor>
+			<steeringSensitivityFactor>0.8</steeringSensitivityFactor>
 			<pedalSensitivityFactor>1.0</pedalSensitivityFactor>
 			<keyAssignments>
 				<keyAssignment function="start_engine" key="BUTTON_1" />
