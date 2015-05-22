@@ -167,6 +167,7 @@ public class PanelCenter
         RPMgauge.setWidth(184);
         RPMgauge.setHeight(184);
         RPMgauge.setPosition(0, 15);
+        RPMgauge.setCullHint(CullHint.Dynamic);
         analogIndicators.attachChild(RPMgauge);
 
         Picture RPMNeedle = new Picture("RPMNeedle");
