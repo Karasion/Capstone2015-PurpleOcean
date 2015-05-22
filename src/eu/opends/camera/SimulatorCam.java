@@ -30,7 +30,7 @@ import com.jme3.scene.control.CameraControl;
 import com.jme3.scene.shape.Cylinder;
 
 import eu.opends.car.Car;
-import eu.opends.hud.HudDisplay;
+import eu.opends.hud.HUDManagement;
 import eu.opends.main.Simulator;
 import eu.opends.tools.PanelCenter;
 
@@ -77,6 +77,9 @@ public class SimulatorCam extends CameraFactory
 		switch (mode)
 		{
 			case EGO:
+			  HUDManagement.setCameraEgo(true);
+			  if(HUDManagement.getKeyFlag() == true)
+			    HUDManagement.hudAttach();
 				camMode = CameraMode.EGO;
 				sim.getRootNode().detachChild(mainCameraNode);
 				carNode.attachChild(mainCameraNode);
@@ -88,6 +91,8 @@ public class SimulatorCam extends CameraFactory
 				break;
 	
 			case CHASE:
+			  HUDManagement.setCameraEgo(false);
+			  HUDManagement.hudDetach();
 				camMode = CameraMode.CHASE;
 				sim.getRootNode().detachChild(mainCameraNode);
 				carNode.attachChild(mainCameraNode);
@@ -98,6 +103,7 @@ public class SimulatorCam extends CameraFactory
 				break;
 	
 			case TOP:
+//			  HudDisplay.hudDetach();
 				camMode = CameraMode.TOP;
 				// camera detached from car node in TOP-mode to make the camera movement more stable
 				carNode.detachChild(mainCameraNode);
@@ -108,6 +114,7 @@ public class SimulatorCam extends CameraFactory
 				break;
 				
 			case OUTSIDE:
+//			  HudDisplay.hudDetach();
 				camMode = CameraMode.OUTSIDE;
 				// camera detached from car node in OUTSIDE-mode
 				carNode.detachChild(mainCameraNode);
@@ -118,6 +125,7 @@ public class SimulatorCam extends CameraFactory
 				break;
 	
 			case STATIC_BACK:
+//			  HudDisplay.hudDetach();
 				camMode = CameraMode.STATIC_BACK;
 				sim.getRootNode().detachChild(mainCameraNode);
 				carNode.attachChild(mainCameraNode);
@@ -129,6 +137,7 @@ public class SimulatorCam extends CameraFactory
 				break;
 				
 			case OFF:
+//			  HudDisplay.hudDetach();
 				camMode = CameraMode.OFF;
 				chaseCam.setEnabled(false);
 				setCarVisible(false);
@@ -142,7 +151,9 @@ public class SimulatorCam extends CameraFactory
 		// STATIC_BACK --> EGO (--> CHASE, only if 1 screen) --> TOP --> OUTSIDE --> STATIC_BACK --> ...
 		switch (camMode)
 		{
-			case STATIC_BACK: setCamMode(CameraMode.EGO); break;
+			case STATIC_BACK: 
+			  setCamMode(CameraMode.EGO);
+			  break;
 			case EGO: 
 					if(sim.getNumberOfScreens() == 1)
 						setCamMode(CameraMode.CHASE);
@@ -161,10 +172,10 @@ public class SimulatorCam extends CameraFactory
 	{
 		if(camMode == CameraMode.EGO)
 		{
-			if(HudDisplay.getKeyFlag())
-				HudDisplay.hudAttach();
-			else
-				HudDisplay.hudDetach();
+//			if(HudDisplay.getKeyFlag())
+//				HudDisplay.hudAttach();
+//			else
+//				HudDisplay.hudDetach();
 			if(mirrorMode == MirrorMode.ALL)
 			{
 				backViewPort.setEnabled(true);
@@ -204,7 +215,7 @@ public class SimulatorCam extends CameraFactory
 		}
 		else
 		{
-			HudDisplay.hudDetach();
+//			HudDisplay.hudDetach();
 			backViewPort.setEnabled(false);
 			leftBackViewPort.setEnabled(false);
 			rightBackViewPort.setEnabled(false);
