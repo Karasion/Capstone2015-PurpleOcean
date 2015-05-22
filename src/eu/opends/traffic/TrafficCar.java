@@ -31,13 +31,14 @@ import com.jme3.scene.Geometry;
 import com.jme3.scene.Node;
 import com.jme3.scene.Spatial.CullHint;
 import com.jme3.scene.shape.Box;
-import com.jme3.scene.shape.Sphere;
+//import com.jme3.scene.shape.Sphere;
 
 import eu.opends.car.Car;
 import eu.opends.car.LightTexturesContainer.TurnSignalState;
 import eu.opends.environment.TrafficLight;
 import eu.opends.environment.TrafficLightCenter;
 import eu.opends.environment.TrafficLight.TrafficLightState;
+import eu.opends.hud.BSA.BSADumy;
 import eu.opends.main.Simulator;
 
 /**
@@ -50,8 +51,8 @@ public class TrafficCar extends Car
 	private Geometry frontGeometry;
 	private Geometry centerGeometry;
 	private FollowBox followBox;
-	private float minForwardSafetyDistance = 7;
-	private float minLateralSafetyDistance = 2;
+	private float minForwardSafetyDistance = 10;
+	private float minLateralSafetyDistance = 1;
 	private float overwriteSpeed = -1;
 
 	
@@ -283,7 +284,10 @@ public class TrafficCar extends Car
 		// stop car in order to avoid collision with other traffic objects and driving car
 		// also for red traffic lights
 		if(obstaclesInTheWay(vehicleList))
-			targetSpeed = 0;
+		{
+		  if(!(BSADumy.getDetectFlag() && !BSADumy.getBackFlag()))
+		    targetSpeed = 0; 
+		}
 		
 		float currentSpeed = getCurrentSpeedKmh();
 		
@@ -380,8 +384,10 @@ public class TrafficCar extends Car
 	private boolean obstaclesInTheWay(ArrayList<TrafficCar> vehicleList)
 	{
 		// check distance from driving car
+		BSADumy.setUserCarFlag(true);
 		if(obstacleTooClose(sim.getCar().getPosition()))
 			return true;
+		BSADumy.setUserCarFlag(false);
 
 		// check distance from other traffic (except oneself)
 		for(TrafficCar vehicle : vehicleList)
@@ -424,7 +430,8 @@ public class TrafficCar extends Car
 		return false;
 	}
 	
-	
+	// chage Im gisung
+	// TODO add BSA dummy
 	private boolean belowSafetyDistance(float angle, float distance) 
 	{	
 		float lateralDistance = distance * FastMath.sin(angle);
@@ -432,13 +439,40 @@ public class TrafficCar extends Car
 		
 		//if(name.equals("car1"))
 		//	System.out.println(lateralDistance + " *** " + forwardDistance);
-		
 		// TODO
-		if((lateralDistance < minLateralSafetyDistance) && (forwardDistance > 0) && 
-				(forwardDistance < /*Math.max(0.5f * getCurrentSpeedKmh(),*/ minForwardSafetyDistance/*)*/))
+		if(forwardDistance < /*Math.max(0.5f * getCurrentSpeedKmh(),*/ minForwardSafetyDistance/*)*/)
 		{
-			return true;
+			if((lateralDistance < minLateralSafetyDistance+1.25) && (forwardDistance > 0))
+			{
+				if(BSADumy.getUserCarFlag())
+				{
+					BSADumy.setBackFlag(false);
+					BSADumy.setDetectFlag(true);
+				}
+				if((lateralDistance < minLateralSafetyDistance) && (forwardDistance > 0))
+				{
+					if(BSADumy.getUserCarFlag())
+					{
+						BSADumy.setBackFlag(true);
+						BSADumy.setDetectFlag(true);
+					}
+					return true;
+				}
+			}
+			else
+				if(BSADumy.getUserCarFlag())
+				{
+//					System.out.println("detect false");
+					BSADumy.setDetectFlag(false);
+				}
 		}
+		else
+			if(BSADumy.getUserCarFlag())
+			{
+//				System.out.println("detect false");
+				BSADumy.setDetectFlag(false);
+			}
+
 		
 		return false;
 	}
