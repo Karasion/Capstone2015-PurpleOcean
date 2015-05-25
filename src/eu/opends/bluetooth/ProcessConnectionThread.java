@@ -1,3 +1,14 @@
+/**
+ * @file ProcessConnectionThread.java
+ * @brief This file is associated with the Bluetooth communication.
+ * @details This file is composed of ProcessConnectionThread class.
+ */
+
+/**
+ * @namespace eu.opends.bluetooth
+ * @brief This package is a set of classes related to Bluetooth communication .
+ * @details This package is composed of Bluetooth data classes and Bluetooth communication class .
+ */
 package eu.opends.bluetooth;
 
 import java.io.IOException;
@@ -9,6 +20,12 @@ import javax.microedition.io.StreamConnection;
 import eu.opends.hud.call.CallListener;
 import eu.opends.hud.sms.SmsRecv;
 
+/**
+ * @brief This class is process the data passed to it is communication with Bluetooth.
+ * @details This class is appropriate for processing in accordance with the type of BtData.
+ * @author Im-gisung,Jo-KwangHyeon
+ *
+ */
 public class ProcessConnectionThread implements Runnable{
 
   private StreamConnection mConnection;
@@ -22,12 +39,22 @@ public class ProcessConnectionThread implements Runnable{
   private static final int CALL_ON = 7;
   private static OutputStream outputStream;
   
+  /**
+   * @brief This method is constructor.
+   * 		and It initializes the value of an instance as parameter.
+   * @param connection a StreamConnection object 
+   */
   public ProcessConnectionThread(StreamConnection connection)
   {
     mConnection = connection;
   }
 
   @Override
+  /**
+   * @brief This method executes a thread for Bluetooth data processing .
+   * @details It processes the btData to be transferred while infinite repeat .
+   * @param nothing
+   */
   public void run() {
     try {
       // prepare to receive data
@@ -69,6 +96,12 @@ public class ProcessConnectionThread implements Runnable{
 
   }
 
+  /**
+   * @brief This method transfers the data in the Mobile app .
+   * @details This method transfers the value of the phone state to app.
+   * @param str a String object, It is Call state.
+   * @return nothing
+   */
   public static void sendData(String str){
     try {
       String strOnCall = "onCall";

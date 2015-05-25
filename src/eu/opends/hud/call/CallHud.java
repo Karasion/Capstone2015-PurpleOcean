@@ -1,3 +1,15 @@
+ /**
+ * @file CallHud.java
+ * @brief This file is associated with a call.
+ * @details This file is composed of CallHud class.
+ */
+
+ /**
+ * @namespace eu.opends.hud.call
+ * @brief Package for implementing call in HUD
+ * @details This package consists of a call layout class and call core class 
+ *          for implementing the call function     
+ */
 package eu.opends.hud.call;
 
 import com.jme3.font.BitmapFont;
@@ -8,11 +20,16 @@ import com.jme3.ui.Picture;
 
 import eu.opends.basics.SimulationBasics;
 import eu.opends.hud.HUDManagement;
-import eu.opends.hud.HUDClassTemplet;
+import eu.opends.hud.HUDClassTemplate;
 import eu.opends.main.Simulator;
 
-//Jo kwanghyeon
-public class CallHud extends HUDClassTemplet {	
+/**
+* @brief This class serves to output information related to the call to HUD.
+* @details In the simulator , if call ringing ,
+*          It is output information related to the call to the appropriate position of HUD.
+* @author Jo-kwanghyeon
+*/
+public class CallHud extends HUDClassTemplate {	
   private static SimulationBasics sim; 
 
   private static Node callGui;
@@ -29,6 +46,12 @@ public class CallHud extends HUDClassTemplet {
 
   private static int x,y;
 
+  /**
+   * @brief It is a method of initializing the related elements to call
+   * @param simulator a Simulator object
+   * @return nothing
+   * 
+   */
   public void init(Simulator simulator)
   {
     sim = simulator;
@@ -47,14 +70,14 @@ public class CallHud extends HUDClassTemplet {
     callText.setLocalTranslation(x-210,y,0);
 
     callAccept = new Picture("call Accept");
-    callAccept.setWidth(59);
-    callAccept.setHeight(76);
+    callAccept.setWidth(91);
+    callAccept.setHeight(66);
     callAccept.setPosition(x-225, y-150);
     callAccept.setImage(sim.getAssetManager(), "Textures/icons/calling/call_accept.png", true);
 
     callReject = new Picture("call Reject");
-    callReject.setWidth(58);
-    callReject.setHeight(78);
+    callReject.setWidth(91);
+    callReject.setHeight(66);
     callReject.setPosition(x-75, y-150);
     callReject.setImage(sim.getAssetManager(), "Textures/icons/calling/call_reject.png", true);
 
@@ -62,17 +85,27 @@ public class CallHud extends HUDClassTemplet {
     callEnd.setWidth(58);
     callEnd.setHeight(78);
     callEnd.setPosition(x-150, y-150);
-    callEnd.setImage(sim.getAssetManager(), "Textures/icons/calling/call_reject.png", true);
-
-    System.out.println("Call Hud init!");
+    callEnd.setImage(sim.getAssetManager(), "Textures/icons/calling/call_stop.png", true);
   }
 
+  /**
+   * @brief This method to register an instance of class CallHud to HUDManagement.
+   * @param nothing
+   * @return nothing
+   */
   public static void regist()
   {
     CallHud call = new CallHud();
     hud_state = HUDManagement.regist(call);
   }
 
+  /**
+   * @brief Is a method to be executed in real time on the simulator .
+   * @details Change If this is the phone to a mobile phone , HUD state to call state.
+   *          And according to the communication state , to change the layout.
+   * @param nothing
+   * @return nothing
+   */
   public void update()
   {		
     if(CallListener.isCall() && state != CALL_RING && HUDManagement.getState() != hud_state){	
@@ -101,16 +134,31 @@ public class CallHud extends HUDClassTemplet {
     }
   }
 
+  /**
+   * @brief This method attach the node associated with the call to simulator.
+   * @param nothing
+   * @return nothing
+   */
   public void attach()
   {
     HUDManagement.attach(callGui);
   }
 
+  /**
+   * @brief This method detach the node associated with the call to simulator.
+   * @param nothing
+   * @return nothing
+   */
   public void detach()
   {
     HUDManagement.detach(callGui);
   }
 
+  /**
+   * @brief This method is to change the layout to match the call to HUD.
+   * @param Nothing
+   * @return Nothing
+   */
   public static void setOnCall()
   {
     callGui.detachChild(callAccept);
@@ -118,16 +166,34 @@ public class CallHud extends HUDClassTemplet {
     callGui.attachChild(callEnd);
   }
 
+  /**
+   * @brief When you press the push button in the G-HUB, it is a method to be executed .
+   * @details To end the call , if call offhook state.
+   * @param nothing
+   * @return nothing
+   */
   public void key_act_push()
   {
     if(CallListener.getCallState() == 1)
       CallListener.endCall();
   }
+  /**
+   * @brief When you press the right button in the G-HUB, it is a method to be executed .
+   * @details To end the call , if call ringing state.
+   * @param nothing
+   * @return nothing
+   */
   public void key_act_right()
   {
     if(CallListener.getCallState() == 0)
       CallListener.endCall();
   }
+  /**
+   * @brief When you press the left button in the G-HUB, it is a method to be executed .
+   * @details Receive a call, if call ringing state.
+   * @param nothing
+   * @return nothing
+   */
   public void key_act_left()
   {
     if(CallListener.getCallState() == 0){

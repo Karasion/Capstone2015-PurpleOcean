@@ -1,10 +1,26 @@
+ /**
+ * @file BSADumy.java
+ * @brief This file is associated with a BSA detect
+ * @details This file is composed of BSADumy class.
+ */
+
+ /**
+ * @namespace eu.opends.hud.BSA
+ * @brief Package for implementing BSA in HUD
+ * @details This package consists of a BSA layout class and BSA core class for implementing the BSA function
+ */
 package eu.opends.hud.BSA;
 
-//Im gisung, Hong sunghyeon
+/**
+ * @brief This class , to detect the BSA signal .
+ * @author Im-gisung,Hong-sunghyeon
+ *
+ */
 public class BSADumy {
   private static boolean back=false;
   private static boolean detectF=false;
   private static boolean userCarF=false;
+  
   
   public static boolean getDetectFlag() {
     return detectF;

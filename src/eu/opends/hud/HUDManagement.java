@@ -1,3 +1,15 @@
+/**
+ * @file HUDManagement.java
+ * @brief This file is associated with a HUD API and HUD Management .
+ * @details This file is composed of HUDManagement class.
+ */
+
+/**
+ * @namespace eu.opends.hud
+ * @brief This package is a set of classes related to HUD.
+ * @details This package is composed of HUD management class
+ *          and HUD function class .
+ */
 package eu.opends.hud;
 
 import java.util.ArrayList;
@@ -13,8 +25,12 @@ import eu.opends.car.Car;
 import eu.opends.hud.tool.HudLayoutTool;
 import eu.opends.main.Simulator;
 
-//Jo kwanghyeon, Im gisung
-//HUD module for providing an API to a user .
+/**
+ * @brief Class that manages the functions of the HUD panel.
+ * @details This class manages the functions by state separately divided ,
+ *          it serves to provide an API related functions to be used externally
+ * @author Jo-kwanghyeon, Im-gisung
+ */
 public class HUDManagement {
   private static SimulationBasics sim; 
 
@@ -23,10 +39,11 @@ public class HUDManagement {
   // hud on/off flag
   private static boolean keyOn=false;
 
-  // default hud element
   private static Node nodeGui;
   private static Node hud;
   private static Node hudMenu;
+
+  // default hud element
   private static BitmapText currentSpeedText;
   private static BitmapText distanceText;
   private static Picture  navigatorSign,backGround;
@@ -36,10 +53,9 @@ public class HUDManagement {
 
   // State variable declare
   private static int currentState = NON_STATE;
-
   private static int stateNum = 0;
 
-  private static ArrayList<HUDClassTemplet> hudList = new ArrayList<HUDClassTemplet>();
+  private static ArrayList<HUDClassTemplate> hudList = new ArrayList<HUDClassTemplate>();
   private static int [] backupState = new int[10];
   private static int backupCnt = 0;
 
@@ -77,7 +93,13 @@ public class HUDManagement {
   private static final int MENU_POS4 = 3;
   private static final int MENU_POS5 = 4;
 
-  // initialization method of hud panel
+  /**
+   * @brief Method to initialize the basic HUD element and HUD layout class element
+   * @details Call init () function of the HUD Layout Class registered at HUDRegister,
+   *          initializes the element, and sets the position of the menu icons .
+   * @param simulator a Simulator 
+   * @return Nothing
+   */
   public static void init(Simulator simulator)
   {
     sim = simulator;
@@ -86,7 +108,8 @@ public class HUDManagement {
     hud = new Node("HUD");
 
     nodeGui.attachChild(hud);
-
+    
+    //get font
     BitmapFont ko_Font = sim.getAssetManager().loadFont("Interface/Fonts/MSNeoGothic/MSNeoGothic.fnt");
 
     x=sim.getSettings().getWidth()/2;
@@ -112,20 +135,27 @@ public class HUDManagement {
     navigatorSign.setPosition(x+170, y-150);
 
     backGround = new Picture("bg");
-    backGround.setWidth(857);
-    backGround.setHeight(356);
+    backGround.setWidth(841);
+    backGround.setHeight(338);
     backGround.setPosition(x-380, y-310);
     backGround.setImage(sim.getAssetManager(), "Textures/icons/panel/panel.png", true);
-
 
     for(int i = 0; i < stateNum; i++){
       hudList.get(i).init(simulator);
     }
 
+    //set menu icons position by number of menu icons
     hudMenuInit();		
     HudLayoutTool.init(simulator);
   }
 
+  /**
+   * @brief Method to set the position of the HUD menu icon
+   * @details Position array for icon determines the total number of icons .
+              And the index of the array of position (menuStartIndex, menuEndIndex) also set .
+   * @param Nothing
+   * @return Nothing
+   */
   private static void hudMenuInit() {
     int j=0;
     hudMenu = new Node("menuGui");
@@ -168,15 +198,15 @@ public class HUDManagement {
       menubarPosX[3]=x-75;
       menubarPosX[4]=0;
     }
-    menubarPosY=y-260;
+    menubarPosY=y-280;
 
     /* cursor position setting */
-    cursorPosX[0]=menubarPosX[0]+19;
-    cursorPosX[1]=menubarPosX[1]+19;
-    cursorPosX[2]=menubarPosX[2]+19;
-    cursorPosX[3]=menubarPosX[3]+19;
-    cursorPosX[4]=menubarPosX[4]+19;
-    cursorPosY=menubarPosY-9;
+    cursorPosX[0]=menubarPosX[0]-5;
+    cursorPosX[1]=menubarPosX[1]-5;
+    cursorPosX[2]=menubarPosX[2]-5;
+    cursorPosX[3]=menubarPosX[3]-5;
+    cursorPosX[4]=menubarPosX[4]-5;
+    cursorPosY=menubarPosY;
 
     for(int i = menuStartIndex; i <= menuEndIndex; i++){
       picArryMenuEn[j].setPosition(menubarPosX[i], menubarPosY);
@@ -189,14 +219,20 @@ public class HUDManagement {
 
     cursorIcon = new Picture("cursorIcon");
     cursorIcon.setImage(sim.getAssetManager(),"Textures/icons/menubar/menubar_arrow.png",true);
-    cursorIcon.setWidth(22);
+    cursorIcon.setWidth(90);
     cursorIcon.setHeight(15);
     cursorIcon.setPosition(cursorPosX[menuStartIndex], cursorPosY);
 
     cursorPos = menuStartIndex;		
   }
 
-  // real-time update of hudDisplay
+  /**
+   * @brief Method to update the state of the HUD in real time
+   * @details This method is , give me so that HUD panel is real-time updates 
+   *          by calling the update () method of the registered HUD Layout Class.
+   * @param Nothing
+   * @return Nothing
+   */
   public static void update()
   {
     Car car = ((Simulator)sim).getCar();
@@ -211,6 +247,13 @@ public class HUDManagement {
     }
   }
 
+  /**
+   * @brief Method to read the current speed value in OpendDS for HUD speed display function
+   * @details Get the current speed using getCurrentSpeedKmh () method of OpenDS,
+   *          to be displayed in the HUD.
+   * @param car a car
+   * @return Nothing 
+   */
   private static void updateCurrentSpeedText(Car car)
   {
     String carSpeed;
@@ -219,28 +262,38 @@ public class HUDManagement {
     currentSpeedText.setText(carSpeed);		
   }
 
+  /**
+   * @brief Method to update the direction of navigation
+   * @details It will update the navigation sign that has been changed in the DisplayNavigatorAction.java.
+   * @param Nothing
+   * @return Nothing
+   */
   private static void updateNavigatorSign()
   {
-    if(navigatorSign.getName().equals("right"))
-    {
+    if(navigatorSign.getName().equals("right")) {
       navigatorSign.setWidth(98);
       navigatorSign.setHeight(136);
       navigatorSign.setImage(sim.getAssetManager(), "Textures/icons/navi/arrow_right.png", true);
     }
-    else if(navigatorSign.getName().equals("left"))
-    {
+    else if(navigatorSign.getName().equals("left")) {
       navigatorSign.setWidth(98);
       navigatorSign.setHeight(136);
       navigatorSign.setImage(sim.getAssetManager(), "Textures/icons/navi/arrow_left.png", true);
     }
-    else if(navigatorSign.getName().equals("straight"))
-    {
+    else if(navigatorSign.getName().equals("straight")) {
       navigatorSign.setWidth(66);
       navigatorSign.setHeight(136);
       navigatorSign.setImage(sim.getAssetManager(), "Textures/icons/navi/arrow_straight.png", true);
     }
   }
 
+  /**
+   * @brief Method to add a HUD basic functions in HUD panel
+   * @details The speed display and navigation function is a HUD basic functions
+   *          using the attachChild () method and add it to the HUD panel .
+   * @param Nothing
+   * @return Nothing
+   */
   // attach and detach method for each feature display 
   private static void defaultFunctionAttach()
   {
@@ -249,6 +302,12 @@ public class HUDManagement {
     hud.attachChild(navigatorSign);
   }
 
+  /**
+   * @brief Method to add the main screen of HUD to HUD panel
+   * @details It'll add the HUD background color and menu using the attachChild () method.
+   * @param Nothing
+   * @return Nothing
+   */
   public static void hudAttach()
   {
     hud.attachChild(backGround);
@@ -260,14 +319,26 @@ public class HUDManagement {
     defaultFunctionAttach();
   }
 
+  /**
+   * @brief Method to delete HUD to HUD panel
+   * @details It'll delete all HUD Layout using the detachAllChildren () method.
+   * @param Nothing
+   * @return Nothing
+   */
   public static void hudDetach()
   {
     hud.detachAllChildren();
   }
 
+  /**
+   * @brief Method to back up the previous state of HUD
+   * @details Back up the previous state of the HUD, it is changed to a state that is input.
+   * @param chageState a integer
+   * @return Nothing
+   */
   public static void backupHUD(int changeState)
   {
-    System.out.println("backup : " + currentState);
+    //System.out.println("backup : " + currentState);
     if(currentState != NON_STATE){
       hudList.get(currentState).pause();
       hudList.get(currentState).detach();
@@ -276,6 +347,13 @@ public class HUDManagement {
     currentState = changeState;				
   }
 
+  /**
+   * @brief Method to return the state of HUD to a previous state
+   * @details To restore the state of HUD to a previous state,
+   *          call the resume () at this time HUD Layout Class.
+   * @param Nothing
+   * @return Returns 1 if successful , returns -1 if failed
+   */
   public static int restoreHUD(){
     if(backupCnt > 0){
       hudList.get(currentState).detach();
@@ -300,6 +378,14 @@ public class HUDManagement {
   {
     egoFlag = flag;
   }
+
+  /**
+   * @brief Method to set whether the press and hold the HUD key
+   * @details If the state of the HUD keys on, is changed to off.
+   *          If the state of the HUD keys off, is changed to on.
+   * @param  Nothing
+   * @return Nothing 
+   */
   public static void keyFlagSetting()
   {
     if(keyOn)
@@ -308,6 +394,11 @@ public class HUDManagement {
       keyOn=true;
   }
 
+  /**
+   * @brief Method for setting the direction of navigation and the rest of the distance .
+   * @param Stirng argument naviType, distance
+   * @return Nothing
+   */
   public static void setNaviType(String naviType, String distance)
   {
     String distanceNavi;
@@ -322,7 +413,6 @@ public class HUDManagement {
     distanceText.setText(distanceNavi);
   }
 
-  // getter
   public static boolean getKeyFlag()
   {
     return keyOn;
@@ -333,6 +423,11 @@ public class HUDManagement {
     return currentState;
   }
 
+  /**
+   * @brief Method to move the cursor of HUD menu on the left
+   * @param Nothing
+   * @return Nothing
+   */
   /* methods for cursor move */
   // left move of cursor
   public static void leftMoveCursor()
@@ -344,6 +439,11 @@ public class HUDManagement {
     cursorIcon.setPosition(cursorPosX[cursorPos], cursorPosY);
   }
 
+  /**
+   * @brief Method to move the cursor of HUD menu on the right
+   * @param Nothing
+   * @return Nothing
+   */
   // right move of cursor
   public static void rightMoveCursor()
   {
@@ -353,6 +453,13 @@ public class HUDManagement {
 
     cursorIcon.setPosition(cursorPosX[cursorPos], cursorPosY);
   }
+
+  /**
+   * @brief Method to run the registered function in HUD menu
+   * @details Run the selected function , to disable other menu icon.
+   * @param Nothing
+   * @return Nothing
+   */
   /* end move methods */
   // select menu
   public static void selectMenu()
@@ -387,6 +494,12 @@ public class HUDManagement {
     }
   }
 
+  /**
+   * @brief Method to get out from the menu function running
+   * @details This method is to remove the HUD layout and change the state to nonstate.
+   * @param Nothing
+   * @return Nothing
+   */
   // escape menu
   public static void escapeMenu()
   {
@@ -416,6 +529,12 @@ public class HUDManagement {
     enableMenu(); 
   }
 
+  /**
+   * @brief This Method is to disable the menu icon.
+   * @details This Method is to disable the menu icon without input state.
+   * @param Integer argument state
+   * @return Nothing
+   */
   // menu icon disable
   public static void disableMenu(int state)
   {
@@ -471,6 +590,11 @@ public class HUDManagement {
     }
   }
 
+  /**
+   * @brief This Method is to enable the menu icon.
+   * @param Nothing
+   * @return Nothing
+   */
   // all menu enabled
   public static void enableMenu()
   {
@@ -481,41 +605,98 @@ public class HUDManagement {
     hud.attachChild(cursorIcon);
   }
 
+  /**
+   * @brief The Method is the ability to attach the HUD layout to the panel .
+   * @param Node argument subGui
+   * @return Nothing
+   */
   //HUD API
   public static void attach(Node subGui)
   {
     hud.attachChild(subGui);
   }
 
+  /**
+   * @brief The Method is the ability to detach the HUD layout to the panel .
+   * @param Node argument subGui
+   * @return Nothing
+   */
   public static void detach(Node subGui)
   {
     hud.detachChild(subGui);
   }
 
-  public static int regist(HUDClassTemplet hud) {
+  /**
+   * @brief The Method is a function of registering the HUD layout class to HUDManagement.
+   * @details Now this method is included in the execution flow , and must be used HUDRegister.
+   * @param HUDClassTemplate argument hud
+   * @return Integer stateNum(State number of HUD layout class)
+   */
+  public static int regist(HUDClassTemplate hud) {
     hudList.add(hud);
     return stateNum++;
   }
 
+  /**
+   * @brief The Method is a function of add the icon of HUD menu bar
+   * @details This is required disable Icon, state number and enable icon.
+   * @param Picture argument pic_en, pic_dis, state
+   * @return Nothing
+   */
   public static void setMenuIcon(Picture pic_en, Picture pic_dis, int state){
     picArryMenuEn[menuNum] = pic_en;
     picArryMenuDis[menuNum] = pic_dis;
     menuState[menuNum] = state;
-    menuNum++;		
+    menuNum++;
   }
 
+  /**
+   * @brief This method is to map the action of the key.
+   * @details It will handle the action at the time of right key input.
+   *          In the keyboard , it is F2 key 
+   * @param Nothing
+   * @return Nothing
+   */
   public static void leftKeyAct(){
     hudList.get(currentState).key_act_left();
   }
+  /**
+   * @brief This method is to map the action of the key.
+   * @details It will handle the action at the time of left key input.
+   *          In the keyboard , it is F3 key 
+   * @param Nothing
+   * @return Nothing
+   */
   public static void rightKeyAct(){
     hudList.get(currentState).key_act_right();
   }
+  /**
+   * @brief This method is to map the action of the key.
+   * @details It will handle the action at the time of up key input.
+   *          In the keyboard , it is c key 
+   * @param Nothing
+   * @return Nothing
+   */
   public static void upKeyAct(){
     hudList.get(currentState).key_act_up();
   }
+  /**
+   * @brief This method is to map the action of the key.
+   * @details It will handle the action at the time of down key input.
+   *          In the keyboard , it is z key 
+   * @param Nothing
+   * @return Nothing
+   */
   public static void downKeyAct(){
     hudList.get(currentState).key_act_down();
   }
+  /**
+   * @brief This method is to map the action of the key.
+   * @details It will handle the action at the time of push key input.
+   *          In the keyboard , it is n key 
+   * @param Nothing
+   * @return Nothing
+   */
   public static void pushKeyAct(){
     hudList.get(currentState).key_act_push();
   }

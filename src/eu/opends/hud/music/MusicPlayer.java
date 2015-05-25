@@ -1,3 +1,9 @@
+/**
+* @file MusicPlayer.java
+* @brief This file , run the MusicPlayer function
+* @details This file is composed of MusicPlayer class.
+*/
+
 package eu.opends.hud.music;
 import java.io.File;
 
@@ -7,7 +13,11 @@ import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.io.FilenameFilter;
 
-//Lee minjae, Im gisung
+/**
+* @brief This class is a core class associated with the music player
+* @details There are basic methods necessary to music playback such as run,resume,pause,next,previous function
+* @author Lee-MinJae , Im-GiSung
+*/
 public class MusicPlayer extends Thread{
 
   private Player player; 
@@ -19,7 +29,6 @@ public class MusicPlayer extends Thread{
   private ArrayList<String> previousDir = new ArrayList<String>();
   private String rootDir;
 
-  // MP3 close condition
   public boolean runFlag=false;
   private boolean endFlag=false;
   public static boolean pauseF=false;
@@ -42,7 +51,12 @@ public class MusicPlayer extends Thread{
   public final int ISDIR=20;
   public final int ISFILE=21;
 
-  // constructor that takes the name of an MP3 file
+  /**
+  * @brief To initialize the MusicPlayer
+  * @details Initializing the MusicPlayer to root Directory you received as a parameter
+  * @param a String argument
+  * @return nothing
+  */
   public MusicPlayer(String rootDir) {
     this.currentDir = rootDir;
     this.path = currentDir;
@@ -56,7 +70,14 @@ public class MusicPlayer extends Thread{
     else
       endInd=5;
   }
-  //
+ 
+  /**
+  * @brief This method , the ability to browse the selected file
+  * @details If the selected file is mp3 files , start the selected file , returns ISFILE
+  * 		 If the selected file is Directory , update the Directory List , returns ISFDIR
+  * @param nothing
+  * @return ISFILE or ISDIR
+  */
   public int selectFile()
   {
     String selectedFile = totalList.get(presentCursor);
@@ -104,12 +125,21 @@ public class MusicPlayer extends Thread{
       return ISDIR;
     }
   }
+  /**
+  * @brief  This method returns the position of the current position of the cursor
+  * @param nothing
+  * @return  a integer argument
+  */
   public int getCursorPos()
   {
     int pos = presentCursor - startInd;
     return pos;
   }
-  // find to mp3 file list 
+  /**
+  * @brief This method , added to the musicList only mp3 files in the folder
+  * @param nothing
+  * @return nothing
+  */
   private void findMusicList(){
     File home = new File(currentDir);
     musicList.clear();
@@ -121,7 +151,12 @@ public class MusicPlayer extends Thread{
       }
     }  
   }
-  // directory list find;
+  /**
+  * @brief This method , to add a list of folders to dirList
+  * 
+  * @param nothing
+  * @return nothing
+  */
   private void findDirList(){
     File dir = new File(currentDir);
     dirList.clear();
@@ -134,7 +169,11 @@ public class MusicPlayer extends Thread{
         dirList.add(file.getName());
     } 
   }
-  // make total List ( dirList + music file List)
+  /**
+  * @brief This method adds a dirList and musicList together
+  * @param nothing
+  * @return nothing
+  */
   private void makeTotalList()
   {
     totalList.clear();
@@ -143,7 +182,12 @@ public class MusicPlayer extends Thread{
     for(int i=0; i<musicList.size(); i++)
       totalList.add(musicList.get(i));
   }
-  // move up cursor
+  
+  /**
+  * @brief This method move up the cursor
+  * @param nothing
+  * @return nothing
+  */
   public void upMoveCursor()
   {
     presentCursor--;
@@ -159,7 +203,11 @@ public class MusicPlayer extends Thread{
       }
     }
   }
-  // move down cursor
+  /**
+   * @brief This method move down the cursor
+   * @param nothing
+   * @return nothing
+   */
   public void downMoveCursor()
   {
     presentCursor++;
@@ -175,7 +223,12 @@ public class MusicPlayer extends Thread{
       }
     }
   }
-  // 
+ 
+  /**
+  * @brief This method sets the index for output to lease a file that is currently running
+  * @param nothing
+  * @return nothing
+  */
   public void adjustCursorPos()
   {
     presentCursor=totalList.indexOf(musicList.get(pos));
@@ -193,7 +246,11 @@ public class MusicPlayer extends Thread{
         startInd=endInd-5;
     }
   }
-  // music list return;
+  /**
+   * @brief This method return the music List
+   * @param nothing
+   * @return String List  
+   */
   public String getList()
   {
     String showList="";
@@ -206,6 +263,12 @@ public class MusicPlayer extends Thread{
     }
     return showList;
   }
+  
+  /**
+   * @brief This method close the music player
+   * @param nothing
+   * @return nothing
+   */
   public void close() {
     if(runFlag)
     {
@@ -213,7 +276,12 @@ public class MusicPlayer extends Thread{
       endFlag=true;
     }
   }
-
+  
+  /**
+  * @brief This method returns the file name to match the type
+  * @param nothing
+  * @return String argument printFormat
+  */
   public String getPlayingMusicName()
   {
     String musicName=musicList.get(pos);
@@ -227,12 +295,15 @@ public class MusicPlayer extends Thread{
       printFormat+=musicName.substring(0, 16) + "\n" + musicName.substring(16, 30)+"...";
     return printFormat;
   }
-
-  // play the MP3 file to the sound card
+  /**
+  * @brief This method play the mp3 file to the sound card
+  * @param nothing
+  * @return nothing
+  * @exception StringIndexOutOfRangeException
+  */
   public void play() {
     try {
       FileInputStream fis = new FileInputStream(path);
-      //System.out.println("next path"+ path);
       player = new Player(fis);
     }
 
@@ -242,6 +313,13 @@ public class MusicPlayer extends Thread{
     }
 
   }
+  /**
+  * @brief This method , to play the next song
+  * @details Play songs of the following pos of MusicList.
+  * 		 If if the current song is the last song , play the first song
+  * @param nothing
+  * @return nothing
+  */
   public void next()
   {
     if(pauseF)
@@ -266,6 +344,14 @@ public class MusicPlayer extends Thread{
     path = currentDir + "/" + musicList.get(pos);
     nextF=true;
   }
+  /**
+   * @brief This method , to play the previous song
+   * @details Play songs of the previous  pos of MusicList.
+   * 		 If if the current song is the first song , play the last song
+   * @param nothing
+   * @return nothing
+   * @exception InterruptedException
+   */
   public void previous()
   {
     if(pauseF)
@@ -289,6 +375,13 @@ public class MusicPlayer extends Thread{
     path = currentDir + "/" + musicList.get(pos);
     previousF=true;
   }
+  
+  /**
+  * @brief This method , to play a song to suit each state
+  * @details Automatically it will play the next song and if the song is finished
+  * @param nothing
+  * @return nothing
+  */
   public void run() {
 
     try { 
@@ -318,6 +411,11 @@ public class MusicPlayer extends Thread{
       System.out.println(e);
     }
   }
+  /**
+  * @brief This method , to pause a song
+  * @param nothing
+  * @return nothing
+  */
   @SuppressWarnings("deprecation")
   public void pause() throws InterruptedException{
     System.out.println("Pause");
@@ -325,6 +423,11 @@ public class MusicPlayer extends Thread{
     isPlay = false;
     this.suspend();
   }
+  /**
+  * @brief This method , to resume a song
+  * @param nothing
+  * @return nothing
+  */
   @SuppressWarnings("deprecation")
   public void resumeMusic() throws InterruptedException{
     System.out.println("Resume");
@@ -332,12 +435,30 @@ public class MusicPlayer extends Thread{
     isPlay = true;
     this.resume();
   }
+  /**
+  * @brief This class is a filter class extension of the file to determine whether it is mp3
+  * @author Lee-MinJae
+  */
   class Mp3Filter implements FilenameFilter {
+	  /**
+
+	  * @brief name it returns True if the mp3 file , it returns false if there is no
+
+	  * @param File argument and String name
+
+	  * @return boolean argument
+	  * 
+	  */
     public boolean accept(File dir, String name) {
       return (name.endsWith(".mp3"));
     }
   }
-  // playing mode flag reset;
+  /**
+  * @brief This method terminates the player, to reset the flag
+  * @param nothing
+  * @return nothing
+  * @exception InterruptedException
+  */
   public void deletePlayingMode()
   {
     if(pauseF && !playingModeSelectState)
@@ -349,7 +470,7 @@ public class MusicPlayer extends Thread{
         selectF=true;
         selectingF=true;
       } catch (InterruptedException e) {
-        // TODO Auto-generated catch block
+        // TODO Auto-generated catch blockaz
         e.printStackTrace();
       } 
     }

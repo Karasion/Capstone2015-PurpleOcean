@@ -1,3 +1,14 @@
+/**
+ * @file HudLayoutTool.java
+ * @brief  This file is associated with a HUD Layout
+ * @details This file is composed of HudLayoutTool class.
+ */
+
+/**
+ * @namespace eu.opends.hud.tool
+ * @brief It is a package for HudLayout
+ * @details This package consists of a HudlayoutToo class
+ */
 package eu.opends.hud.tool;
 
 import java.awt.image.BufferedImage;
@@ -7,8 +18,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
-
 import javax.imageio.ImageIO;
 
 import com.jme3.font.BitmapFont;
@@ -22,6 +31,12 @@ import eu.opends.main.Simulator;
 
 //Im gisung
 /* simple api class for hud creating*/
+/**
+ * @brief It is a Hud element tool to try to convenient placement of .
+ * @details It is possible to determine the position and size of the element to the simulator screen by operating the element in the shortcut .
+ * @author Im-gisung
+ *
+ */
 public class HudLayoutTool {
   private static SimulationBasics sim;
   private static Node hudFrame;
@@ -50,6 +65,11 @@ public class HudLayoutTool {
   private static int elementType=PICTURE_TYPE;
 
   // this function initializes to the hud element
+  /**
+   * @brief This method , to set the elements for using the tool.
+   * @param simulator a Simulator object
+   * @return nothing
+   */
   public static void init(Simulator simulator)
   {
     sim = simulator;
@@ -64,6 +84,15 @@ public class HudLayoutTool {
   }
 
   // this function is for execute the hud tool
+  /**
+   * @brief This method is executed the HudLayoutTool mode at startup .
+   * @details Read the path of use .png file and .text file as the element from /assets/Tool directory
+   * 		.png file is assigned to Picture element, .txt file is assigned to BitmapText element
+   * 		and , this element managed to ArrayList.
+   * @param nothing
+   * @return nothing
+   * 
+   */
   public static void startHudTool()
   {
     // path:current_workingdir\assets\Tool
@@ -131,6 +160,12 @@ public class HudLayoutTool {
   }
 
   // moveOffset print on screen
+  /**
+   * @brief Is a method to be executed in real time on the simulator .
+   * @details It will update the mode and offset size and element type of HudTool.
+   * @param nothing
+   * @return nothing
+   */
   public static void updatingHudTool()
   {
     if(HudLayoutTool.hudToolActF) {
@@ -154,6 +189,13 @@ public class HudLayoutTool {
   }
 
   // this function attach to next element on hud frame
+  /**
+   * @brief Paste the next elements to the simulator screen .
+   * @details Element Type is the case of the text, it will select an element of the next BitmapText element
+   * 		  Element Type is the case of the picture, it will select an element of the next Picture element
+   * @param nothing
+   * @return nothing
+   */
   public static void attachNextElement()
   {
     hudToolMode=MOVE_MODE;
@@ -176,6 +218,13 @@ public class HudLayoutTool {
   }
 
   //this function attach to previous element on hud frame
+  /**
+   * @brief Paste the previous elements to the simulator screen .
+   * @details Element Type is the case of the text, it will select an element of the previous BitmapText element
+   * 		  Element Type is the case of the picture, it will select an element of the previous Picture element
+   * @param nothing
+   * @return nothing
+   */
   public static void attachPreviousElement()
   {
     hudToolMode=MOVE_MODE;
@@ -199,6 +248,14 @@ public class HudLayoutTool {
   }
 
   // exit HudTool
+  /**
+   * @brief This method is executed when you exit HudLayTool mode.
+   * @details To initialize all elements related to the HudLayoutTool.
+   * @param nothing
+   * @return nothing
+   * 
+   */
+
   public static void exitHudTool()
   {
     for(Picture tmp:pictureList)
@@ -217,7 +274,14 @@ public class HudLayoutTool {
     hudToolMode=MOVE_MODE;
     elementType=PICTURE_TYPE;
   }
+  
   // up move offSet
+  /**
+   * @brief This method increases the offset size .
+   * @param nothing
+   * @return nothing
+   * 
+   */
   public static void upMoveOffset()
   {
     if(moveOffset==1)
@@ -230,6 +294,12 @@ public class HudLayoutTool {
       moveOffset=100;
   }
   // down move offset
+  /**
+   * @brief This method decreases the offset size .
+   * @param nothing
+   * @return nothing
+   * 
+   */
   public static void downMoveOffset()
   {
     if(moveOffset==100)
@@ -243,6 +313,14 @@ public class HudLayoutTool {
   }
 
   // position print
+  /**
+   * @brief This method outputs the size and coordinates of the selected element in the console window .
+   * @details  Element Type is the case of the text, and outputs the information of the elements of BitmapText
+   * 		  Element Type is the case of the Picture, and outputs the information of the elements of Picture.
+   * @param nothing
+   * @return nothing
+   * 
+   */
   public static void posAndSizePrint()
   {
     if(elementType==PICTURE_TYPE) {
@@ -270,6 +348,14 @@ public class HudLayoutTool {
     }
   }
   // move Element position & change size
+  /**
+   * @brief This method is executed when you press the right key .
+   * @details If the mode is move, the element is moved only offset to the right .
+   * 		  If the mode is size, the element is increased by offset. 
+   * @param nothing
+   * @return nothing
+   * 
+   */
   public static void rightChange()
   {
     if(elementType==PICTURE_TYPE) {
@@ -315,6 +401,13 @@ public class HudLayoutTool {
     }
 
   }
+  /**
+   * @brief This method is executed when you press the left key .
+   * @details If the mode is move, the element is moved only offset to the left .
+   * 		  If the mode is size, the element is decreased by offset. 
+   * @param nothing
+   * @return nothing
+   */
   public static void leftChange()
   {
     if(elementType==PICTURE_TYPE)
@@ -364,6 +457,13 @@ public class HudLayoutTool {
       }
     }
   }
+  /**
+   * @brief This method is executed when you press the up key .
+   * @details If the mode is move, the element is moved only offset to the up .
+   * 		  If the mode is size, the element is increased by offset. 
+   * @param nothing
+   * @return nothing
+   */
   public static void upChange()
   {
     if(elementType==PICTURE_TYPE) {
@@ -410,6 +510,13 @@ public class HudLayoutTool {
     }
 
   }
+  /**
+   * @brief This method is executed when you press the down key .
+   * @details If the mode is move, the element is moved only offset to the down .
+   * 		  If the mode is size, the element is decreased by offset. 
+   * @param nothing
+   * @return nothing
+   */
   public static void downChange()
   {
     if(elementType==PICTURE_TYPE) {
@@ -461,6 +568,13 @@ public class HudLayoutTool {
   }
 
   // select mode
+  /**
+   * @brief This method , to select the mode .
+   * @details If the mode is move, it converted to the size mode 
+   *  		  else if the mode is size, it converted to the move mode
+   * @param nothing
+   * @return nothing
+   */
   public static void selectMode()
   {
     if(hudToolMode==MOVE_MODE)
@@ -470,6 +584,13 @@ public class HudLayoutTool {
   }
 
   // select element Type
+  /**
+   * @brief This method , to select the element type .
+   * @details If the element type is picture type, it converted to the text type 
+   *  		  else if the element type is text type, it converted to the picture type
+   * @param nothing
+   * @return nothing
+   */
   public static void selectElementType()
   {
     if(elementType==PICTURE_TYPE)
@@ -479,6 +600,11 @@ public class HudLayoutTool {
   }
 
   // delete Picture
+  /**
+   * @brief This method , to remove from the list the selected element.
+   * @param nothing
+   * @return nothing
+   */
   public static void deleteElement()
   {
     if(elementType==PICTURE_TYPE) {
@@ -515,11 +641,25 @@ public class HudLayoutTool {
   }
 
   // information of element Picture
+  /**
+   * @brief This class has information about the elements of Picture
+   * @param nothing
+   * @return nothing
+   */
   static class PictureInfo
   {
     public int posX,posY;
     public int sizeW,sizeH;
 
+    /**
+     * @brief This method 's constructor
+     * @details initializing to instance values as parameters
+     * @param posX a integer value, posX is a value of the coordinate x.
+     * @param posY a integer value, posY is a value of the coordinate y.
+     * @param sizeW a integer value, sizeW is width of the element
+     * @param sizeH a integer value, sizeH is height of the element
+     * @return nothing
+     */
     public PictureInfo(int posX,int posY,int sizeW,int sizeH)
     {
       this.posX=posX;
@@ -528,6 +668,11 @@ public class HudLayoutTool {
       this.sizeH=sizeH;
     }
 
+
+    /**
+     * @brief this method will assign the value of an instance of as a parameter .
+     * @param info a PictureInfo object
+     */
     public void setInfo(PictureInfo info)
     {
       this.posX = info.posX;
@@ -539,11 +684,24 @@ public class HudLayoutTool {
   }
 
   // information class of text element
+  /**
+   * @brief This class has information about the elements of BitmapText
+   * @param nothing
+   * @return nothing
+   */
   static class BitmapTextInfo
   {
     public int posX,posY;
     public int size;
 
+    /**
+     * @brief This method 's constructor
+     * @details initializing to instance values as parameters
+     * @param posX a integer value, posX is a value of the coordinate x.
+     * @param posY a integer value, posY is a value of the coordinate y.
+     * @param size a integer value, size is a size of the element
+     * @return nothing
+     */
     BitmapTextInfo(int posX,int posY,int size)
     {
       this.posX=posX;
@@ -551,6 +709,10 @@ public class HudLayoutTool {
       this.size=size;
     }
 
+    /**
+     * @brief this method will assign the value of an instance of as a parameter .
+     * @param info a BitmapTextInfo object
+     */
     public void setInfo(BitmapTextInfo info)
     {
       this.posX=info.posX;
