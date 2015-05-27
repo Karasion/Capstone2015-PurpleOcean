@@ -5,7 +5,7 @@
  */
 
 /**
- * @namespace eu.opends.hud.tool
+ * @namespace kr.ac.kookmin.cs.tool
  * @brief It is a package for HudLayout
  * @details This package consists of a HudlayoutToo class
  */

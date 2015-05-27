@@ -5,7 +5,7 @@
  */
 
  /**
- * @namespace eu.opends.hud.call
+ * @namespace kr.ac.kookmin.cs.call
  * @brief Package for implementing call in HUD
  * @details This package consists of a call layout class and call core class 
  *          for implementing the call function     

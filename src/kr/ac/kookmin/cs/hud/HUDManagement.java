@@ -5,7 +5,7 @@
  */
 
 /**
- * @namespace eu.opends.hud
+ * @namespace kr.ac.kookmin.cs.hud
  * @brief This package is a set of classes related to HUD.
  * @details This package is composed of HUD management class
  *          and HUD function class .

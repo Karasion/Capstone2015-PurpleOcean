@@ -5,7 +5,7 @@
  */
 
  /**
- * @namespace eu.opends.hud.sms
+ * @namespace kr.ac.kookmin.cs.sms
  * @brief Package for implementing sms in HUD
  * @details This package consists of a sms layout class and sms core class for implementing the sms function
  * 			

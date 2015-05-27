@@ -5,7 +5,7 @@
  */
 
 /**
- * @namespace eu.opends.bluetooth
+ * @namespace kr.ac.kookmin.cs.bluetooth
  * @brief This package is a set of classes related to Bluetooth communication .
  * @details This package is composed of Bluetooth data classes and Bluetooth communication class .
  */
