@@ -1,9 +1,9 @@
-package eu.opends.hud;
+package kr.ac.kookmin.cs.hud;
 
-import eu.opends.hud.BSA.BSAHud;
-import eu.opends.hud.call.CallHud;
-import eu.opends.hud.music.MusicHud;
-import eu.opends.hud.sms.SmsHud;
+import kr.ac.kookmin.cs.BSA.BSAHud;
+import kr.ac.kookmin.cs.call.CallHud;
+import kr.ac.kookmin.cs.music.MusicHud;
+import kr.ac.kookmin.cs.sms.SmsHud;
 
 //Jo kwanghyeon
 //Class to register a HUD user-created in HUD module .

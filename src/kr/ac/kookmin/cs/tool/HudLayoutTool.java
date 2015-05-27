@@ -9,7 +9,7 @@
  * @brief It is a package for HudLayout
  * @details This package consists of a HudlayoutToo class
  */
-package eu.opends.hud.tool;
+package kr.ac.kookmin.cs.tool;
 
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;

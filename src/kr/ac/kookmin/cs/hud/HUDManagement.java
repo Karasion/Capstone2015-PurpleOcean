@@ -10,9 +10,11 @@
  * @details This package is composed of HUD management class
  *          and HUD function class .
  */
-package eu.opends.hud;
+package kr.ac.kookmin.cs.hud;
 
 import java.util.ArrayList;
+
+import kr.ac.kookmin.cs.tool.HudLayoutTool;
 
 import com.jme3.font.BitmapFont;
 import com.jme3.font.BitmapText;
@@ -22,7 +24,6 @@ import com.jme3.ui.Picture;
 
 import eu.opends.basics.SimulationBasics;
 import eu.opends.car.Car;
-import eu.opends.hud.tool.HudLayoutTool;
 import eu.opends.main.Simulator;
 
 /**

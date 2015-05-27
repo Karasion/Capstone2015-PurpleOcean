@@ -10,7 +10,7 @@
  * @details This package consists of a sms layout class and sms core class for implementing the sms function
  * 			
  */
-package eu.opends.hud.sms;
+package kr.ac.kookmin.cs.sms;
 
 import java.util.ArrayList;
 

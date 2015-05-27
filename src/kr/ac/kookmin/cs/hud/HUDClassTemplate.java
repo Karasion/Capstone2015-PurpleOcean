@@ -10,7 +10,7 @@
  * @details This package is composed of HUD management class
  *          and HUD function class .
  */
-package eu.opends.hud;
+package kr.ac.kookmin.cs.hud;
 
 import eu.opends.main.Simulator;
 

@@ -4,7 +4,7 @@
 * @details This file is composed of MusicPlayer class.
 */
 
-package eu.opends.hud.music;
+package kr.ac.kookmin.cs.music;
 import java.io.File;
 
 import javazoom.jl.player.Player;

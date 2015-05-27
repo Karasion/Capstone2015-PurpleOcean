@@ -10,7 +10,10 @@
  * @details This package consists of a sms layout class and sms core class for implementing the sms function
  * 			
  */
-package eu.opends.hud.sms;
+package kr.ac.kookmin.cs.sms;
+
+import kr.ac.kookmin.cs.hud.HUDClassTemplate;
+import kr.ac.kookmin.cs.hud.HUDManagement;
 
 import com.jme3.font.BitmapFont;
 import com.jme3.font.BitmapText;
@@ -19,8 +22,6 @@ import com.jme3.scene.Node;
 import com.jme3.ui.Picture;
 
 import eu.opends.basics.SimulationBasics;
-import eu.opends.hud.HUDManagement;
-import eu.opends.hud.HUDClassTemplate;
 import eu.opends.main.Simulator;
 
  /**

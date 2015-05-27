@@ -4,8 +4,11 @@
 * @details This file is composed of MusicHud class.
 */
 
-package eu.opends.hud.music;
+package kr.ac.kookmin.cs.music;
 
+
+import kr.ac.kookmin.cs.hud.HUDClassTemplate;
+import kr.ac.kookmin.cs.hud.HUDManagement;
 
 import com.jme3.font.BitmapFont;
 import com.jme3.font.BitmapText;
@@ -14,8 +17,6 @@ import com.jme3.scene.Node;
 import com.jme3.ui.Picture;
 
 import eu.opends.basics.SimulationBasics;
-import eu.opends.hud.HUDManagement;
-import eu.opends.hud.HUDClassTemplate;
 import eu.opends.main.Simulator;
 
 /**

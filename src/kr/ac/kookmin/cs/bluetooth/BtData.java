@@ -9,7 +9,7 @@
  * @brief This package is a set of classes related to Bluetooth communication .
  * @details This package is composed of Bluetooth data classes and Bluetooth communication class .
  */
-package eu.opends.bluetooth;
+package kr.ac.kookmin.cs.bluetooth;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -9,7 +9,7 @@
  * @brief Package for implementing BSA in HUD
  * @details This package consists of a BSA layout class and BSA core class for implementing the BSA function
  */
-package eu.opends.hud.BSA;
+package kr.ac.kookmin.cs.BSA;
 
 /**
  * @brief This class , to detect the BSA signal .

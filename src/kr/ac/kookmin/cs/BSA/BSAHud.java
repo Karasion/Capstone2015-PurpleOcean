@@ -9,13 +9,14 @@
  * @brief Package for implementing BSA in HUD
  * @details This package consists of a BSA layout class and BSA core class for implementing the BSA function
  */
-package eu.opends.hud.BSA;
+package kr.ac.kookmin.cs.BSA;
+
+import kr.ac.kookmin.cs.hud.HUDClassTemplate;
+import kr.ac.kookmin.cs.hud.HUDManagement;
 
 import com.jme3.scene.Node;
 import com.jme3.ui.Picture;
 
-import eu.opends.hud.HUDManagement;
-import eu.opends.hud.HUDClassTemplate;
 import eu.opends.main.Simulator;
 
 //Im gisung, Jo kwanghyeon

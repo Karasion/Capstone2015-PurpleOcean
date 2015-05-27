@@ -10,7 +10,10 @@
  * @details This package consists of a call layout class and call core class 
  *          for implementing the call function     
  */
-package eu.opends.hud.call;
+package kr.ac.kookmin.cs.call;
+
+import kr.ac.kookmin.cs.hud.HUDClassTemplate;
+import kr.ac.kookmin.cs.hud.HUDManagement;
 
 import com.jme3.font.BitmapFont;
 import com.jme3.font.BitmapText;
@@ -19,8 +22,6 @@ import com.jme3.scene.Node;
 import com.jme3.ui.Picture;
 
 import eu.opends.basics.SimulationBasics;
-import eu.opends.hud.HUDManagement;
-import eu.opends.hud.HUDClassTemplate;
 import eu.opends.main.Simulator;
 
 /**

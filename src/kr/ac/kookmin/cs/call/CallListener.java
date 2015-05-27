@@ -10,9 +10,9 @@
  * @details This package consists of a call layout class and call core class 
  *          for implementing the call function     
  */
-package eu.opends.hud.call;
+package kr.ac.kookmin.cs.call;
 
-import eu.opends.bluetooth.ProcessConnectionThread;
+import kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread;
 
 /**
 * @brief It is a class related to call
