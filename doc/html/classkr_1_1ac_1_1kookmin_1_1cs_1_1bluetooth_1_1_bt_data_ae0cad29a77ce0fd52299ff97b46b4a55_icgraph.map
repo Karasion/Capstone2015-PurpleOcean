@@ -1,0 +1,8 @@
+<map id="kr.ac.kookmin.cs.bluetooth.BtData.serialize" name="kr.ac.kookmin.cs.bluetooth.BtData.serialize">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#afd3322fad0409741040de7c478210218" title="This method transfers the data in the Mobile app . " alt="" coords="236,104,469,145"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a8b9c6d3b52e1fe1e080f265eed49f0a9" title="It send a message to reject a phone call to the mobile in this method. " alt="" coords="517,71,689,112"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a2fdc9350dd23a0b6a706919b2cd2c59e" title="It sends a message of receiving a phone call to the mobile in this method. " alt="" coords="517,136,689,177"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#af65157e5939fc455ae649e188e38933d" title="When you press the push button in the G&#45;HUB, it is a method to be executed . " alt="" coords="737,5,909,47"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a3ecf7e9fb474bd63454ed6ffcf1a6396" title="When you press the right button in the G&#45;HUB, it is a method to be executed . " alt="" coords="737,71,909,112"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#aec9dbfa44efd5d6ae235938dbe407c48" title="When you press the left button in the G&#45;HUB, it is a method to be executed . " alt="" coords="737,136,909,177"/>
+</map>

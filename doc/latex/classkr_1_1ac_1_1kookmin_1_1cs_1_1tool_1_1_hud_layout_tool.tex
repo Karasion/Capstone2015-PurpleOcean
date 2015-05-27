@@ -1,0 +1,984 @@
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool}{}\section{kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool 클래스 참조}
+\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool}\index{kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool@{kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool}}
+
+
+It is a Hud element tool to try to convenient placement of .  
+
+
+
+
+kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool에 대한 협력 다이어그램\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{클래스}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Bitmap\+Text\+Info}
+\begin{DoxyCompactList}\small\item\em This class has information about the elements of Bitmap\+Text. \end{DoxyCompactList}\item 
+class {\bfseries Picture\+Info}
+\begin{DoxyCompactList}\small\item\em This class has information about the elements of Picture. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{정적 Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a93ebf652629e4e65a6126d478143630b}{init} (Simulator simulator)
+\begin{DoxyCompactList}\small\item\em This method , to set the elements for using the tool. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6f5f4dcaf3b5aeee139ab80fb3aa30aa}{start\+Hud\+Tool} ()
+\begin{DoxyCompactList}\small\item\em This method is executed the \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool}{Hud\+Layout\+Tool} mode at startup . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1206c4b2c371bbbe24cf257492826574}{updating\+Hud\+Tool} ()
+\begin{DoxyCompactList}\small\item\em Is a method to be executed in real time on the simulator . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a2105ce4edf93ec4dea92c388b98f7941}{attach\+Next\+Element} ()
+\begin{DoxyCompactList}\small\item\em Paste the next elements to the simulator screen . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a5d9309d71fd9b0af0e6505d079bf7897}{attach\+Previous\+Element} ()
+\begin{DoxyCompactList}\small\item\em Paste the previous elements to the simulator screen . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aa05a256bff284acae80d81b6eb3da383}{exit\+Hud\+Tool} ()
+\begin{DoxyCompactList}\small\item\em This method is executed when you exit Hud\+Lay\+Tool mode. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a949f1c99b33700f0d9cd0d7dfbc5c42c}{up\+Move\+Offset} ()
+\begin{DoxyCompactList}\small\item\em This method increases the offset size . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_afde0eaa3d268241650f7a8161379cebd}{down\+Move\+Offset} ()
+\begin{DoxyCompactList}\small\item\em This method decreases the offset size . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae1d5a7dd1f95b43eb44b9bd1154b0eda}{pos\+And\+Size\+Print} ()
+\begin{DoxyCompactList}\small\item\em This method outputs the size and coordinates of the selected element in the console window . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aeb639c531b592fb5d8f69fb4e033b024}{right\+Change} ()
+\begin{DoxyCompactList}\small\item\em This method is executed when you press the right key . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ac91ce5f5908a457bde5f38a847058f1d}{left\+Change} ()
+\begin{DoxyCompactList}\small\item\em This method is executed when you press the left key . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aea6f75ea2479a569dfa99c849df7b435}{up\+Change} ()
+\begin{DoxyCompactList}\small\item\em This method is executed when you press the up key . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a4bca914c51cd37d73bd17e62835f4349}{down\+Change} ()
+\begin{DoxyCompactList}\small\item\em This method is executed when you press the down key . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aed1bf1517f60598e90f982d837fbb4b1}{select\+Mode} ()
+\begin{DoxyCompactList}\small\item\em This method , to select the mode . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8088ea305a4ba9df53b6bad090655e36}{select\+Element\+Type} ()
+\begin{DoxyCompactList}\small\item\em This method , to select the element type . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a05ef186ad6a81c750d3d27fa3cd96263}{delete\+Element} ()
+\begin{DoxyCompactList}\small\item\em This method , to remove from the list the selected element. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{정적 Public 속성}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a48bdb0935f0a1b47acdd97d4ea4adab6}{hud\+Tool\+Act\+F} =false
+\end{DoxyCompactItemize}
+\subsection*{정적 Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+static Simulation\+Basics \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}
+\item 
+static Node \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hud\+Frame}
+\item 
+static Bitmap\+Font \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}{gui\+Font}
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{M\+O\+V\+E\+\_\+\+M\+O\+D\+E} =10
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{S\+I\+Z\+E\+\_\+\+M\+O\+D\+E} =20
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E} =30
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{T\+E\+X\+T\+\_\+\+T\+Y\+P\+E} =40
+\item 
+static Array\+List$<$ Picture $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{picture\+List} =new Array\+List$<$Picture$>$()
+\item 
+static Array\+List$<$ Picture\+Info $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{picture\+Info\+List} =new Array\+List$<$Picture\+Info$>$()
+\item 
+static Array\+List$<$ Bitmap\+Text $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{text\+List} =new Array\+List$<$Bitmap\+Text$>$()
+\item 
+static Array\+List$<$ Bitmap\+Text\+Info $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{text\+Info\+List} =new Array\+List$<$Bitmap\+Text\+Info$>$()
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{move\+Offset} = 50
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{present\+Element\+Ind} = 0
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{present\+Text\+Ind} =0
+\item 
+static Bitmap\+Text \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{move\+Offset\+Text}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hud\+Tool\+Mode} =\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{M\+O\+V\+E\+\_\+\+M\+O\+D\+E}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{element\+Type} =\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E}
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+It is a Hud element tool to try to convenient placement of . 
+
+It is possible to determine the position and size of the element to the simulator screen by operating the element in the shortcut . \begin{DoxyAuthor}{작성자}
+Im-\/gisung 
+\end{DoxyAuthor}
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a2105ce4edf93ec4dea92c388b98f7941}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!attach\+Next\+Element@{attach\+Next\+Element}}
+\index{attach\+Next\+Element@{attach\+Next\+Element}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{attach\+Next\+Element}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+attach\+Next\+Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a2105ce4edf93ec4dea92c388b98f7941}
+
+
+Paste the next elements to the simulator screen . 
+
+Element Type is the case of the text, it will select an element of the next Bitmap\+Text element Element Type is the case of the picture, it will select an element of the next Picture element 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+200   \{
+201     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE};
+202     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE}) \{
+203       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty())
+204         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}));
+205       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}++;
+206 
+207       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}>=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.size())
+208         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.size()-1;
+209     \}
+210     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE}) \{
+211       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty())
+212         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}));
+213       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}++;
+214 
+215       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}>=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.size())
+216         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.size()-1;
+217     \}
+218   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a5d9309d71fd9b0af0e6505d079bf7897}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!attach\+Previous\+Element@{attach\+Previous\+Element}}
+\index{attach\+Previous\+Element@{attach\+Previous\+Element}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{attach\+Previous\+Element}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+attach\+Previous\+Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a5d9309d71fd9b0af0e6505d079bf7897}
+
+
+Paste the previous elements to the simulator screen . 
+
+Element Type is the case of the text, it will select an element of the previous Bitmap\+Text element Element Type is the case of the picture, it will select an element of the previous Picture element 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+229   \{
+230     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE};
+231     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE}) \{
+232       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty())
+233         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}));
+234       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}--;
+235 
+236       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}<0)
+237         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}=0;
+238     \}
+239     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE}) \{
+240       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty())
+241         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}));
+242       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}--;
+243 
+244       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}<0)
+245         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}=0;
+246     \}
+247 
+248   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a05ef186ad6a81c750d3d27fa3cd96263}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!delete\+Element@{delete\+Element}}
+\index{delete\+Element@{delete\+Element}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{delete\+Element}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+delete\+Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a05ef186ad6a81c750d3d27fa3cd96263}
+
+
+This method , to remove from the list the selected element. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+609   \{
+610     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE}) \{
+611       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty())
+612         \textcolor{keywordflow}{return};
+613       Picture pic = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+614       PictureInfo info = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+615 
+616       \textcolor{keywordflow}{if}(pic!=null && info!=null) \{
+617         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.detachChild(pic);
+618         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.remove(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+619         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.remove(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+620         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}--;
+621         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}<0)
+622           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}=0;
+623       \}
+624     \}
+625     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE})
+626     \{
+627       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty())
+628         \textcolor{keywordflow}{return};
+629       BitmapText text = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+630       BitmapTextInfo info = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+631 
+632       \textcolor{keywordflow}{if}(text!=null && info!=null) \{
+633         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.detachChild(text);
+634         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.remove(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+635         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.remove(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+636         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}--;
+637         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}<0)
+638           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}=0;
+639       \}
+640     \}
+641   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a4bca914c51cd37d73bd17e62835f4349}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!down\+Change@{down\+Change}}
+\index{down\+Change@{down\+Change}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{down\+Change}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+down\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a4bca914c51cd37d73bd17e62835f4349}
+
+
+This method is executed when you press the down key . 
+
+If the mode is move, the element is moved only offset to the down . If the mode is size, the element is decreased by offset. 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+521   \{
+522     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE}) \{
+523       PictureInfo tmp;
+524       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty()) \{
+525         tmp = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+526         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE}) \{
+527           tmp.posY-=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+528           \textcolor{keywordflow}{if}(tmp.posY<0)
+529             tmp.posY=0;
+530 
+531           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setPosition(tmp.posX, tmp.posY);
+532           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setInfo(tmp);
+533         \}
+534         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE}) \{
+535           tmp.sizeH-=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+536           \textcolor{keywordflow}{if}(tmp.sizeH<0)
+537             tmp.sizeH=0;
+538 
+539           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setHeight(tmp.sizeH);
+540           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setInfo(tmp);
+541         \}
+542       \}
+543     \}
+544     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE})
+545     \{
+546       BitmapTextInfo tmpInfo;
+547 
+548       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty()) \{
+549         tmpInfo = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+550         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE}) \{
+551           tmpInfo.posY-=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+552           \textcolor{keywordflow}{if}(tmpInfo.posY<0)
+553             tmpInfo.posY=0;
+554 
+555           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setLocalTranslation(tmpInfo.posX, tmpInfo.posY
+      ,0);
+556           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setInfo(tmpInfo);
+557         \}
+558         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE}) \{
+559           tmpInfo.size-=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+560           \textcolor{keywordflow}{if}(tmpInfo.size<0)
+561             tmpInfo.size=0;
+562 
+563           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setSize(tmpInfo.size);
+564           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setInfo(tmpInfo);
+565         \}
+566       \}
+567     \}
+568   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_afde0eaa3d268241650f7a8161379cebd}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!down\+Move\+Offset@{down\+Move\+Offset}}
+\index{down\+Move\+Offset@{down\+Move\+Offset}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{down\+Move\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+down\+Move\+Offset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_afde0eaa3d268241650f7a8161379cebd}
+
+
+This method decreases the offset size . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+304   \{
+305     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}==100)
+306       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=50;
+307     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}==50)
+308       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=10;
+309     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}==10)
+310       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=5;
+311     \textcolor{keywordflow}{else}
+312       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=1;
+313   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aa05a256bff284acae80d81b6eb3da383}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!exit\+Hud\+Tool@{exit\+Hud\+Tool}}
+\index{exit\+Hud\+Tool@{exit\+Hud\+Tool}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{exit\+Hud\+Tool}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+exit\+Hud\+Tool (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aa05a256bff284acae80d81b6eb3da383}
+
+
+This method is executed when you exit Hud\+Lay\+Tool mode. 
+
+To initialize all elements related to the \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool}{Hud\+Layout\+Tool}. 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+260   \{
+261     \textcolor{keywordflow}{for}(Picture tmp:\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList})
+262       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.detachChild(tmp);
+263     \textcolor{keywordflow}{for}(BitmapText tmp:\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList})
+264       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.detachChild(tmp);
+265     
+266     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.detachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{moveOffsetText});
+267     pictureList.clear();
+268     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.clear();
+269     textList.clear();
+270     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.clear();
+271     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=50;
+272     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}=0;
+273     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}=0;
+274     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE};
+275     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE};
+276   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a93ebf652629e4e65a6126d478143630b}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!init@{init}}
+\index{init@{init}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+init (
+\begin{DoxyParamCaption}
+\item[{Simulator}]{simulator}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a93ebf652629e4e65a6126d478143630b}
+
+
+This method , to set the elements for using the tool. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em simulator} & a Simulator object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+74   \{
+75     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim} = simulator;
+76     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getGuiNode();
+77 
+78     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}{guiFont} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getAssetManager().loadFont(\textcolor{stringliteral}{"Interface/Fonts/Default.fnt"});
+79     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{moveOffsetText} = \textcolor{keyword}{new} BitmapText(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}{guiFont},\textcolor{keyword}{false});
+80     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{moveOffsetText}.setText(\textcolor{stringliteral}{""});
+81     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{moveOffsetText}.setSize(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}{guiFont}.getCharSet().getRenderedSize()+10);
+82     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{moveOffsetText}.setColor(ColorRGBA.Yellow);
+83     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{moveOffsetText}.setLocalTranslation(0, 100, 0);
+84   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a93ebf652629e4e65a6126d478143630b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ac91ce5f5908a457bde5f38a847058f1d}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!left\+Change@{left\+Change}}
+\index{left\+Change@{left\+Change}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{left\+Change}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+left\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ac91ce5f5908a457bde5f38a847058f1d}
+
+
+This method is executed when you press the left key . 
+
+If the mode is move, the element is moved only offset to the left . If the mode is size, the element is decreased by offset. 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+412   \{
+413     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE})
+414     \{
+415       PictureInfo tmp;
+416       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty()) \{
+417         tmp = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+418         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE}) \{
+419           tmp.posX-=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+420           \textcolor{keywordflow}{if}(tmp.posX<0)
+421             tmp.posX=0;
+422 
+423           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setPosition(tmp.posX, tmp.posY);
+424           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setInfo(tmp);
+425         \}
+426         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE}) \{
+427           tmp.sizeW-=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+428           \textcolor{keywordflow}{if}(tmp.sizeW<0)
+429             tmp.sizeW=0;
+430           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setWidth(tmp.sizeW);
+431           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setInfo(tmp);
+432         \}
+433       \}
+434     \}
+435     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE})
+436     \{
+437       BitmapTextInfo tmpInfo;
+438 
+439       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty()) \{
+440         tmpInfo = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+441         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE}) \{
+442           tmpInfo.posX-=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+443           \textcolor{keywordflow}{if}(tmpInfo.posX<0)
+444             tmpInfo.posX=0;
+445 
+446           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setLocalTranslation(tmpInfo.posX, tmpInfo.posY
+      ,0);
+447           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setInfo(tmpInfo);
+448         \}
+449         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE}) \{
+450           tmpInfo.size-=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+451           \textcolor{keywordflow}{if}(tmpInfo.size<0)
+452             tmpInfo.size=0;
+453 
+454           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setSize(tmpInfo.size);
+455           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setInfo(tmpInfo);
+456         \}
+457       \}
+458     \}
+459   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae1d5a7dd1f95b43eb44b9bd1154b0eda}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!pos\+And\+Size\+Print@{pos\+And\+Size\+Print}}
+\index{pos\+And\+Size\+Print@{pos\+And\+Size\+Print}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{pos\+And\+Size\+Print}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+pos\+And\+Size\+Print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae1d5a7dd1f95b43eb44b9bd1154b0eda}
+
+
+This method outputs the size and coordinates of the selected element in the console window . 
+
+Element Type is the case of the text, and outputs the information of the elements of Bitmap\+Text Element Type is the case of the Picture, and outputs the information of the elements of Picture. 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+325   \{
+326     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE}) \{
+327       Picture tmp;
+328       PictureInfo tmpInfo;
+329       
+330       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty()) \{
+331         tmp=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+332         tmpInfo=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+333         System.out.print(tmp.getName()+\textcolor{stringliteral}{": pos("}+tmpInfo.posX+\textcolor{stringliteral}{", "}+tmpInfo.posY+\textcolor{stringliteral}{")"});
+334         System.out.println(\textcolor{stringliteral}{" size("}+tmpInfo.sizeW+\textcolor{stringliteral}{", "}+tmpInfo.sizeH+\textcolor{stringliteral}{")"});
+335       \}
+336     \}
+337     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE}) \{
+338       BitmapText tmp;
+339       BitmapTextInfo tmpInfo;
+340       
+341       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty()) \{
+342         tmp=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+343         tmpInfo=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+344         System.out.print(tmp.getName()+\textcolor{stringliteral}{": pos("}+tmpInfo.posX+\textcolor{stringliteral}{", "}+tmpInfo.posY+\textcolor{stringliteral}{")"});
+345         System.out.println(\textcolor{stringliteral}{" size("}+tmpInfo.size+\textcolor{stringliteral}{")"});
+346 
+347       \}
+348     \}
+349   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aeb639c531b592fb5d8f69fb4e033b024}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!right\+Change@{right\+Change}}
+\index{right\+Change@{right\+Change}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{right\+Change}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+right\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aeb639c531b592fb5d8f69fb4e033b024}
+
+
+This method is executed when you press the right key . 
+
+If the mode is move, the element is moved only offset to the right . If the mode is size, the element is increased by offset. 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+360   \{
+361     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE}) \{
+362       PictureInfo tmp;
+363       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty()) \{
+364         tmp = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+365         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE}) \{
+366           tmp.posX+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+367           \textcolor{keywordflow}{if}(tmp.posX>\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getWidth())
+368             tmp.posX=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getWidth();
+369 
+370           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setPosition(tmp.posX, tmp.posY);
+371           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setInfo(tmp);
+372         \}
+373         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE}) \{
+374           tmp.sizeW+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+375 
+376           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setWidth(tmp.sizeW);
+377           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setInfo(tmp);
+378         \}
+379       \}
+380     \}
+381     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE}) \{
+382       BitmapTextInfo tmpInfo;
+383 
+384       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty()) \{
+385         tmpInfo = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+386         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE}) \{
+387           tmpInfo.posX+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+388           \textcolor{keywordflow}{if}(tmpInfo.posX>\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getWidth())
+389             tmpInfo.posX=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getWidth();
+390 
+391           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setLocalTranslation(tmpInfo.posX, tmpInfo.posY
+      ,0);
+392           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setInfo(tmpInfo);
+393         \}
+394         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE}) \{
+395           tmpInfo.size+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+396 
+397           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setSize(tmpInfo.size);
+398           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setInfo(tmpInfo);
+399         \}
+400       \}
+401     \}
+402 
+403   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8088ea305a4ba9df53b6bad090655e36}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!select\+Element\+Type@{select\+Element\+Type}}
+\index{select\+Element\+Type@{select\+Element\+Type}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{select\+Element\+Type}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+select\+Element\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8088ea305a4ba9df53b6bad090655e36}
+
+
+This method , to select the element type . 
+
+If the element type is picture type, it converted to the text type else if the element type is text type, it converted to the picture type 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+595   \{
+596     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE})
+597       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE};
+598     \textcolor{keywordflow}{else}
+599       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE};
+600   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aed1bf1517f60598e90f982d837fbb4b1}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!select\+Mode@{select\+Mode}}
+\index{select\+Mode@{select\+Mode}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{select\+Mode}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+select\+Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aed1bf1517f60598e90f982d837fbb4b1}
+
+
+This method , to select the mode . 
+
+If the mode is move, it converted to the size mode else if the mode is size, it converted to the move mode 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+579   \{
+580     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE})
+581       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE};
+582     \textcolor{keywordflow}{else}
+583       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE};
+584   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6f5f4dcaf3b5aeee139ab80fb3aa30aa}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!start\+Hud\+Tool@{start\+Hud\+Tool}}
+\index{start\+Hud\+Tool@{start\+Hud\+Tool}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{start\+Hud\+Tool}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+start\+Hud\+Tool (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6f5f4dcaf3b5aeee139ab80fb3aa30aa}
+
+
+This method is executed the \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool}{Hud\+Layout\+Tool} mode at startup . 
+
+Read the path of use .png file and .text file as the element from /assets/\+Tool directory .png file is assigned to Picture element, .txt file is assigned to Bitmap\+Text element and , this element managed to Array\+List. 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+97   \{
+98     \textcolor{comment}{// path:current\_workingdir\(\backslash\)assets\(\backslash\)Tool}
+99     \textcolor{comment}{// find to file list in path }
+100     String path=System.getProperty(\textcolor{stringliteral}{"user.dir"});
+101     path+=\textcolor{stringliteral}{"\(\backslash\)\(\backslash\)assets\(\backslash\)\(\backslash\)Tool"};
+102     File dir = \textcolor{keyword}{new} File(path);
+103     File[] filelist = dir.listFiles();
+104     
+105     \textcolor{keywordflow}{for}(File file:filelist)
+106     \{
+107       \textcolor{keywordflow}{if}(file.isFile() && file.getName().endsWith(\textcolor{stringliteral}{".png"})) \{
+108         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.add(\textcolor{keyword}{new} Picture(file.getName()));
+109         BufferedImage bimg;
+110         \textcolor{keywordflow}{try} \{
+111           bimg = ImageIO.read(\textcolor{keyword}{new} File(file.getPath()));
+112           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.add(\textcolor{keyword}{new} PictureInfo(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getWidth()/2, 
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getHeight()/2,bimg.getWidth(),bimg.getHeight()));
+113         \} \textcolor{keywordflow}{catch} (IOException e) \{
+114           e.printStackTrace();
+115         \}
+116       \}
+117       \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(file.isFile() && file.getName().endsWith(\textcolor{stringliteral}{".txt"})) \{
+118         BufferedReader in;
+119         String str=\textcolor{stringliteral}{""},s;
+120         
+121         \textcolor{keywordflow}{try} \{
+122           \textcolor{comment}{// file Read}
+123           in = \textcolor{keyword}{new} BufferedReader(\textcolor{keyword}{new} FileReader(file));
+124           \textcolor{keywordflow}{while}((s=in.readLine()) !=null)
+125             str+=s+\textcolor{stringliteral}{"\(\backslash\)n"};
+126         \} \textcolor{keywordflow}{catch} (FileNotFoundException e) \{
+127           e.printStackTrace();
+128         \} \textcolor{keywordflow}{catch} (IOException e) \{
+129           e.printStackTrace();
+130         \}
+131         \textcolor{comment}{// initial part}
+132         BitmapText tmpText=\textcolor{keyword}{new} BitmapText(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}{guiFont},\textcolor{keyword}{false});
+133         tmpText.setName(file.getName());
+134         tmpText.setText(str);
+135         System.out.println(str);
+136         tmpText.setColor(ColorRGBA.White);
+137         tmpText.setSize(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}{guiFont}.getCharSet().getRenderedSize());
+138         tmpText.setLocalTranslation(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getWidth()/2, \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getHeight()/2, 
+      0);
+139 
+140         \textcolor{comment}{// add element in textlist}
+141         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.add(tmpText);
+142         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.add(\textcolor{keyword}{new} BitmapTextInfo(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getWidth()/2,
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getHeight()/2,\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}{guiFont}.getCharSet().getRenderedSize()));
+143 
+144       \}
+145 
+146     \}
+147 
+148     path=\textcolor{stringliteral}{"Tool/"};
+149     \textcolor{keywordtype}{int} i=0;
+150     \textcolor{comment}{// each element initialization}
+151     \textcolor{keywordflow}{for}(Picture tmp:\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}) \{
+152       PictureInfo info=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(i++);
+153       tmp.setImage(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getAssetManager(), path+tmp.getName(), \textcolor{keyword}{true});
+154       tmp.setHeight(info.sizeH);
+155       tmp.setWidth(info.sizeW);
+156       tmp.setPosition(info.posX,info.posY);
+157     \}
+158 
+159     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a48bdb0935f0a1b47acdd97d4ea4adab6}{hudToolActF}=\textcolor{keyword}{true};
+160   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aea6f75ea2479a569dfa99c849df7b435}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!up\+Change@{up\+Change}}
+\index{up\+Change@{up\+Change}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{up\+Change}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+up\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aea6f75ea2479a569dfa99c849df7b435}
+
+
+This method is executed when you press the up key . 
+
+If the mode is move, the element is moved only offset to the up . If the mode is size, the element is increased by offset. 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+468   \{
+469     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE}) \{
+470       PictureInfo tmp;
+471       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty()) \{
+472         tmp = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd});
+473         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE}) \{
+474           tmp.posY+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+475           \textcolor{keywordflow}{if}(tmp.posY>\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getHeight())
+476             tmp.posY=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getHeight();
+477 
+478           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setPosition(tmp.posX, tmp.posY);
+479           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setInfo(tmp);
+480         \}
+481         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE}) \{
+482           tmp.sizeH+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+483 
+484           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setHeight(tmp.sizeH);
+485           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{pictureInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}).setInfo(tmp);
+486         \}
+487       \}
+488     \}
+489     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE}) \{
+490       BitmapTextInfo tmpInfo;
+491 
+492       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty()) \{
+493         tmpInfo = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd});
+494         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE}) \{
+495           tmpInfo.posY+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+496           \textcolor{keywordflow}{if}(tmpInfo.posY>\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getHeight())
+497             tmpInfo.posY=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{sim}.getSettings().getHeight();
+498 
+499           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setLocalTranslation(tmpInfo.posX, tmpInfo.posY
+      ,0);
+500           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setInfo(tmpInfo);
+501         \}
+502         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{SIZE\_MODE}) \{
+503           tmpInfo.size+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset};
+504 
+505           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setSize(tmpInfo.size);
+506           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{textInfoList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}).setInfo(tmpInfo);
+507         \}
+508       \}
+509 
+510     \}
+511 
+512   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1206c4b2c371bbbe24cf257492826574}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!updating\+Hud\+Tool@{updating\+Hud\+Tool}}
+\index{updating\+Hud\+Tool@{updating\+Hud\+Tool}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{updating\+Hud\+Tool}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+updating\+Hud\+Tool (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1206c4b2c371bbbe24cf257492826574}
+
+
+Is a method to be executed in real time on the simulator . 
+
+It will update the mode and offset size and element type of Hud\+Tool. 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+170   \{
+171     \textcolor{keywordflow}{if}(HudLayoutTool.hudToolActF) \{
+172       \textcolor{comment}{//print move offset}
+173       String tmp =\textcolor{stringliteral}{"moveOffset: "}+String.valueOf(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset})+\textcolor{stringliteral}{"\(\backslash\)n"}+\textcolor{stringliteral}{"element Type:"};
+174       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE})
+175         tmp+=\textcolor{stringliteral}{"PICTURE"}+\textcolor{stringliteral}{"\(\backslash\)n"};
+176       \textcolor{keywordflow}{else}
+177         tmp+=\textcolor{stringliteral}{"TEXT"}+\textcolor{stringliteral}{"\(\backslash\)n"};
+178       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{hudToolMode}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{MOVE\_MODE})
+179         tmp+=\textcolor{stringliteral}{"MODE: MOVE"};
+180       \textcolor{keywordflow}{else}
+181         tmp+=\textcolor{stringliteral}{"MODE: SIZE"};
+182       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{moveOffsetText}.setText(tmp);
+183       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{moveOffsetText});
+184       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.isEmpty() && \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{PICTURE\_TYPE})
+185         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{pictureList}.get(
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{presentElementInd}));
+186       \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.isEmpty() && \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{elementType}==\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{TEXT\_TYPE})
+187         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{hudFrame}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{textList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{presentTextInd}));
+188     \}
+189   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1206c4b2c371bbbe24cf257492826574_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a949f1c99b33700f0d9cd0d7dfbc5c42c}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!up\+Move\+Offset@{up\+Move\+Offset}}
+\index{up\+Move\+Offset@{up\+Move\+Offset}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{up\+Move\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+up\+Move\+Offset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a949f1c99b33700f0d9cd0d7dfbc5c42c}
+
+
+This method increases the offset size . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+286   \{
+287     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}==1)
+288       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=5;
+289     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}==5)
+290       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=10;
+291     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}==10)
+292       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=50;
+293     \textcolor{keywordflow}{else}
+294       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{moveOffset}=100;
+295   \}
+\end{DoxyCode}
+
+
+\subsection{멤버 데이타 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!element\+Type@{element\+Type}}
+\index{element\+Type@{element\+Type}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{element\+Type}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+element\+Type ={\bf P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a15ae154367e2b7529894488ef358f004}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!gui\+Font@{gui\+Font}}
+\index{gui\+Font@{gui\+Font}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{gui\+Font}]{\setlength{\rightskip}{0pt plus 5cm}Bitmap\+Font kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+gui\+Font\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a92b0ab831e8b62aaebc0974947958349}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!hud\+Frame@{hud\+Frame}}
+\index{hud\+Frame@{hud\+Frame}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{hud\+Frame}]{\setlength{\rightskip}{0pt plus 5cm}Node kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+hud\+Frame\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1009803f31de3362f409722bb4301dc9}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a48bdb0935f0a1b47acdd97d4ea4adab6}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!hud\+Tool\+Act\+F@{hud\+Tool\+Act\+F}}
+\index{hud\+Tool\+Act\+F@{hud\+Tool\+Act\+F}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{hud\+Tool\+Act\+F}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+hud\+Tool\+Act\+F =false\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a48bdb0935f0a1b47acdd97d4ea4adab6}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!hud\+Tool\+Mode@{hud\+Tool\+Mode}}
+\index{hud\+Tool\+Mode@{hud\+Tool\+Mode}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{hud\+Tool\+Mode}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+hud\+Tool\+Mode ={\bf M\+O\+V\+E\+\_\+\+M\+O\+D\+E}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a6fb0515ee80d878c5fd737b9586772b6}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!M\+O\+V\+E\+\_\+\+M\+O\+D\+E@{M\+O\+V\+E\+\_\+\+M\+O\+D\+E}}
+\index{M\+O\+V\+E\+\_\+\+M\+O\+D\+E@{M\+O\+V\+E\+\_\+\+M\+O\+D\+E}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{M\+O\+V\+E\+\_\+\+M\+O\+D\+E}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+M\+O\+V\+E\+\_\+\+M\+O\+D\+E =10\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_aecec03baf905df4aaef15cd37abe3abd}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!move\+Offset@{move\+Offset}}
+\index{move\+Offset@{move\+Offset}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{move\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+move\+Offset = 50\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a9207f2feb57881dd1d60896e45408aa5}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!move\+Offset\+Text@{move\+Offset\+Text}}
+\index{move\+Offset\+Text@{move\+Offset\+Text}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{move\+Offset\+Text}]{\setlength{\rightskip}{0pt plus 5cm}Bitmap\+Text kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+move\+Offset\+Text\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a614db3c37174dc2724e9a30de2d6a891}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E@{P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E}}
+\index{P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E@{P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+P\+I\+C\+T\+U\+R\+E\+\_\+\+T\+Y\+P\+E =30\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a58687211a1e83d17321e0ee8fc77bd6f}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!picture\+Info\+List@{picture\+Info\+List}}
+\index{picture\+Info\+List@{picture\+Info\+List}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{picture\+Info\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$Picture\+Info$>$ kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+picture\+Info\+List =new Array\+List$<$Picture\+Info$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a8deeda5173478bb396d5eafd48eb5f6f}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!picture\+List@{picture\+List}}
+\index{picture\+List@{picture\+List}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{picture\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$Picture$>$ kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+picture\+List =new Array\+List$<$Picture$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_acbd0f26c3534561b74d5f3b75ae4d622}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!present\+Element\+Ind@{present\+Element\+Ind}}
+\index{present\+Element\+Ind@{present\+Element\+Ind}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{present\+Element\+Ind}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+present\+Element\+Ind = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a1611225d44b7a53cd3a3dcf3dc85b784}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!present\+Text\+Ind@{present\+Text\+Ind}}
+\index{present\+Text\+Ind@{present\+Text\+Ind}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{present\+Text\+Ind}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+present\+Text\+Ind =0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_ae849face952e72f68da8d09981c71c43}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!sim@{sim}}
+\index{sim@{sim}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{sim}]{\setlength{\rightskip}{0pt plus 5cm}Simulation\+Basics kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+sim\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_af06a05d18241dcbe2bc4f2c96d157ee0}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!S\+I\+Z\+E\+\_\+\+M\+O\+D\+E@{S\+I\+Z\+E\+\_\+\+M\+O\+D\+E}}
+\index{S\+I\+Z\+E\+\_\+\+M\+O\+D\+E@{S\+I\+Z\+E\+\_\+\+M\+O\+D\+E}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{S\+I\+Z\+E\+\_\+\+M\+O\+D\+E}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+S\+I\+Z\+E\+\_\+\+M\+O\+D\+E =20\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a7072db948603a28712cb20279dc44a3a}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!T\+E\+X\+T\+\_\+\+T\+Y\+P\+E@{T\+E\+X\+T\+\_\+\+T\+Y\+P\+E}}
+\index{T\+E\+X\+T\+\_\+\+T\+Y\+P\+E@{T\+E\+X\+T\+\_\+\+T\+Y\+P\+E}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{T\+E\+X\+T\+\_\+\+T\+Y\+P\+E}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+T\+E\+X\+T\+\_\+\+T\+Y\+P\+E =40\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_abbd7ff0bb5a36036d96b889922951fd9}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!text\+Info\+List@{text\+Info\+List}}
+\index{text\+Info\+List@{text\+Info\+List}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{text\+Info\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$Bitmap\+Text\+Info$>$ kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+text\+Info\+List =new Array\+List$<$Bitmap\+Text\+Info$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a028d96b28a4f07007430d9ac3d29eac9}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}{}\index{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}!text\+List@{text\+List}}
+\index{text\+List@{text\+List}!kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool@{kr\+::ac\+::kookmin\+::cs\+::tool\+::\+Hud\+Layout\+Tool}}
+\subsubsection[{text\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$Bitmap\+Text$>$ kr.\+ac.\+kookmin.\+cs.\+tool.\+Hud\+Layout\+Tool.\+text\+List =new Array\+List$<$Bitmap\+Text$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool_a494376a3549ec46802ef2de1ebf10bc1}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Karasion/git/\+Capstone2015-\/\+Purple\+Ocean/src/kr/ac/kookmin/cs/tool/\hyperlink{_hud_layout_tool_8java}{Hud\+Layout\+Tool.\+java}\end{DoxyCompactItemize}

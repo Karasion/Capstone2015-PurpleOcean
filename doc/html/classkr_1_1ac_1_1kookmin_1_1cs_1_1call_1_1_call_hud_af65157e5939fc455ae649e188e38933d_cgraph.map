@@ -1,0 +1,6 @@
+<map id="kr.ac.kookmin.cs.call.CallHud.key_act_push" name="kr.ac.kookmin.cs.call.CallHud.key_act_push">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a7fceefa2570760dde2970fe8ffd8ceae" title="kr.ac.kookmin.cs.call.Call\lListener.getCallState" alt="" coords="225,5,397,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a8b9c6d3b52e1fe1e080f265eed49f0a9" title="It send a message to reject a phone call to the mobile in this method. " alt="" coords="225,71,397,112"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#afd3322fad0409741040de7c478210218" title="This method transfers the data in the Mobile app . " alt="" coords="445,71,679,112"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data.html#ae0cad29a77ce0fd52299ff97b46b4a55" title="This method is serialize the object data to a byte array . " alt="" coords="727,71,909,112"/>
+</map>

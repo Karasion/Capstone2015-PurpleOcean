@@ -1,0 +1,297 @@
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data}{}\section{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data 클래스 참조}
+\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data}\index{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data@{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data}}
+
+
+This class is a data format to be transmitted in Bluetooth.  
+
+
+
+
+kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data에 대한 상속 다이어그램 \+: 
+% FIG 0
+
+
+kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data에 대한 협력 다이어그램\+:
+% FIG 1
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ae6593841e31077f20d0bc233b60a9a2f}{Bt\+Data} ()
+\begin{DoxyCompactList}\small\item\em This method is constructor. and It initializes the value of an instance. \end{DoxyCompactList}\item 
+\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aa0a4fd989f0eb9f6f3493a76ae23608a}{Bt\+Data} (int type)
+\begin{DoxyCompactList}\small\item\em This method is constructor. and It initializes the value of an instance as parameter. \end{DoxyCompactList}\item 
+\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a61575981c4de913ce7fd0cd4b1d136e1}{Bt\+Data} (int type, String msg, String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}{sender})
+\begin{DoxyCompactList}\small\item\em This method is constructor. and It initializes the value of an instance as parameters. \end{DoxyCompactList}\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_af5b8fc603edec5fa24ff0be71424c45b}{get\+Msg} ()
+\item 
+int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_afa5370a615b4826b88869b62a510c310}{get\+Data\+Type} ()
+\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a3d2bc06cc574507b11a4b8c8f2759bb8}{get\+Sender} ()
+\end{DoxyCompactItemize}
+\subsection*{정적 Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static byte\mbox{[}$\,$\mbox{]} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ae0cad29a77ce0fd52299ff97b46b4a55}{serialize} (Object obj)  throws I\+O\+Exception 
+\begin{DoxyCompactList}\small\item\em This method is serialize the object data to a byte array . \end{DoxyCompactList}\item 
+static Object \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aa48984d83a0347d73de8dc6ac706b5df}{deserialize} (byte\mbox{[}$\,$\mbox{]} data)  throws I\+O\+Exception, Class\+Not\+Found\+Exception 
+\begin{DoxyCompactList}\small\item\em This method is deserialize the byte array as object data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ad002da4be5c1342793210a47678c1b51}{data\+Type}
+\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aeca2f4bab917b5ccae3f7bed813fc2fb}{sms\+Msg}
+\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}{sender}
+\end{DoxyCompactItemize}
+\subsection*{정적 Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+static final long \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a45500b9737291a83a59755374046f647}{serial\+Version\+U\+I\+D} = 3459520869516421384\+L
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+This class is a data format to be transmitted in Bluetooth. 
+
+This class has the caller information and the Bluetooth data type. and bluetooth data type is Sms data or call signal data \begin{DoxyAuthor}{작성자}
+Im-\/gisung,Jo-\/\+Kwanghyeon 
+\end{DoxyAuthor}
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ae6593841e31077f20d0bc233b60a9a2f}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!Bt\+Data@{Bt\+Data}}
+\index{Bt\+Data@{Bt\+Data}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{Bt\+Data}]{\setlength{\rightskip}{0pt plus 5cm}kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+Bt\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ae6593841e31077f20d0bc233b60a9a2f}
+
+
+This method is constructor. and It initializes the value of an instance. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+42   \{
+43     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ad002da4be5c1342793210a47678c1b51}{dataType}=-1;
+44     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aeca2f4bab917b5ccae3f7bed813fc2fb}{smsMsg}=null;
+45     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}{sender}=null;
+46   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aa0a4fd989f0eb9f6f3493a76ae23608a}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!Bt\+Data@{Bt\+Data}}
+\index{Bt\+Data@{Bt\+Data}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{Bt\+Data}]{\setlength{\rightskip}{0pt plus 5cm}kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+Bt\+Data (
+\begin{DoxyParamCaption}
+\item[{int}]{type}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aa0a4fd989f0eb9f6f3493a76ae23608a}
+
+
+This method is constructor. and It initializes the value of an instance as parameter. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em type} & an integer \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+53   \{
+54     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ad002da4be5c1342793210a47678c1b51}{dataType} = type;
+55     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aeca2f4bab917b5ccae3f7bed813fc2fb}{smsMsg}=null;
+56     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}{sender}=null;
+57   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a61575981c4de913ce7fd0cd4b1d136e1}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!Bt\+Data@{Bt\+Data}}
+\index{Bt\+Data@{Bt\+Data}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{Bt\+Data}]{\setlength{\rightskip}{0pt plus 5cm}kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+Bt\+Data (
+\begin{DoxyParamCaption}
+\item[{int}]{type, }
+\item[{String}]{msg, }
+\item[{String}]{sender}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a61575981c4de913ce7fd0cd4b1d136e1}
+
+
+This method is constructor. and It initializes the value of an instance as parameters. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em type} & an integer \\
+\hline
+{\em msg} & a String object, It is message content. \\
+\hline
+{\em sender} & a String object, It is a caller information . \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+66   \{
+67     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ad002da4be5c1342793210a47678c1b51}{dataType} = type;
+68     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aeca2f4bab917b5ccae3f7bed813fc2fb}{smsMsg} = msg;
+69     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}{sender} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}{sender};
+70   \}
+\end{DoxyCode}
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aa48984d83a0347d73de8dc6ac706b5df}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!deserialize@{deserialize}}
+\index{deserialize@{deserialize}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{deserialize}]{\setlength{\rightskip}{0pt plus 5cm}static Object kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+deserialize (
+\begin{DoxyParamCaption}
+\item[{byte\mbox{[}$\,$\mbox{]}}]{data}
+\end{DoxyParamCaption}
+) throws I\+O\+Exception, Class\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aa48984d83a0347d73de8dc6ac706b5df}
+
+
+This method is deserialize the byte array as object data. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em data} & a byte Array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Object class 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{예외}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyCode}
+106                                                                                            \{
+107     ByteArrayInputStream in = \textcolor{keyword}{new} ByteArrayInputStream(data);
+108     ObjectInputStream is = \textcolor{keyword}{new} ObjectInputStream(in);
+109     \textcolor{keywordflow}{return} is.readObject();
+110   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 2
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_afa5370a615b4826b88869b62a510c310}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!get\+Data\+Type@{get\+Data\+Type}}
+\index{get\+Data\+Type@{get\+Data\+Type}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{get\+Data\+Type}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+get\+Data\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_afa5370a615b4826b88869b62a510c310}
+
+\begin{DoxyCode}
+79   \{
+80     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ad002da4be5c1342793210a47678c1b51}{dataType};
+81   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 3
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_af5b8fc603edec5fa24ff0be71424c45b}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!get\+Msg@{get\+Msg}}
+\index{get\+Msg@{get\+Msg}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{get\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+get\+Msg (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_af5b8fc603edec5fa24ff0be71424c45b}
+
+\begin{DoxyCode}
+74   \{
+75     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aeca2f4bab917b5ccae3f7bed813fc2fb}{smsMsg};
+76   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 4
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a3d2bc06cc574507b11a4b8c8f2759bb8}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!get\+Sender@{get\+Sender}}
+\index{get\+Sender@{get\+Sender}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{get\+Sender}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+get\+Sender (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a3d2bc06cc574507b11a4b8c8f2759bb8}
+
+\begin{DoxyCode}
+84   \{
+85     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}{sender};
+86   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 5
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ae0cad29a77ce0fd52299ff97b46b4a55}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!serialize@{serialize}}
+\index{serialize@{serialize}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}static byte \mbox{[}$\,$\mbox{]} kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+serialize (
+\begin{DoxyParamCaption}
+\item[{Object}]{obj}
+\end{DoxyParamCaption}
+) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ae0cad29a77ce0fd52299ff97b46b4a55}
+
+
+This method is serialize the object data to a byte array . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em obj} & an Object class \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Byte array 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{예외}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyCode}
+94                                                                 \{
+95     ByteArrayOutputStream out = \textcolor{keyword}{new} ByteArrayOutputStream();
+96     ObjectOutputStream os = \textcolor{keyword}{new} ObjectOutputStream(out);
+97     os.writeObject(obj);
+98     \textcolor{keywordflow}{return} out.toByteArray();
+99   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 6
+
+
+
+
+\subsection{멤버 데이타 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ad002da4be5c1342793210a47678c1b51}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!data\+Type@{data\+Type}}
+\index{data\+Type@{data\+Type}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{data\+Type}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+data\+Type\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ad002da4be5c1342793210a47678c1b51}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!sender@{sender}}
+\index{sender@{sender}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{sender}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+sender\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_ab940a1cb2ab153b6fce841ee88e07b0b}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a45500b9737291a83a59755374046f647}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!serial\+Version\+U\+I\+D@{serial\+Version\+U\+I\+D}}
+\index{serial\+Version\+U\+I\+D@{serial\+Version\+U\+I\+D}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{serial\+Version\+U\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}final long kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+serial\+Version\+U\+I\+D = 3459520869516421384\+L\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_a45500b9737291a83a59755374046f647}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aeca2f4bab917b5ccae3f7bed813fc2fb}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}!sms\+Msg@{sms\+Msg}}
+\index{sms\+Msg@{sms\+Msg}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Bt\+Data}}
+\subsubsection[{sms\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Bt\+Data.\+sms\+Msg\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data_aeca2f4bab917b5ccae3f7bed813fc2fb}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Karasion/git/\+Capstone2015-\/\+Purple\+Ocean/src/kr/ac/kookmin/cs/bluetooth/\hyperlink{_bt_data_8java}{Bt\+Data.\+java}\end{DoxyCompactItemize}

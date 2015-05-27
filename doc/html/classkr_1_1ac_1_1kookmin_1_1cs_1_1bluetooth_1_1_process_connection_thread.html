@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>Head-Up Display module for Driving Simulator: kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread 클래스 참조</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Head-Up Display module for Driving Simulator
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.8.9.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'검색');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="namespaces.html"><span>패키지</span></a></li>
+      <li class="current"><a href="annotated.html"><span>클래스</span></a></li>
+      <li><a href="files.html"><span>파일들</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="검색" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>클래스&#160;목록</span></a></li>
+      <li><a href="classes.html"><span>클래스&#160;색인</span></a></li>
+      <li><a href="inherits.html"><span>클래스&#160;계통도</span></a></li>
+      <li><a href="functions.html"><span>클래스&#160;멤버</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 멤버 함수</a> &#124;
+<a href="#pub-static-methods">정적 Public 멤버 함수</a> &#124;
+<a href="#pri-attribs">Private 속성</a> &#124;
+<a href="#pri-static-attribs">정적 Private 속성</a> &#124;
+<a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread-members.html">모든 멤버 목록</a>  </div>
+  <div class="headertitle">
+<div class="title">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread 클래스 참조</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>This class is process the data passed to it is communication with Bluetooth.  
+ <a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#details">더 자세히 ...</a></p>
+<div class="dynheader">
+kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread에 대한 상속 다이어그램 : </div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread__inherit__graph.png" border="0" usemap="#kr_8ac_8kookmin_8cs_8bluetooth_8_process_connection_thread_inherit__map" alt="Inheritance graph"/></div>
+</div>
+<div class="dynheader">
+kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread에 대한 협력 다이어그램:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread__coll__graph.png" border="0" usemap="#kr_8ac_8kookmin_8cs_8bluetooth_8_process_connection_thread_coll__map" alt="Collaboration graph"/></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 멤버 함수</h2></td></tr>
+<tr class="memitem:af957b60a81b2ed39d0f92e4fdfc31fc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#af957b60a81b2ed39d0f92e4fdfc31fc1">ProcessConnectionThread</a> (StreamConnection connection)</td></tr>
+<tr class="memdesc:af957b60a81b2ed39d0f92e4fdfc31fc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is constructor. and It initializes the value of an instance as parameter.  <a href="#af957b60a81b2ed39d0f92e4fdfc31fc1">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:af957b60a81b2ed39d0f92e4fdfc31fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a22c28ef62aefa7ab96d929aebf3c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ab6a22c28ef62aefa7ab96d929aebf3c2">run</a> ()</td></tr>
+<tr class="memdesc:ab6a22c28ef62aefa7ab96d929aebf3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method executes a thread for Bluetooth data processing .  <a href="#ab6a22c28ef62aefa7ab96d929aebf3c2">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:ab6a22c28ef62aefa7ab96d929aebf3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+정적 Public 멤버 함수</h2></td></tr>
+<tr class="memitem:afd3322fad0409741040de7c478210218"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#afd3322fad0409741040de7c478210218">sendData</a> (String str)</td></tr>
+<tr class="memdesc:afd3322fad0409741040de7c478210218"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method transfers the data in the Mobile app .  <a href="#afd3322fad0409741040de7c478210218">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:afd3322fad0409741040de7c478210218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 속성</h2></td></tr>
+<tr class="memitem:a3279e43af243928d3eafa90238198fc1"><td class="memItemLeft" align="right" valign="top">StreamConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a3279e43af243928d3eafa90238198fc1">mConnection</a></td></tr>
+<tr class="separator:a3279e43af243928d3eafa90238198fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+정적 Private 속성</h2></td></tr>
+<tr class="memitem:a9b1ebd6964ca0131244012f911344bc7"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a9b1ebd6964ca0131244012f911344bc7">EXIT_CMD</a> = -1</td></tr>
+<tr class="separator:a9b1ebd6964ca0131244012f911344bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4414914d0f4597985a7d5d9a393dbe8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ad4414914d0f4597985a7d5d9a393dbe8">SMS_RECV</a> = 4</td></tr>
+<tr class="separator:ad4414914d0f4597985a7d5d9a393dbe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0548e2796fc397b9e2200ece09ddaf85"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a0548e2796fc397b9e2200ece09ddaf85">CALL_RECV</a> = 5</td></tr>
+<tr class="separator:a0548e2796fc397b9e2200ece09ddaf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6652de5543b447becf5038350c347db"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#aa6652de5543b447becf5038350c347db">CALL_END</a> = 6</td></tr>
+<tr class="separator:aa6652de5543b447becf5038350c347db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac05e580f8a5d910bb6803edd7680f6ce"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ac05e580f8a5d910bb6803edd7680f6ce">CALL_ON</a> = 7</td></tr>
+<tr class="separator:ac05e580f8a5d910bb6803edd7680f6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab283f9949cd2d643769616474eecba8c"><td class="memItemLeft" align="right" valign="top">static OutputStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ab283f9949cd2d643769616474eecba8c">outputStream</a></td></tr>
+<tr class="separator:ab283f9949cd2d643769616474eecba8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
+<div class="textblock"><p>This class is process the data passed to it is communication with Bluetooth. </p>
+<p>This class is appropriate for processing in accordance with the type of <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data.html" title="This class is a data format to be transmitted in Bluetooth. ">BtData</a>. </p><dl class="section author"><dt>작성자</dt><dd>Im-gisung,Jo-KwangHyeon </dd></dl>
+</div><h2 class="groupheader">생성자 &amp; 소멸자 문서화</h2>
+<a class="anchor" id="af957b60a81b2ed39d0f92e4fdfc31fc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.ProcessConnectionThread </td>
+          <td>(</td>
+          <td class="paramtype">StreamConnection&#160;</td>
+          <td class="paramname"><em>connection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is constructor. and It initializes the value of an instance as parameter. </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connection</td><td>a StreamConnection object </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a3279e43af243928d3eafa90238198fc1">mConnection</a> = connection;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_a3279e43af243928d3eafa90238198fc1"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a3279e43af243928d3eafa90238198fc1">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.mConnection</a></div><div class="ttdeci">StreamConnection mConnection</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">멤버 함수 문서화</h2>
+<a class="anchor" id="ab6a22c28ef62aefa7ab96d929aebf3c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method executes a thread for Bluetooth data processing . </p>
+<p>It processes the btData to be transferred while infinite repeat . </p><dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nothing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                    {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      <span class="comment">// prepare to receive data</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      InputStream inputStream = <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a3279e43af243928d3eafa90238198fc1">mConnection</a>.openInputStream();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ab283f9949cd2d643769616474eecba8c">outputStream</a> = <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a3279e43af243928d3eafa90238198fc1">mConnection</a>.openOutputStream();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      byte[] temp = <span class="keyword">new</span> byte[512];</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      BtData data;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">//      System.out.println(&quot;waiting for input&quot;);</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        inputStream.read(temp);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">//        System.out.println(&quot;test&quot;);</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        data =(BtData)BtData.deserialize(temp);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">//        System.out.println(data.getDataType());</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">if</span> (data.getDataType() == <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a9b1ebd6964ca0131244012f911344bc7">EXIT_CMD</a>) {   </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;          System.out.println(<span class="stringliteral">&quot;finish process&quot;</span>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (data.getDataType() == <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ad4414914d0f4597985a7d5d9a393dbe8">SMS_RECV</a>) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">//          System.out.println(data.getMsg());</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">//          System.out.println(&quot;from &quot;+ data.getSender());</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;          SmsRecv.addMsg(data.getMsg(), data.getSender());</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (data.getDataType() == <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a0548e2796fc397b9e2200ece09ddaf85">CALL_RECV</a>) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">//          System.out.println(&quot;CALL Recv&quot;);</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">//          System.out.println(&quot;from&quot; + data.getSender());</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;          CallListener.setSender(data.getSender());</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (data.getDataType() == <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#aa6652de5543b447becf5038350c347db">CALL_END</a>) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">//          System.out.println(&quot;CALL END&quot;);</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;          CallListener.setEnd();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (data.getDataType() == <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ac05e580f8a5d910bb6803edd7680f6ce">CALL_ON</a>) {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">//          System.out.println(&quot;CALL ON&quot;);</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;          CallListener.setCallState(1);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    } <span class="keywordflow">catch</span> (Exception e) {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      e.printStackTrace();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    } </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_a9b1ebd6964ca0131244012f911344bc7"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a9b1ebd6964ca0131244012f911344bc7">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.EXIT_CMD</a></div><div class="ttdeci">static final int EXIT_CMD</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:34</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_ab283f9949cd2d643769616474eecba8c"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ab283f9949cd2d643769616474eecba8c">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.outputStream</a></div><div class="ttdeci">static OutputStream outputStream</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:40</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_a0548e2796fc397b9e2200ece09ddaf85"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a0548e2796fc397b9e2200ece09ddaf85">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.CALL_RECV</a></div><div class="ttdeci">static final int CALL_RECV</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:37</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_aa6652de5543b447becf5038350c347db"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#aa6652de5543b447becf5038350c347db">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.CALL_END</a></div><div class="ttdeci">static final int CALL_END</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:38</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_ac05e580f8a5d910bb6803edd7680f6ce"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ac05e580f8a5d910bb6803edd7680f6ce">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.CALL_ON</a></div><div class="ttdeci">static final int CALL_ON</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_a3279e43af243928d3eafa90238198fc1"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#a3279e43af243928d3eafa90238198fc1">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.mConnection</a></div><div class="ttdeci">StreamConnection mConnection</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:31</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_ad4414914d0f4597985a7d5d9a393dbe8"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ad4414914d0f4597985a7d5d9a393dbe8">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.SMS_RECV</a></div><div class="ttdeci">static final int SMS_RECV</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:36</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab6a22c28ef62aefa7ab96d929aebf3c2_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab6a22c28ef62aefa7ab96d929aebf3c2_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab6a22c28ef62aefa7ab96d929aebf3c2_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab6a22c28ef62aefa7ab96d929aebf3c2_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data.html#aa48984d83a0347d73de8dc6ac706b5df" title="This method is deserialize the byte array as object data. " alt="" coords="249,5,432,47"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data.html#afa5370a615b4826b88869b62a510c310" title="kr.ac.kookmin.cs.bluetooth.\lBtData.getDataType" alt="" coords="249,71,432,112"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv.html#a1af0ff6d2aaddfc050a6726c4311e88e" title="This method receives the information of the message , and add it to the list. " alt="" coords="249,136,432,177"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data.html#af5b8fc603edec5fa24ff0be71424c45b" title="kr.ac.kookmin.cs.bluetooth.\lBtData.getMsg" alt="" coords="249,201,432,243"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data.html#a3d2bc06cc574507b11a4b8c8f2759bb8" title="kr.ac.kookmin.cs.bluetooth.\lBtData.getSender" alt="" coords="249,267,432,308"/><area shape="rect" id="node7" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a4a5fc9ec67f36eed4c2e934875abf007" title="kr.ac.kookmin.cs.call.Call\lListener.setSender" alt="" coords="255,332,427,373"/><area shape="rect" id="node8" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a11abb308347a972e68de7eed6b569a7b" title="It wants to change to the end state of the call. " alt="" coords="255,397,427,439"/><area shape="rect" id="node9" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#aec282649d8f8b5690d1bf7c5e7e73781" title="kr.ac.kookmin.cs.call.Call\lListener.setCallState" alt="" coords="255,463,427,504"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afd3322fad0409741040de7c478210218"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.sendData </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method transfers the data in the Mobile app . </p>
+<p>This method transfers the value of the phone state to app. </p><dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>a String object, It is Call state. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                         {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      String strOnCall = <span class="stringliteral">&quot;onCall&quot;</span>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="keywordflow">if</span>(str.equals(strOnCall)) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        BtData data = <span class="keyword">new</span> BtData(5, str, <span class="stringliteral">&quot;0&quot;</span>);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">//        System.out.println(&quot;send :&quot; + str);</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ab283f9949cd2d643769616474eecba8c">outputStream</a>.write(BtData.serialize(data));</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      } <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        BtData data = <span class="keyword">new</span> BtData(6, str, <span class="stringliteral">&quot;0&quot;</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment">//        System.out.println(&quot;send :&quot; + str);</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ab283f9949cd2d643769616474eecba8c">outputStream</a>.write(BtData.serialize(data));</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    } <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      e.printStackTrace();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_html_ab283f9949cd2d643769616474eecba8c"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html#ab283f9949cd2d643769616474eecba8c">kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.outputStream</a></div><div class="ttdeci">static OutputStream outputStream</div><div class="ttdef"><b>Definition:</b> ProcessConnectionThread.java:40</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data.html#ae0cad29a77ce0fd52299ff97b46b4a55" title="This method is serialize the object data to a byte array . " alt="" coords="287,5,469,47"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_icgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_icgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_icgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_icgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a8b9c6d3b52e1fe1e080f265eed49f0a9" title="It send a message to reject a phone call to the mobile in this method. " alt="" coords="287,71,459,112"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a2fdc9350dd23a0b6a706919b2cd2c59e" title="It sends a message of receiving a phone call to the mobile in this method. " alt="" coords="287,136,459,177"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#af65157e5939fc455ae649e188e38933d" title="When you press the push button in the G&#45;HUB, it is a method to be executed . " alt="" coords="507,5,679,47"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a3ecf7e9fb474bd63454ed6ffcf1a6396" title="When you press the right button in the G&#45;HUB, it is a method to be executed . " alt="" coords="507,71,679,112"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#aec9dbfa44efd5d6ae235938dbe407c48" title="When you press the left button in the G&#45;HUB, it is a method to be executed . " alt="" coords="507,136,679,177"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">멤버 데이타 문서화</h2>
+<a class="anchor" id="aa6652de5543b447becf5038350c347db"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.CALL_END = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac05e580f8a5d910bb6803edd7680f6ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.CALL_ON = 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0548e2796fc397b9e2200ece09ddaf85"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.CALL_RECV = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9b1ebd6964ca0131244012f911344bc7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.EXIT_CMD = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3279e43af243928d3eafa90238198fc1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StreamConnection kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.mConnection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab283f9949cd2d643769616474eecba8c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OutputStream kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.outputStream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4414914d0f4597985a7d5d9a393dbe8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.SMS_RECV = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.:<ul>
+<li>C:/Users/Karasion/git/Capstone2015-PurpleOcean/src/kr/ac/kookmin/cs/bluetooth/<a class="el" href="_process_connection_thread_8java.html">ProcessConnectionThread.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacekr.html">kr</a></li><li class="navelem"><a class="el" href="namespacekr_1_1ac.html">ac</a></li><li class="navelem"><a class="el" href="namespacekr_1_1ac_1_1kookmin.html">kookmin</a></li><li class="navelem"><a class="el" href="namespacekr_1_1ac_1_1kookmin_1_1cs.html">cs</a></li><li class="navelem"><a class="el" href="namespacekr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth.html">bluetooth</a></li><li class="navelem"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread.html">ProcessConnectionThread</a></li>
+    <li class="footer">생성시간 : 수 5월 27 2015 17:48:09, 프로젝트명 : Head-Up Display module for Driving Simulator, 생성자 : 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

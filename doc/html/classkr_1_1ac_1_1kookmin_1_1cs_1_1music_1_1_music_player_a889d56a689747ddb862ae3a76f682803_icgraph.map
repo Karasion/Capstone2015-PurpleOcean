@@ -1,0 +1,13 @@
+<map id="kr.ac.kookmin.cs.music.MusicPlayer.resumeMusic" name="kr.ac.kookmin.cs.music.MusicPlayer.resumeMusic">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af7fb72f5b746c53fb4f1d55f656062cb" title="kr.ac.kookmin.cs.music.Music\lHud.resume" alt="" coords="253,5,453,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6" title="This method is an operation when the music is selected by the HUD. " alt="" coords="253,71,453,112"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a909399c619c52785970eeed2e87e1f18" title="This method , to play the next song. " alt="" coords="253,136,453,177"/>
+<area shape="rect" id="node8" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2b1956b10fac3122dcfb3f0dfc8b0be2" title="This method , to play the previous song. " alt="" coords="253,201,453,243"/>
+<area shape="rect" id="node10" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a0dd8bf2b710c07fa45a75f725786e8ca" title="This method terminates the player, to reset the flag. " alt="" coords="253,267,453,308"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a125e06fca43397e8cfb8d01bfb2e9cbd" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_push" alt="" coords="501,5,701,47"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a25828b12e137bd16732c159aff4a3da3" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_right" alt="" coords="501,71,701,112"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a79e3e5a9b9d94b7f6a090687d8690803" title="This method , to play a song to suit each state. " alt="" coords="501,136,701,177"/>
+<area shape="rect" id="node9" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a4968fce2a15ef40f69dbc5c1d163f6be" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_left" alt="" coords="501,201,701,243"/>
+<area shape="rect" id="node11" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055" title="This method , turn off the HUD music player feature or prints the music list. " alt="" coords="501,267,701,308"/>
+<area shape="rect" id="node12" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#adc751c03c17698226693034b0a84074c" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_down" alt="" coords="749,267,949,308"/>
+</map>

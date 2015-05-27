@@ -1,0 +1,5 @@
+<map id="kr.ac.kookmin.cs.hud.HUDManagement.update" name="kr.ac.kookmin.cs.hud.HUDManagement.update">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#aeb454637f977e672b79282823b6b1cde" title="Method to read the current speed value in OpendDS for HUD speed display function. ..." alt="" coords="349,5,645,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#ae4cd0a7adf3e6e05e2c515bc4ec630ac" title="Method to update the direction of navigation. " alt="" coords="349,71,645,112"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool.html#a1206c4b2c371bbbe24cf257492826574" title="Is a method to be executed in real time on the simulator . " alt="" coords="405,136,590,177"/>
+</map>

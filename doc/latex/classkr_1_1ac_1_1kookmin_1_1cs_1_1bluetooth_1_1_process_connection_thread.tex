@@ -1,0 +1,253 @@
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread}{}\section{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread 클래스 참조}
+\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread}\index{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread@{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread}}
+
+
+This class is process the data passed to it is communication with Bluetooth.  
+
+
+
+
+kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread에 대한 상속 다이어그램 \+: \nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread__inherit__graph}
+\end{center}
+\end{figure}
+
+
+kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread에 대한 협력 다이어그램\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_af957b60a81b2ed39d0f92e4fdfc31fc1}{Process\+Connection\+Thread} (Stream\+Connection connection)
+\begin{DoxyCompactList}\small\item\em This method is constructor. and It initializes the value of an instance as parameter. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab6a22c28ef62aefa7ab96d929aebf3c2}{run} ()
+\begin{DoxyCompactList}\small\item\em This method executes a thread for Bluetooth data processing . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{정적 Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218}{send\+Data} (String str)
+\begin{DoxyCompactList}\small\item\em This method transfers the data in the Mobile app . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+Stream\+Connection \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a3279e43af243928d3eafa90238198fc1}{m\+Connection}
+\end{DoxyCompactItemize}
+\subsection*{정적 Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a9b1ebd6964ca0131244012f911344bc7}{E\+X\+I\+T\+\_\+\+C\+M\+D} = -\/1
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ad4414914d0f4597985a7d5d9a393dbe8}{S\+M\+S\+\_\+\+R\+E\+C\+V} = 4
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a0548e2796fc397b9e2200ece09ddaf85}{C\+A\+L\+L\+\_\+\+R\+E\+C\+V} = 5
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_aa6652de5543b447becf5038350c347db}{C\+A\+L\+L\+\_\+\+E\+N\+D} = 6
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ac05e580f8a5d910bb6803edd7680f6ce}{C\+A\+L\+L\+\_\+\+O\+N} = 7
+\item 
+static Output\+Stream \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab283f9949cd2d643769616474eecba8c}{output\+Stream}
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+This class is process the data passed to it is communication with Bluetooth. 
+
+This class is appropriate for processing in accordance with the type of \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data}{Bt\+Data}. \begin{DoxyAuthor}{작성자}
+Im-\/gisung,Jo-\/\+Kwang\+Hyeon 
+\end{DoxyAuthor}
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_af957b60a81b2ed39d0f92e4fdfc31fc1}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!Process\+Connection\+Thread@{Process\+Connection\+Thread}}
+\index{Process\+Connection\+Thread@{Process\+Connection\+Thread}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{Process\+Connection\+Thread}]{\setlength{\rightskip}{0pt plus 5cm}kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+Process\+Connection\+Thread (
+\begin{DoxyParamCaption}
+\item[{Stream\+Connection}]{connection}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_af957b60a81b2ed39d0f92e4fdfc31fc1}
+
+
+This method is constructor. and It initializes the value of an instance as parameter. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em connection} & a Stream\+Connection object \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+48   \{
+49     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a3279e43af243928d3eafa90238198fc1}{mConnection} = connection;
+50   \}
+\end{DoxyCode}
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab6a22c28ef62aefa7ab96d929aebf3c2}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!run@{run}}
+\index{run@{run}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab6a22c28ef62aefa7ab96d929aebf3c2}
+
+
+This method executes a thread for Bluetooth data processing . 
+
+It processes the bt\+Data to be transferred while infinite repeat . 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+58                     \{
+59     \textcolor{keywordflow}{try} \{
+60       \textcolor{comment}{// prepare to receive data}
+61       InputStream inputStream = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a3279e43af243928d3eafa90238198fc1}{mConnection}.openInputStream();
+62       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab283f9949cd2d643769616474eecba8c}{outputStream} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a3279e43af243928d3eafa90238198fc1}{mConnection}.openOutputStream();
+63       byte[] temp = \textcolor{keyword}{new} byte[512];
+64       BtData data;
+65 
+66 \textcolor{comment}{//      System.out.println("waiting for input");}
+67 
+68       \textcolor{keywordflow}{while} (\textcolor{keyword}{true}) \{
+69         inputStream.read(temp);
+70 \textcolor{comment}{//        System.out.println("test");}
+71         data =(BtData)BtData.deserialize(temp);
+72 \textcolor{comment}{//        System.out.println(data.getDataType());}
+73 
+74         \textcolor{keywordflow}{if} (data.getDataType() == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a9b1ebd6964ca0131244012f911344bc7}{EXIT\_CMD}) \{   
+75           System.out.println(\textcolor{stringliteral}{"finish process"});
+76           \textcolor{keywordflow}{break};
+77         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (data.getDataType() == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ad4414914d0f4597985a7d5d9a393dbe8}{SMS\_RECV}) \{
+78 \textcolor{comment}{//          System.out.println(data.getMsg());}
+79 \textcolor{comment}{//          System.out.println("from "+ data.getSender());}
+80           SmsRecv.addMsg(data.getMsg(), data.getSender());
+81         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (data.getDataType() == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a0548e2796fc397b9e2200ece09ddaf85}{CALL\_RECV}) \{
+82 \textcolor{comment}{//          System.out.println("CALL Recv");}
+83 \textcolor{comment}{//          System.out.println("from" + data.getSender());}
+84           CallListener.setSender(data.getSender());
+85         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (data.getDataType() == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_aa6652de5543b447becf5038350c347db}{CALL\_END}) \{
+86 \textcolor{comment}{//          System.out.println("CALL END");}
+87           CallListener.setEnd();
+88         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (data.getDataType() == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ac05e580f8a5d910bb6803edd7680f6ce}{CALL\_ON}) \{
+89 \textcolor{comment}{//          System.out.println("CALL ON");}
+90           CallListener.setCallState(1);
+91         \}
+92       \}
+93     \} \textcolor{keywordflow}{catch} (Exception e) \{
+94       e.printStackTrace();
+95     \} 
+96 
+97   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab6a22c28ef62aefa7ab96d929aebf3c2_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!send\+Data@{send\+Data}}
+\index{send\+Data@{send\+Data}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{send\+Data}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+send\+Data (
+\begin{DoxyParamCaption}
+\item[{String}]{str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218}
+
+
+This method transfers the data in the Mobile app . 
+
+This method transfers the value of the phone state to app. 
+\begin{DoxyParams}{매개변수}
+{\em str} & a String object, It is Call state. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+105                                          \{
+106     \textcolor{keywordflow}{try} \{
+107       String strOnCall = \textcolor{stringliteral}{"onCall"};
+108 
+109       \textcolor{keywordflow}{if}(str.equals(strOnCall)) \{
+110         BtData data = \textcolor{keyword}{new} BtData(5, str, \textcolor{stringliteral}{"0"});
+111 \textcolor{comment}{//        System.out.println("send :" + str);}
+112         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab283f9949cd2d643769616474eecba8c}{outputStream}.write(BtData.serialize(data));
+113       \} \textcolor{keywordflow}{else}\{
+114         BtData data = \textcolor{keyword}{new} BtData(6, str, \textcolor{stringliteral}{"0"});
+115 \textcolor{comment}{//        System.out.println("send :" + str);}
+116         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab283f9949cd2d643769616474eecba8c}{outputStream}.write(BtData.serialize(data));
+117       \}
+118     \} \textcolor{keywordflow}{catch} (IOException e) \{
+119       e.printStackTrace();
+120     \}
+121   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_afd3322fad0409741040de7c478210218_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{멤버 데이타 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_aa6652de5543b447becf5038350c347db}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!C\+A\+L\+L\+\_\+\+E\+N\+D@{C\+A\+L\+L\+\_\+\+E\+N\+D}}
+\index{C\+A\+L\+L\+\_\+\+E\+N\+D@{C\+A\+L\+L\+\_\+\+E\+N\+D}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{C\+A\+L\+L\+\_\+\+E\+N\+D}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+C\+A\+L\+L\+\_\+\+E\+N\+D = 6\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_aa6652de5543b447becf5038350c347db}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ac05e580f8a5d910bb6803edd7680f6ce}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!C\+A\+L\+L\+\_\+\+O\+N@{C\+A\+L\+L\+\_\+\+O\+N}}
+\index{C\+A\+L\+L\+\_\+\+O\+N@{C\+A\+L\+L\+\_\+\+O\+N}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{C\+A\+L\+L\+\_\+\+O\+N}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+C\+A\+L\+L\+\_\+\+O\+N = 7\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ac05e580f8a5d910bb6803edd7680f6ce}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a0548e2796fc397b9e2200ece09ddaf85}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!C\+A\+L\+L\+\_\+\+R\+E\+C\+V@{C\+A\+L\+L\+\_\+\+R\+E\+C\+V}}
+\index{C\+A\+L\+L\+\_\+\+R\+E\+C\+V@{C\+A\+L\+L\+\_\+\+R\+E\+C\+V}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{C\+A\+L\+L\+\_\+\+R\+E\+C\+V}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+C\+A\+L\+L\+\_\+\+R\+E\+C\+V = 5\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a0548e2796fc397b9e2200ece09ddaf85}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a9b1ebd6964ca0131244012f911344bc7}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!E\+X\+I\+T\+\_\+\+C\+M\+D@{E\+X\+I\+T\+\_\+\+C\+M\+D}}
+\index{E\+X\+I\+T\+\_\+\+C\+M\+D@{E\+X\+I\+T\+\_\+\+C\+M\+D}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{E\+X\+I\+T\+\_\+\+C\+M\+D}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+E\+X\+I\+T\+\_\+\+C\+M\+D = -\/1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a9b1ebd6964ca0131244012f911344bc7}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a3279e43af243928d3eafa90238198fc1}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!m\+Connection@{m\+Connection}}
+\index{m\+Connection@{m\+Connection}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{m\+Connection}]{\setlength{\rightskip}{0pt plus 5cm}Stream\+Connection kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+m\+Connection\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_a3279e43af243928d3eafa90238198fc1}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab283f9949cd2d643769616474eecba8c}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!output\+Stream@{output\+Stream}}
+\index{output\+Stream@{output\+Stream}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{output\+Stream}]{\setlength{\rightskip}{0pt plus 5cm}Output\+Stream kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+output\+Stream\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ab283f9949cd2d643769616474eecba8c}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ad4414914d0f4597985a7d5d9a393dbe8}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}!S\+M\+S\+\_\+\+R\+E\+C\+V@{S\+M\+S\+\_\+\+R\+E\+C\+V}}
+\index{S\+M\+S\+\_\+\+R\+E\+C\+V@{S\+M\+S\+\_\+\+R\+E\+C\+V}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Process\+Connection\+Thread}}
+\subsubsection[{S\+M\+S\+\_\+\+R\+E\+C\+V}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Process\+Connection\+Thread.\+S\+M\+S\+\_\+\+R\+E\+C\+V = 4\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread_ad4414914d0f4597985a7d5d9a393dbe8}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Karasion/git/\+Capstone2015-\/\+Purple\+Ocean/src/kr/ac/kookmin/cs/bluetooth/\hyperlink{_process_connection_thread_8java}{Process\+Connection\+Thread.\+java}\end{DoxyCompactItemize}

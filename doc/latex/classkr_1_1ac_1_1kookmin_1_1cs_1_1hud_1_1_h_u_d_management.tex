@@ -1,0 +1,1525 @@
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management}{}\section{kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management 클래스 참조}
+\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management}\index{kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management@{kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management}}
+
+
+Class that manages the functions of the H\+U\+D panel.  
+
+
+
+
+kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management에 대한 협력 다이어그램\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{정적 Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a09bdb891071027c0834bb5e300dbd530}{init} (Simulator simulator)
+\begin{DoxyCompactList}\small\item\em Method to initialize the basic H\+U\+D element and H\+U\+D layout class element. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a0aa136c1c12cdff5b49304a0b750d3bb}{update} ()
+\begin{DoxyCompactList}\small\item\em Method to update the state of the H\+U\+D in real time. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa5add7f6fd1b0015e8b55a5e1edbd9e0}{hud\+Attach} ()
+\begin{DoxyCompactList}\small\item\em Method to add the main screen of H\+U\+D to H\+U\+D panel. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aebd2c1a29ca7f1ccc3002126f6386f9e}{hud\+Detach} ()
+\begin{DoxyCompactList}\small\item\em Method to delete H\+U\+D to H\+U\+D panel. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa3589b792b8862b3a04c58a6eb52ea23}{backup\+H\+U\+D} (int change\+State)
+\begin{DoxyCompactList}\small\item\em Method to back up the previous state of H\+U\+D. \end{DoxyCompactList}\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a946946e34bd696cf5d51c9d7bd2da38e}{restore\+H\+U\+D} ()
+\begin{DoxyCompactList}\small\item\em Method to return the state of H\+U\+D to a previous state. \end{DoxyCompactList}\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_acaf22b9e65e755c7504cf7d58b4e61c5}{is\+Camera\+Ego} ()
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab216b1d334e23a1eac3b2ba468f420da}{set\+Camera\+Ego} (boolean flag)
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aee0e46bbcf6e6db490490c48fc32498a}{key\+Flag\+Setting} ()
+\begin{DoxyCompactList}\small\item\em Method to set whether the press and hold the H\+U\+D key. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae9d4e81f2a9e51e0269f80d6c0b192ff}{set\+Navi\+Type} (String navi\+Type, String distance)
+\begin{DoxyCompactList}\small\item\em Method for setting the direction of navigation and the rest of the distance . \end{DoxyCompactList}\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae13f71ba28cbace432c6991b05e3389b}{get\+Key\+Flag} ()
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae53c044c1e3f19918e4594266629f4cf}{get\+State} ()
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a03e741a1bf315bb7cccc881479731038}{left\+Move\+Cursor} ()
+\begin{DoxyCompactList}\small\item\em Method to move the cursor of H\+U\+D menu on the left. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abaa831b57d11f6e159917476881112e1}{right\+Move\+Cursor} ()
+\begin{DoxyCompactList}\small\item\em Method to move the cursor of H\+U\+D menu on the right. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a454c18c087d019b055fda4a631720819}{select\+Menu} ()
+\begin{DoxyCompactList}\small\item\em Method to run the registered function in H\+U\+D menu. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af46086e2dbfc7fe58b45bc5d98fe08d8}{escape\+Menu} ()
+\begin{DoxyCompactList}\small\item\em Method to get out from the menu function running. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f}{disable\+Menu} (int state)
+\begin{DoxyCompactList}\small\item\em This Method is to disable the menu icon. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2d3e988e5636714778382ba504e00c6e}{enable\+Menu} ()
+\begin{DoxyCompactList}\small\item\em This Method is to enable the menu icon. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a57652e0e587a00547e4664e13e87453d}{attach} (Node sub\+Gui)
+\begin{DoxyCompactList}\small\item\em The Method is the ability to attach the H\+U\+D layout to the panel . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa447140a88b6a509cf0c88518972ceb6}{detach} (Node sub\+Gui)
+\begin{DoxyCompactList}\small\item\em The Method is the ability to detach the H\+U\+D layout to the panel . \end{DoxyCompactList}\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a7b83ede582afefb75bfe90ed3c8fd688}{regist} (\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template}{H\+U\+D\+Class\+Template} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud})
+\begin{DoxyCompactList}\small\item\em The Method is a function of registering the H\+U\+D layout class to \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management}{H\+U\+D\+Management}. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af8454651113100e20b4134f4bae1ea8e}{set\+Menu\+Icon} (Picture pic\+\_\+en, Picture pic\+\_\+dis, int state)
+\begin{DoxyCompactList}\small\item\em The Method is a function of add the icon of H\+U\+D menu bar. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae06e3a800da57cd4d85308ea6252617b}{left\+Key\+Act} ()
+\begin{DoxyCompactList}\small\item\em This method is to map the action of the key. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aace7213b80851272394174ac9dc20f54}{right\+Key\+Act} ()
+\begin{DoxyCompactList}\small\item\em This method is to map the action of the key. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a02236b52bb21cdc0b8d2408463c0a879}{up\+Key\+Act} ()
+\begin{DoxyCompactList}\small\item\em This method is to map the action of the key. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac1f57a7a1a845c100ef9f0edaa9167fe}{down\+Key\+Act} ()
+\begin{DoxyCompactList}\small\item\em This method is to map the action of the key. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af416f945909ff83db9206403417e93c6}{push\+Key\+Act} ()
+\begin{DoxyCompactList}\small\item\em This method is to map the action of the key. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{정적 Public 속성}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{N\+O\+N\+\_\+\+S\+T\+A\+T\+E} = -\/1
+\end{DoxyCompactItemize}
+\subsection*{정적 Private 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae556ec9b1e304f6b7ac343d19186b31e}{hud\+Menu\+Init} ()
+\begin{DoxyCompactList}\small\item\em Method to set the position of the H\+U\+D menu icon. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aeb454637f977e672b79282823b6b1cde}{update\+Current\+Speed\+Text} (Car car)
+\begin{DoxyCompactList}\small\item\em Method to read the current speed value in Opend\+D\+S for H\+U\+D speed display function. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae4cd0a7adf3e6e05e2c515bc4ec630ac}{update\+Navigator\+Sign} ()
+\begin{DoxyCompactList}\small\item\em Method to update the direction of navigation. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a17e1d7f91f4334de06399c149d455781}{default\+Function\+Attach} ()
+\begin{DoxyCompactList}\small\item\em Method to add a H\+U\+D basic functions in H\+U\+D panel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{정적 Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+static Simulation\+Basics \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae9746ce389f6ae79a1f245943631e8af}{ego\+Flag} = false
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac411b7fde47d1bec2bd043b2f2df51e8}{key\+On} =false
+\item 
+static Node \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af523238fd17953e526bc0d81a4057ebc}{node\+Gui}
+\item 
+static Node \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}
+\item 
+static Node \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hud\+Menu}
+\item 
+static Bitmap\+Text \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{current\+Speed\+Text}
+\item 
+static Bitmap\+Text \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{distance\+Text}
+\item 
+static Picture \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigator\+Sign}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{current\+State} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{N\+O\+N\+\_\+\+S\+T\+A\+T\+E}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac951218e3771940c9b4555f3ac830d7f}{state\+Num} = 0
+\item 
+static Array\+List$<$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template}{H\+U\+D\+Class\+Template} $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hud\+List} = new Array\+List$<$\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template}{H\+U\+D\+Class\+Template}$>$()
+\item 
+static int\mbox{[}$\,$\mbox{]} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2e980ba0f951c11c7b41190197f138fb}{backup\+State} = new int\mbox{[}10\mbox{]}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4d8dcd83fa46fb810848d39518bd2a89}{backup\+Cnt} = 0
+\item 
+static int\mbox{[}$\,$\mbox{]} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}{menu\+State} = new int\mbox{[}5\mbox{]}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}
+\item 
+static int\mbox{[}$\,$\mbox{]} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubar\+Pos\+X} = new int\mbox{[}5\mbox{]}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a642380be5c9dd050a5678665b2c2e2fa}{menubar\+Pos\+Y}
+\item 
+static int\mbox{[}$\,$\mbox{]} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursor\+Pos\+X} = new int\mbox{[}5\mbox{]}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1bc74f45485b6a429e54e8be6a66b6b1}{cursor\+Pos\+Y}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menu\+Start\+Index}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menu\+End\+Index}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menu\+Num} = 0
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursor\+Pos} = 0
+\item 
+static Picture\mbox{[}$\,$\mbox{]} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{pic\+Arry\+Menu\+En} = new Picture\mbox{[}5\mbox{]}
+\item 
+static Picture\mbox{[}$\,$\mbox{]} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{pic\+Arry\+Menu\+Dis} = new Picture\mbox{[}5\mbox{]}
+\item 
+static Picture \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursor\+Icon}
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aea6d53b87b47693e0d365f8cd6fba75f}{M\+E\+N\+U\+\_\+\+A\+L\+L} = -\/1
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3945824c1d285a532b81075debe3a8cf}{M\+E\+N\+U\+\_\+\+P\+O\+S1} = 0
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2543a9a44db444550bd334d354616928}{M\+E\+N\+U\+\_\+\+P\+O\+S2} = 1
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{M\+E\+N\+U\+\_\+\+P\+O\+S3} = 2
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6cae012a8c111a62d031ec590afe56bb}{M\+E\+N\+U\+\_\+\+P\+O\+S4} = 3
+\item 
+static final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abfc1e4fd6ea23ecf49abfb86d47af051}{M\+E\+N\+U\+\_\+\+P\+O\+S5} = 4
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+Class that manages the functions of the H\+U\+D panel. 
+
+This class manages the functions by state separately divided , it serves to provide an A\+P\+I related functions to be used externally \begin{DoxyAuthor}{작성자}
+Jo-\/kwanghyeon, Im-\/gisung 
+\end{DoxyAuthor}
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a57652e0e587a00547e4664e13e87453d}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!attach@{attach}}
+\index{attach@{attach}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{attach}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+attach (
+\begin{DoxyParamCaption}
+\item[{Node}]{sub\+Gui}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a57652e0e587a00547e4664e13e87453d}
+
+
+The Method is the ability to attach the H\+U\+D layout to the panel . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Node} & argument sub\+Gui \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+616   \{
+617     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.attachChild(subGui);
+618   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a57652e0e587a00547e4664e13e87453d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa3589b792b8862b3a04c58a6eb52ea23}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!backup\+H\+U\+D@{backup\+H\+U\+D}}
+\index{backup\+H\+U\+D@{backup\+H\+U\+D}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{backup\+H\+U\+D}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+backup\+H\+U\+D (
+\begin{DoxyParamCaption}
+\item[{int}]{change\+State}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa3589b792b8862b3a04c58a6eb52ea23}
+
+
+Method to back up the previous state of H\+U\+D. 
+
+Back up the previous state of the H\+U\+D, it is changed to a state that is input. 
+\begin{DoxyParams}{매개변수}
+{\em chage\+State} & a integer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+341   \{
+342     \textcolor{comment}{//System.out.println("backup : " + currentState);}
+343     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} != \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{NON\_STATE})\{
+344       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).pause();
+345       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).detach();
+346     \}
+347     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2e980ba0f951c11c7b41190197f138fb}{backupState}[\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4d8dcd83fa46fb810848d39518bd2a89}{backupCnt}++] = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState};
+348     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} = changeState;             
+349   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa3589b792b8862b3a04c58a6eb52ea23_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a17e1d7f91f4334de06399c149d455781}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!default\+Function\+Attach@{default\+Function\+Attach}}
+\index{default\+Function\+Attach@{default\+Function\+Attach}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{default\+Function\+Attach}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+default\+Function\+Attach (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a17e1d7f91f4334de06399c149d455781}
+
+
+Method to add a H\+U\+D basic functions in H\+U\+D panel. 
+
+The speed display and navigation function is a H\+U\+D basic functions using the attach\+Child () method and add it to the H\+U\+D panel . 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+300   \{
+301     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{distanceText});
+302     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{currentSpeedText});
+303     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign});
+304   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a17e1d7f91f4334de06399c149d455781_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa447140a88b6a509cf0c88518972ceb6}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!detach@{detach}}
+\index{detach@{detach}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{detach}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+detach (
+\begin{DoxyParamCaption}
+\item[{Node}]{sub\+Gui}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa447140a88b6a509cf0c88518972ceb6}
+
+
+The Method is the ability to detach the H\+U\+D layout to the panel . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Node} & argument sub\+Gui \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+626   \{
+627     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.detachChild(subGui);
+628   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa447140a88b6a509cf0c88518972ceb6_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!disable\+Menu@{disable\+Menu}}
+\index{disable\+Menu@{disable\+Menu}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{disable\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+disable\+Menu (
+\begin{DoxyParamCaption}
+\item[{int}]{state}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f}
+
+
+This Method is to disable the menu icon. 
+
+This Method is to disable the menu icon without input state. 
+\begin{DoxyParams}{매개변수}
+{\em Integer} & argument state \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+541   \{
+542     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.detachAllChildren();
+543     \textcolor{keywordflow}{switch}(state)
+544     \{
+545       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aea6d53b87b47693e0d365f8cd6fba75f}{MENU\_ALL}:
+546         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}; i++)\{
+547           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{picArryMenuDis}[i]);
+548         \}
+549         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.detachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon});
+550         \textcolor{keywordflow}{break};
+551       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3945824c1d285a532b81075debe3a8cf}{MENU\_POS1}:
+552         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}; i++)\{
+553           \textcolor{keywordflow}{if}(i == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3945824c1d285a532b81075debe3a8cf}{MENU\_POS1})
+554             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[i]);
+555           \textcolor{keywordflow}{else}
+556             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{picArryMenuDis}[i]);
+557         \}
+558         \textcolor{keywordflow}{break};
+559       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2543a9a44db444550bd334d354616928}{MENU\_POS2}:
+560         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}; i++)\{
+561           \textcolor{keywordflow}{if}(i == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2543a9a44db444550bd334d354616928}{MENU\_POS2})
+562             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[i]);
+563           \textcolor{keywordflow}{else}
+564             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{picArryMenuDis}[i]);
+565         \}
+566         \textcolor{keywordflow}{break};
+567       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{MENU\_POS3}:
+568         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}; i++)\{
+569           \textcolor{keywordflow}{if}(i == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{MENU\_POS3})
+570             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[i]);
+571           \textcolor{keywordflow}{else}
+572             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{picArryMenuDis}[i]);
+573         \}
+574         \textcolor{keywordflow}{break};
+575       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6cae012a8c111a62d031ec590afe56bb}{MENU\_POS4}:
+576         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}; i++)\{
+577           \textcolor{keywordflow}{if}(i == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6cae012a8c111a62d031ec590afe56bb}{MENU\_POS4})
+578             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[i]);
+579           \textcolor{keywordflow}{else}
+580             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{picArryMenuDis}[i]);
+581         \}
+582         \textcolor{keywordflow}{break};
+583       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abfc1e4fd6ea23ecf49abfb86d47af051}{MENU\_POS5}:
+584         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}; i++)\{
+585           \textcolor{keywordflow}{if}(i == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abfc1e4fd6ea23ecf49abfb86d47af051}{MENU\_POS5})
+586             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[i]);
+587           \textcolor{keywordflow}{else}
+588             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{picArryMenuDis}[i]);
+589         \}
+590         \textcolor{keywordflow}{break};
+591     \}
+592   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac1f57a7a1a845c100ef9f0edaa9167fe}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!down\+Key\+Act@{down\+Key\+Act}}
+\index{down\+Key\+Act@{down\+Key\+Act}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{down\+Key\+Act}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+down\+Key\+Act (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac1f57a7a1a845c100ef9f0edaa9167fe}
+
+
+This method is to map the action of the key. 
+
+It will handle the action at the time of down key input. In the keyboard , it is z key 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+691                                  \{
+692     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).key\_act\_down();
+693   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2d3e988e5636714778382ba504e00c6e}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!enable\+Menu@{enable\+Menu}}
+\index{enable\+Menu@{enable\+Menu}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{enable\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+enable\+Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2d3e988e5636714778382ba504e00c6e}
+
+
+This Method is to enable the menu icon. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+601   \{
+602     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.detachAllChildren();
+603     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}; i++)\{
+604       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[i]);
+605     \}
+606     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon});
+607   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2d3e988e5636714778382ba504e00c6e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af46086e2dbfc7fe58b45bc5d98fe08d8}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!escape\+Menu@{escape\+Menu}}
+\index{escape\+Menu@{escape\+Menu}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{escape\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+escape\+Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af46086e2dbfc7fe58b45bc5d98fe08d8}
+
+
+Method to get out from the menu function running. 
+
+This method is to remove the H\+U\+D layout and change the state to nonstate. 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+506   \{
+507     \textcolor{keywordflow}{switch}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos} - \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex})
+508     \{
+509       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3945824c1d285a532b81075debe3a8cf}{MENU\_POS1}:
+510         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).detach();
+511         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{NON\_STATE};
+512         \textcolor{keywordflow}{break};
+513       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2543a9a44db444550bd334d354616928}{MENU\_POS2}:
+514         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).detach();
+515         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{NON\_STATE};
+516         \textcolor{keywordflow}{break};
+517       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{MENU\_POS3}:
+518         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).detach();
+519         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{NON\_STATE};
+520         \textcolor{keywordflow}{break};
+521       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6cae012a8c111a62d031ec590afe56bb}{MENU\_POS4}:
+522         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).detach();
+523         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{NON\_STATE};
+524         \textcolor{keywordflow}{break};
+525       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abfc1e4fd6ea23ecf49abfb86d47af051}{MENU\_POS5}:
+526         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).detach();
+527         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{NON\_STATE};
+528         \textcolor{keywordflow}{break};
+529     \}
+530     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2d3e988e5636714778382ba504e00c6e}{enableMenu}(); 
+531   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af46086e2dbfc7fe58b45bc5d98fe08d8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af46086e2dbfc7fe58b45bc5d98fe08d8_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae13f71ba28cbace432c6991b05e3389b}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!get\+Key\+Flag@{get\+Key\+Flag}}
+\index{get\+Key\+Flag@{get\+Key\+Flag}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{get\+Key\+Flag}]{\setlength{\rightskip}{0pt plus 5cm}static boolean kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+get\+Key\+Flag (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae13f71ba28cbace432c6991b05e3389b}
+
+\begin{DoxyCode}
+418   \{
+419     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac411b7fde47d1bec2bd043b2f2df51e8}{keyOn};
+420   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae13f71ba28cbace432c6991b05e3389b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae53c044c1e3f19918e4594266629f4cf}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!get\+State@{get\+State}}
+\index{get\+State@{get\+State}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{get\+State}]{\setlength{\rightskip}{0pt plus 5cm}static int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+get\+State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae53c044c1e3f19918e4594266629f4cf}
+
+\begin{DoxyCode}
+423   \{
+424     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState};
+425   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae53c044c1e3f19918e4594266629f4cf_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa5add7f6fd1b0015e8b55a5e1edbd9e0}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!hud\+Attach@{hud\+Attach}}
+\index{hud\+Attach@{hud\+Attach}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{hud\+Attach}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+hud\+Attach (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa5add7f6fd1b0015e8b55a5e1edbd9e0}
+
+
+Method to add the main screen of H\+U\+D to H\+U\+D panel. 
+
+It\textquotesingle{}ll add the H\+U\+D background color and menu using the attach\+Child () method. 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+313   \{
+314     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.attachChild(backGround);
+315     \textcolor{comment}{/* menubar attach */}
+316     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu});
+317     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon});
+318 
+319     \textcolor{comment}{/* function attach */}
+320     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a17e1d7f91f4334de06399c149d455781}{defaultFunctionAttach}();
+321   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa5add7f6fd1b0015e8b55a5e1edbd9e0_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aebd2c1a29ca7f1ccc3002126f6386f9e}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!hud\+Detach@{hud\+Detach}}
+\index{hud\+Detach@{hud\+Detach}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{hud\+Detach}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+hud\+Detach (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aebd2c1a29ca7f1ccc3002126f6386f9e}
+
+
+Method to delete H\+U\+D to H\+U\+D panel. 
+
+It\textquotesingle{}ll delete all H\+U\+D Layout using the detach\+All\+Children () method. 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+330   \{
+331     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud}.detachAllChildren();
+332   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae556ec9b1e304f6b7ac343d19186b31e}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!hud\+Menu\+Init@{hud\+Menu\+Init}}
+\index{hud\+Menu\+Init@{hud\+Menu\+Init}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{hud\+Menu\+Init}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+hud\+Menu\+Init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae556ec9b1e304f6b7ac343d19186b31e}
+
+
+Method to set the position of the H\+U\+D menu icon. 
+
+Position array for icon determines the total number of icons . And the index of the array of position (menu\+Start\+Index, menu\+End\+Index) also set . 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+160                                     \{
+161     \textcolor{keywordtype}{int} j=0;
+162     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu} = \textcolor{keyword}{new} Node(\textcolor{stringliteral}{"menuGui"});
+163     \textcolor{comment}{//setting position index}
+164     \textcolor{keywordflow}{switch} (\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum})\{
+165       \textcolor{keywordflow}{case} 1:
+166         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex}=2;
+167         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menuEndIndex}=2;
+168         \textcolor{keywordflow}{break};
+169       \textcolor{keywordflow}{case} 2:
+170         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex}=1;
+171         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menuEndIndex}=2;
+172         \textcolor{keywordflow}{break};
+173       \textcolor{keywordflow}{case} 3:
+174         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex}=1;
+175         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menuEndIndex}=3;
+176         \textcolor{keywordflow}{break};
+177       \textcolor{keywordflow}{case} 4:
+178         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex}=0;
+179         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menuEndIndex}=3;
+180         \textcolor{keywordflow}{break};
+181       \textcolor{keywordflow}{case} 5:
+182         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex}=0;
+183         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menuEndIndex}=4;
+184         \textcolor{keywordflow}{break};
+185     \}
+186 
+187     \textcolor{comment}{// setting position value }
+188     \textcolor{comment}{/* menubar position setting */}
+189     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}%2 == 1)\{
+190       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[0]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-300;
+191       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[1]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-230;
+192       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[2]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-160;
+193       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[3]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-90;
+194       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[4]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-20;
+195     \}\textcolor{keywordflow}{else}\{
+196       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[0]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-265;
+197       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[1]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-195;
+198       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[2]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-125;
+199       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[3]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-75;
+200       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[4]=0;
+201     \}
+202     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a642380be5c9dd050a5678665b2c2e2fa}{menubarPosY}=y-280;
+203 
+204     \textcolor{comment}{/* cursor position setting */}
+205     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursorPosX}[0]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[0]-5;
+206     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursorPosX}[1]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[1]-5;
+207     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursorPosX}[2]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[2]-5;
+208     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursorPosX}[3]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[3]-5;
+209     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursorPosX}[4]=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[4]-5;
+210     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1bc74f45485b6a429e54e8be6a66b6b1}{cursorPosY}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a642380be5c9dd050a5678665b2c2e2fa}{menubarPosY};
+211 
+212     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex}; i <= \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menuEndIndex}; i++)\{
+213       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[j].setPosition(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[i], 
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a642380be5c9dd050a5678665b2c2e2fa}{menubarPosY});
+214       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{picArryMenuDis}[j++].setPosition(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{menubarPosX}[i], 
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a642380be5c9dd050a5678665b2c2e2fa}{menubarPosY});
+215     \}
+216 
+217     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}; i++)\{
+218       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{hudMenu}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[i]);
+219     \}
+220 
+221     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon} = \textcolor{keyword}{new} Picture(\textcolor{stringliteral}{"cursorIcon"});
+222     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon}.setImage(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getAssetManager(),\textcolor{stringliteral}{"Textures/icons/menubar/menubar\_arrow.png"},\textcolor{keyword}{true})
+      ;
+223     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon}.setWidth(90);
+224     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon}.setHeight(15);
+225     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon}.setPosition(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursorPosX}[\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex}], 
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1bc74f45485b6a429e54e8be6a66b6b1}{cursorPosY});
+226 
+227     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex};      
+228   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae556ec9b1e304f6b7ac343d19186b31e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a09bdb891071027c0834bb5e300dbd530}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!init@{init}}
+\index{init@{init}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+init (
+\begin{DoxyParamCaption}
+\item[{Simulator}]{simulator}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a09bdb891071027c0834bb5e300dbd530}
+
+
+Method to initialize the basic H\+U\+D element and H\+U\+D layout class element. 
+
+Call init () function of the H\+U\+D Layout Class registered at \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_register}{H\+U\+D\+Register}, initializes the element, and sets the position of the menu icons . 
+\begin{DoxyParams}{매개변수}
+{\em simulator} & a Simulator \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+105   \{
+106     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim} = simulator;
+107 
+108     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af523238fd17953e526bc0d81a4057ebc}{nodeGui} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getGuiNode();
+109     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud} = \textcolor{keyword}{new} Node(\textcolor{stringliteral}{"HUD"});
+110 
+111     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af523238fd17953e526bc0d81a4057ebc}{nodeGui}.attachChild(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud});
+112     
+113     \textcolor{comment}{//get font}
+114     BitmapFont ko\_Font = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getAssetManager().loadFont(\textcolor{stringliteral}{"Interface/Fonts/MSNeoGothic/MSNeoGothic.fnt"});
+115 
+116     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getSettings().getWidth()/2;
+117     y=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getSettings().getHeight()/2-200;
+118 
+119     \textcolor{comment}{// setting part for default function element        }
+120     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{currentSpeedText} = \textcolor{keyword}{new} BitmapText(ko\_Font,\textcolor{keyword}{false});
+121     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{currentSpeedText}.setName(\textcolor{stringliteral}{"currentSpeedText"});
+122     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{currentSpeedText}.setText(\textcolor{stringliteral}{""});
+123     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{currentSpeedText}.setSize(ko\_Font.getCharSet().getRenderedSize()+10);
+124     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{currentSpeedText}.setColor(ColorRGBA.White);
+125     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{currentSpeedText}.setLocalTranslation(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}+170,y-170,0);
+126 
+127     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{distanceText} = \textcolor{keyword}{new} BitmapText(ko\_Font,\textcolor{keyword}{false});
+128     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{distanceText}.setText(null);
+129     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{distanceText}.setSize(ko\_Font.getCharSet().getRenderedSize()+20);
+130     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{distanceText}.setColor(ColorRGBA.White);
+131     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{distanceText}.setLocalTranslation(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}+50,y-100,0);
+132 
+133     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign} = \textcolor{keyword}{new} Picture(\textcolor{stringliteral}{"straight"});
+134     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setWidth(52);
+135     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setHeight(101);
+136     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setPosition(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}+170, y-150);
+137 
+138     backGround = \textcolor{keyword}{new} Picture(\textcolor{stringliteral}{"bg"});
+139     backGround.setWidth(841);
+140     backGround.setHeight(338);
+141     backGround.setPosition(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{x}-380, y-310);
+142     backGround.setImage(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getAssetManager(), \textcolor{stringliteral}{"Textures/icons/panel/panel.png"}, \textcolor{keyword}{true});
+143 
+144     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac951218e3771940c9b4555f3ac830d7f}{stateNum}; i++)\{
+145       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(i).init(simulator);
+146     \}
+147 
+148     \textcolor{comment}{//set menu icons position by number of menu icons}
+149     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae556ec9b1e304f6b7ac343d19186b31e}{hudMenuInit}();       
+150     HudLayoutTool.init(simulator);
+151   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a09bdb891071027c0834bb5e300dbd530_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_acaf22b9e65e755c7504cf7d58b4e61c5}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!is\+Camera\+Ego@{is\+Camera\+Ego}}
+\index{is\+Camera\+Ego@{is\+Camera\+Ego}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{is\+Camera\+Ego}]{\setlength{\rightskip}{0pt plus 5cm}static boolean kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+is\+Camera\+Ego (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_acaf22b9e65e755c7504cf7d58b4e61c5}
+
+\begin{DoxyCode}
+373   \{
+374     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae9746ce389f6ae79a1f245943631e8af}{egoFlag};
+375   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aee0e46bbcf6e6db490490c48fc32498a}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!key\+Flag\+Setting@{key\+Flag\+Setting}}
+\index{key\+Flag\+Setting@{key\+Flag\+Setting}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{key\+Flag\+Setting}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+key\+Flag\+Setting (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aee0e46bbcf6e6db490490c48fc32498a}
+
+
+Method to set whether the press and hold the H\+U\+D key. 
+
+If the state of the H\+U\+D keys on, is changed to off. If the state of the H\+U\+D keys off, is changed to on. 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+391   \{
+392     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac411b7fde47d1bec2bd043b2f2df51e8}{keyOn})
+393       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac411b7fde47d1bec2bd043b2f2df51e8}{keyOn}=\textcolor{keyword}{false};
+394     \textcolor{keywordflow}{else}
+395       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac411b7fde47d1bec2bd043b2f2df51e8}{keyOn}=\textcolor{keyword}{true};
+396   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae06e3a800da57cd4d85308ea6252617b}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!left\+Key\+Act@{left\+Key\+Act}}
+\index{left\+Key\+Act@{left\+Key\+Act}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{left\+Key\+Act}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+left\+Key\+Act (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae06e3a800da57cd4d85308ea6252617b}
+
+
+This method is to map the action of the key. 
+
+It will handle the action at the time of right key input. In the keyboard , it is F2 key 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+661                                  \{
+662     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).key\_act\_left();
+663   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a03e741a1bf315bb7cccc881479731038}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!left\+Move\+Cursor@{left\+Move\+Cursor}}
+\index{left\+Move\+Cursor@{left\+Move\+Cursor}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{left\+Move\+Cursor}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+left\+Move\+Cursor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a03e741a1bf315bb7cccc881479731038}
+
+
+Method to move the cursor of H\+U\+D menu on the left. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+435   \{
+436     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos}--;
+437     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos} < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex})
+438       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menuEndIndex};
+439 
+440     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon}.setPosition(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursorPosX}[\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos}], 
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1bc74f45485b6a429e54e8be6a66b6b1}{cursorPosY});
+441   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af416f945909ff83db9206403417e93c6}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!push\+Key\+Act@{push\+Key\+Act}}
+\index{push\+Key\+Act@{push\+Key\+Act}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{push\+Key\+Act}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+push\+Key\+Act (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af416f945909ff83db9206403417e93c6}
+
+
+This method is to map the action of the key. 
+
+It will handle the action at the time of push key input. In the keyboard , it is n key 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+701                                  \{
+702     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).key\_act\_push();
+703   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a7b83ede582afefb75bfe90ed3c8fd688}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!regist@{regist}}
+\index{regist@{regist}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{regist}]{\setlength{\rightskip}{0pt plus 5cm}static int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+regist (
+\begin{DoxyParamCaption}
+\item[{{\bf H\+U\+D\+Class\+Template}}]{hud}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a7b83ede582afefb75bfe90ed3c8fd688}
+
+
+The Method is a function of registering the H\+U\+D layout class to \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management}{H\+U\+D\+Management}. 
+
+Now this method is included in the execution flow , and must be used \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_register}{H\+U\+D\+Register}. 
+\begin{DoxyParams}{매개변수}
+{\em \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template}{H\+U\+D\+Class\+Template}} & argument hud \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Integer state\+Num(\+State number of H\+U\+D layout class) 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+636                                                  \{
+637     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.add(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{hud});
+638     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac951218e3771940c9b4555f3ac830d7f}{stateNum}++;
+639   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a7b83ede582afefb75bfe90ed3c8fd688_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a946946e34bd696cf5d51c9d7bd2da38e}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!restore\+H\+U\+D@{restore\+H\+U\+D}}
+\index{restore\+H\+U\+D@{restore\+H\+U\+D}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{restore\+H\+U\+D}]{\setlength{\rightskip}{0pt plus 5cm}static int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+restore\+H\+U\+D (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a946946e34bd696cf5d51c9d7bd2da38e}
+
+
+Method to return the state of H\+U\+D to a previous state. 
+
+To restore the state of H\+U\+D to a previous state, call the resume () at this time H\+U\+D Layout Class. 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Returns 1 if successful , returns -\/1 if failed 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+358                                 \{
+359     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4d8dcd83fa46fb810848d39518bd2a89}{backupCnt} > 0)\{
+360       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).detach();
+361       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2e980ba0f951c11c7b41190197f138fb}{backupState}[--\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4d8dcd83fa46fb810848d39518bd2a89}{backupCnt}];
+362       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} != \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{NON\_STATE})\{
+363         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).resume();
+364         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).attach();
+365       \}
+366       \textcolor{keywordflow}{return} 1;
+367     \}
+368     \textcolor{keywordflow}{else}
+369       \textcolor{keywordflow}{return} -1;
+370   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a946946e34bd696cf5d51c9d7bd2da38e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aace7213b80851272394174ac9dc20f54}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!right\+Key\+Act@{right\+Key\+Act}}
+\index{right\+Key\+Act@{right\+Key\+Act}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{right\+Key\+Act}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+right\+Key\+Act (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aace7213b80851272394174ac9dc20f54}
+
+
+This method is to map the action of the key. 
+
+It will handle the action at the time of left key input. In the keyboard , it is F3 key 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+671                                   \{
+672     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).key\_act\_right();
+673   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abaa831b57d11f6e159917476881112e1}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!right\+Move\+Cursor@{right\+Move\+Cursor}}
+\index{right\+Move\+Cursor@{right\+Move\+Cursor}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{right\+Move\+Cursor}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+right\+Move\+Cursor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abaa831b57d11f6e159917476881112e1}
+
+
+Method to move the cursor of H\+U\+D menu on the right. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+450   \{
+451     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos}++;
+452     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos} > \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{menuEndIndex})
+453       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex};
+454 
+455     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{cursorIcon}.setPosition(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{cursorPosX}[\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos}], 
+      \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1bc74f45485b6a429e54e8be6a66b6b1}{cursorPosY});
+456   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a454c18c087d019b055fda4a631720819}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!select\+Menu@{select\+Menu}}
+\index{select\+Menu@{select\+Menu}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{select\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+select\+Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a454c18c087d019b055fda4a631720819}
+
+
+Method to run the registered function in H\+U\+D menu. 
+
+Run the selected function , to disable other menu icon. 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+467   \{
+468     \textcolor{keywordflow}{switch}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{cursorPos} - \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{menuStartIndex})
+469     \{
+470       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3945824c1d285a532b81075debe3a8cf}{MENU\_POS1}:
+471         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}{menuState}[0];
+472         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).attach();
+473         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f}{disableMenu}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3945824c1d285a532b81075debe3a8cf}{MENU\_POS1});
+474         \textcolor{keywordflow}{break};
+475       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2543a9a44db444550bd334d354616928}{MENU\_POS2}:
+476         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}{menuState}[1];
+477         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).attach();
+478         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f}{disableMenu}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2543a9a44db444550bd334d354616928}{MENU\_POS2});
+479         \textcolor{keywordflow}{break};
+480       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{MENU\_POS3}:
+481         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}{menuState}[2];
+482         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).attach();
+483         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f}{disableMenu}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{MENU\_POS3});
+484         \textcolor{keywordflow}{break};
+485       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6cae012a8c111a62d031ec590afe56bb}{MENU\_POS4}:
+486         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}{menuState}[3];
+487         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).attach();
+488         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f}{disableMenu}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{MENU\_POS3});
+489         \textcolor{keywordflow}{break};
+490       \textcolor{keywordflow}{case} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abfc1e4fd6ea23ecf49abfb86d47af051}{MENU\_POS5}:
+491         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}{menuState}[4];
+492         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).attach();
+493         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a88d77a9d61e931e5b8460e7bfaa9558f}{disableMenu}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{MENU\_POS3});
+494         \textcolor{keywordflow}{break};
+495     \}
+496   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a454c18c087d019b055fda4a631720819_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab216b1d334e23a1eac3b2ba468f420da}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!set\+Camera\+Ego@{set\+Camera\+Ego}}
+\index{set\+Camera\+Ego@{set\+Camera\+Ego}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{set\+Camera\+Ego}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+set\+Camera\+Ego (
+\begin{DoxyParamCaption}
+\item[{boolean}]{flag}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab216b1d334e23a1eac3b2ba468f420da}
+
+\begin{DoxyCode}
+379   \{
+380     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae9746ce389f6ae79a1f245943631e8af}{egoFlag} = flag;
+381   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af8454651113100e20b4134f4bae1ea8e}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!set\+Menu\+Icon@{set\+Menu\+Icon}}
+\index{set\+Menu\+Icon@{set\+Menu\+Icon}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{set\+Menu\+Icon}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+set\+Menu\+Icon (
+\begin{DoxyParamCaption}
+\item[{Picture}]{pic\+\_\+en, }
+\item[{Picture}]{pic\+\_\+dis, }
+\item[{int}]{state}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af8454651113100e20b4134f4bae1ea8e}
+
+
+The Method is a function of add the icon of H\+U\+D menu bar. 
+
+This is required disable Icon, state number and enable icon. 
+\begin{DoxyParams}{매개변수}
+{\em Picture} & argument pic\+\_\+en, pic\+\_\+dis, state \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+647                                                                             \{
+648     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{picArryMenuEn}[\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}] = pic\_en;
+649     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{picArryMenuDis}[\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}] = pic\_dis;
+650     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}{menuState}[\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}] = state;
+651     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{menuNum}++;
+652   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af8454651113100e20b4134f4bae1ea8e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae9d4e81f2a9e51e0269f80d6c0b192ff}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!set\+Navi\+Type@{set\+Navi\+Type}}
+\index{set\+Navi\+Type@{set\+Navi\+Type}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{set\+Navi\+Type}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+set\+Navi\+Type (
+\begin{DoxyParamCaption}
+\item[{String}]{navi\+Type, }
+\item[{String}]{distance}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae9d4e81f2a9e51e0269f80d6c0b192ff}
+
+
+Method for setting the direction of navigation and the rest of the distance . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Stirng} & argument navi\+Type, distance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+404   \{
+405     String distanceNavi;
+406 
+407     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setName(naviType);
+408 
+409     \textcolor{keywordflow}{if}(distance != null)
+410       distanceNavi = distance + \textcolor{stringliteral}{"m"};
+411     \textcolor{keywordflow}{else}
+412       distanceNavi = null;
+413 
+414     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{distanceText}.setText(distanceNavi);
+415   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a0aa136c1c12cdff5b49304a0b750d3bb}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!update@{update}}
+\index{update@{update}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a0aa136c1c12cdff5b49304a0b750d3bb}
+
+
+Method to update the state of the H\+U\+D in real time. 
+
+This method is , give me so that H\+U\+D panel is real-\/time updates by calling the update () method of the registered H\+U\+D Layout Class. 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+238   \{
+239     Car car = ((Simulator)\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}).getCar();
+240     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aeb454637f977e672b79282823b6b1cde}{updateCurrentSpeedText}(car);
+241     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae4cd0a7adf3e6e05e2c515bc4ec630ac}{updateNavigatorSign}();
+242     HudLayoutTool.updatingHudTool();
+243     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac411b7fde47d1bec2bd043b2f2df51e8}{keyOn})\{
+244       \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac951218e3771940c9b4555f3ac830d7f}{stateNum}; i++)\{
+245         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(i).update();
+246         \textcolor{comment}{//              System.out.println("update state : " + i);}
+247       \}
+248     \}
+249   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a0aa136c1c12cdff5b49304a0b750d3bb_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aeb454637f977e672b79282823b6b1cde}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!update\+Current\+Speed\+Text@{update\+Current\+Speed\+Text}}
+\index{update\+Current\+Speed\+Text@{update\+Current\+Speed\+Text}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{update\+Current\+Speed\+Text}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+update\+Current\+Speed\+Text (
+\begin{DoxyParamCaption}
+\item[{Car}]{car}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aeb454637f977e672b79282823b6b1cde}
+
+
+Method to read the current speed value in Opend\+D\+S for H\+U\+D speed display function. 
+
+Get the current speed using get\+Current\+Speed\+Kmh () method of Open\+D\+S, to be displayed in the H\+U\+D. 
+\begin{DoxyParams}{매개변수}
+{\em car} & a car \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+259   \{
+260     String carSpeed;
+261 
+262     carSpeed = (int)car.getCurrentSpeedKmh() + \textcolor{stringliteral}{"Km/h"};
+263     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{currentSpeedText}.setText(carSpeed);     
+264   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aeb454637f977e672b79282823b6b1cde_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae4cd0a7adf3e6e05e2c515bc4ec630ac}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!update\+Navigator\+Sign@{update\+Navigator\+Sign}}
+\index{update\+Navigator\+Sign@{update\+Navigator\+Sign}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{update\+Navigator\+Sign}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+update\+Navigator\+Sign (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae4cd0a7adf3e6e05e2c515bc4ec630ac}
+
+
+Method to update the direction of navigation. 
+
+It will update the navigation sign that has been changed in the Display\+Navigator\+Action.\+java. 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+273   \{
+274     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.getName().equals(\textcolor{stringliteral}{"right"})) \{
+275       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setWidth(98);
+276       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setHeight(136);
+277       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setImage(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getAssetManager(), \textcolor{stringliteral}{"Textures/icons/navi/arrow\_right.png"}, \textcolor{keyword}{
+      true});
+278     \}
+279     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.getName().equals(\textcolor{stringliteral}{"left"})) \{
+280       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setWidth(98);
+281       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setHeight(136);
+282       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setImage(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getAssetManager(), \textcolor{stringliteral}{"Textures/icons/navi/arrow\_left.png"}, \textcolor{keyword}{
+      true});
+283     \}
+284     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.getName().equals(\textcolor{stringliteral}{"straight"})) \{
+285       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setWidth(66);
+286       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setHeight(136);
+287       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{navigatorSign}.setImage(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{sim}.getAssetManager(), \textcolor{stringliteral}{"Textures/icons/navi/arrow\_straight.png
+      "}, \textcolor{keyword}{true});
+288     \}
+289   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae4cd0a7adf3e6e05e2c515bc4ec630ac_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a02236b52bb21cdc0b8d2408463c0a879}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!up\+Key\+Act@{up\+Key\+Act}}
+\index{up\+Key\+Act@{up\+Key\+Act}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{up\+Key\+Act}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+up\+Key\+Act (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a02236b52bb21cdc0b8d2408463c0a879}
+
+
+This method is to map the action of the key. 
+
+It will handle the action at the time of up key input. In the keyboard , it is c key 
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+681                                \{
+682     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{hudList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{currentState}).key\_act\_up();
+683   \}
+\end{DoxyCode}
+
+
+\subsection{멤버 데이타 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4d8dcd83fa46fb810848d39518bd2a89}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!backup\+Cnt@{backup\+Cnt}}
+\index{backup\+Cnt@{backup\+Cnt}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{backup\+Cnt}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+backup\+Cnt = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4d8dcd83fa46fb810848d39518bd2a89}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2e980ba0f951c11c7b41190197f138fb}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!backup\+State@{backup\+State}}
+\index{backup\+State@{backup\+State}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{backup\+State}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+backup\+State = new int\mbox{[}10\mbox{]}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2e980ba0f951c11c7b41190197f138fb}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!current\+Speed\+Text@{current\+Speed\+Text}}
+\index{current\+Speed\+Text@{current\+Speed\+Text}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{current\+Speed\+Text}]{\setlength{\rightskip}{0pt plus 5cm}Bitmap\+Text kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+current\+Speed\+Text\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_afd73165355cc807a706c8e5c29a3f271}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!current\+State@{current\+State}}
+\index{current\+State@{current\+State}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{current\+State}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+current\+State = {\bf N\+O\+N\+\_\+\+S\+T\+A\+T\+E}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6e135a288ebdc4381eb971ab03d0bd6e}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!cursor\+Icon@{cursor\+Icon}}
+\index{cursor\+Icon@{cursor\+Icon}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{cursor\+Icon}]{\setlength{\rightskip}{0pt plus 5cm}Picture kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+cursor\+Icon\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a8bd64fe62e6e91c9bd83a274eb59faa9}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!cursor\+Pos@{cursor\+Pos}}
+\index{cursor\+Pos@{cursor\+Pos}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{cursor\+Pos}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+cursor\+Pos = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a138d02aacf241cd6234acfc9512f78aa}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!cursor\+Pos\+X@{cursor\+Pos\+X}}
+\index{cursor\+Pos\+X@{cursor\+Pos\+X}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{cursor\+Pos\+X}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+cursor\+Pos\+X = new int\mbox{[}5\mbox{]}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a62b6b5ec5cb0eae74acaacccd2c3bee6}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1bc74f45485b6a429e54e8be6a66b6b1}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!cursor\+Pos\+Y@{cursor\+Pos\+Y}}
+\index{cursor\+Pos\+Y@{cursor\+Pos\+Y}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{cursor\+Pos\+Y}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+cursor\+Pos\+Y\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1bc74f45485b6a429e54e8be6a66b6b1}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!distance\+Text@{distance\+Text}}
+\index{distance\+Text@{distance\+Text}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{distance\+Text}]{\setlength{\rightskip}{0pt plus 5cm}Bitmap\+Text kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+distance\+Text\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a462366543dcc71453006bd2ded4e463a}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae9746ce389f6ae79a1f245943631e8af}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!ego\+Flag@{ego\+Flag}}
+\index{ego\+Flag@{ego\+Flag}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{ego\+Flag}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+ego\+Flag = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ae9746ce389f6ae79a1f245943631e8af}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!hud@{hud}}
+\index{hud@{hud}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{hud}]{\setlength{\rightskip}{0pt plus 5cm}Node kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+hud\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a4c4a440b9bdbbe24eb50ee79826aee53}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!hud\+List@{hud\+List}}
+\index{hud\+List@{hud\+List}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{hud\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<${\bf H\+U\+D\+Class\+Template}$>$ kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+hud\+List = new Array\+List$<${\bf H\+U\+D\+Class\+Template}$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a9eec206ae0d3464de9e92243ae0aba24}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!hud\+Menu@{hud\+Menu}}
+\index{hud\+Menu@{hud\+Menu}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{hud\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}Node kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+hud\+Menu\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a42b564e79a47075337594ae2a83f4309}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac411b7fde47d1bec2bd043b2f2df51e8}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!key\+On@{key\+On}}
+\index{key\+On@{key\+On}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{key\+On}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+key\+On =false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac411b7fde47d1bec2bd043b2f2df51e8}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aea6d53b87b47693e0d365f8cd6fba75f}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!M\+E\+N\+U\+\_\+\+A\+L\+L@{M\+E\+N\+U\+\_\+\+A\+L\+L}}
+\index{M\+E\+N\+U\+\_\+\+A\+L\+L@{M\+E\+N\+U\+\_\+\+A\+L\+L}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{M\+E\+N\+U\+\_\+\+A\+L\+L}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+M\+E\+N\+U\+\_\+\+A\+L\+L = -\/1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aea6d53b87b47693e0d365f8cd6fba75f}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3945824c1d285a532b81075debe3a8cf}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!M\+E\+N\+U\+\_\+\+P\+O\+S1@{M\+E\+N\+U\+\_\+\+P\+O\+S1}}
+\index{M\+E\+N\+U\+\_\+\+P\+O\+S1@{M\+E\+N\+U\+\_\+\+P\+O\+S1}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{M\+E\+N\+U\+\_\+\+P\+O\+S1}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+M\+E\+N\+U\+\_\+\+P\+O\+S1 = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3945824c1d285a532b81075debe3a8cf}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2543a9a44db444550bd334d354616928}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!M\+E\+N\+U\+\_\+\+P\+O\+S2@{M\+E\+N\+U\+\_\+\+P\+O\+S2}}
+\index{M\+E\+N\+U\+\_\+\+P\+O\+S2@{M\+E\+N\+U\+\_\+\+P\+O\+S2}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{M\+E\+N\+U\+\_\+\+P\+O\+S2}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+M\+E\+N\+U\+\_\+\+P\+O\+S2 = 1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a2543a9a44db444550bd334d354616928}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!M\+E\+N\+U\+\_\+\+P\+O\+S3@{M\+E\+N\+U\+\_\+\+P\+O\+S3}}
+\index{M\+E\+N\+U\+\_\+\+P\+O\+S3@{M\+E\+N\+U\+\_\+\+P\+O\+S3}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{M\+E\+N\+U\+\_\+\+P\+O\+S3}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+M\+E\+N\+U\+\_\+\+P\+O\+S3 = 2\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a79ee86a5edf36a3cd5f9c9d75e40d9db}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6cae012a8c111a62d031ec590afe56bb}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!M\+E\+N\+U\+\_\+\+P\+O\+S4@{M\+E\+N\+U\+\_\+\+P\+O\+S4}}
+\index{M\+E\+N\+U\+\_\+\+P\+O\+S4@{M\+E\+N\+U\+\_\+\+P\+O\+S4}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{M\+E\+N\+U\+\_\+\+P\+O\+S4}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+M\+E\+N\+U\+\_\+\+P\+O\+S4 = 3\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a6cae012a8c111a62d031ec590afe56bb}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abfc1e4fd6ea23ecf49abfb86d47af051}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!M\+E\+N\+U\+\_\+\+P\+O\+S5@{M\+E\+N\+U\+\_\+\+P\+O\+S5}}
+\index{M\+E\+N\+U\+\_\+\+P\+O\+S5@{M\+E\+N\+U\+\_\+\+P\+O\+S5}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{M\+E\+N\+U\+\_\+\+P\+O\+S5}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+M\+E\+N\+U\+\_\+\+P\+O\+S5 = 4\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abfc1e4fd6ea23ecf49abfb86d47af051}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!menubar\+Pos\+X@{menubar\+Pos\+X}}
+\index{menubar\+Pos\+X@{menubar\+Pos\+X}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{menubar\+Pos\+X}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+menubar\+Pos\+X = new int\mbox{[}5\mbox{]}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a56a670048b3af508378ccfaab214893e}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a642380be5c9dd050a5678665b2c2e2fa}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!menubar\+Pos\+Y@{menubar\+Pos\+Y}}
+\index{menubar\+Pos\+Y@{menubar\+Pos\+Y}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{menubar\+Pos\+Y}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+menubar\+Pos\+Y\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a642380be5c9dd050a5678665b2c2e2fa}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!menu\+End\+Index@{menu\+End\+Index}}
+\index{menu\+End\+Index@{menu\+End\+Index}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{menu\+End\+Index}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+menu\+End\+Index\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aa53116bd342eeee2ab96d1edabf5561d}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!menu\+Num@{menu\+Num}}
+\index{menu\+Num@{menu\+Num}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{menu\+Num}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+menu\+Num = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af69baaadf8bdb8b4f429269357fb84d9}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!menu\+Start\+Index@{menu\+Start\+Index}}
+\index{menu\+Start\+Index@{menu\+Start\+Index}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{menu\+Start\+Index}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+menu\+Start\+Index\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab9d252f0b80e76c4930b8e0fd288f019}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!menu\+State@{menu\+State}}
+\index{menu\+State@{menu\+State}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{menu\+State}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+menu\+State = new int\mbox{[}5\mbox{]}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a1f856e5328f0219dbb586c5297b6b62b}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!navigator\+Sign@{navigator\+Sign}}
+\index{navigator\+Sign@{navigator\+Sign}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{navigator\+Sign}]{\setlength{\rightskip}{0pt plus 5cm}Picture kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+navigator\+Sign\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a5a7a9b54b80a068feadce31902fca2ab}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af523238fd17953e526bc0d81a4057ebc}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!node\+Gui@{node\+Gui}}
+\index{node\+Gui@{node\+Gui}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{node\+Gui}]{\setlength{\rightskip}{0pt plus 5cm}Node kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+node\+Gui\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_af523238fd17953e526bc0d81a4057ebc}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!N\+O\+N\+\_\+\+S\+T\+A\+T\+E@{N\+O\+N\+\_\+\+S\+T\+A\+T\+E}}
+\index{N\+O\+N\+\_\+\+S\+T\+A\+T\+E@{N\+O\+N\+\_\+\+S\+T\+A\+T\+E}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{N\+O\+N\+\_\+\+S\+T\+A\+T\+E}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+N\+O\+N\+\_\+\+S\+T\+A\+T\+E = -\/1\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_aed0bc1b7b1fd78bb588e2321b44cb254}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!pic\+Arry\+Menu\+Dis@{pic\+Arry\+Menu\+Dis}}
+\index{pic\+Arry\+Menu\+Dis@{pic\+Arry\+Menu\+Dis}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{pic\+Arry\+Menu\+Dis}]{\setlength{\rightskip}{0pt plus 5cm}Picture \mbox{[}$\,$\mbox{]} kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+pic\+Arry\+Menu\+Dis = new Picture\mbox{[}5\mbox{]}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ab5d064aafc8e948ecd818cfec7acbb3c}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!pic\+Arry\+Menu\+En@{pic\+Arry\+Menu\+En}}
+\index{pic\+Arry\+Menu\+En@{pic\+Arry\+Menu\+En}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{pic\+Arry\+Menu\+En}]{\setlength{\rightskip}{0pt plus 5cm}Picture \mbox{[}$\,$\mbox{]} kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+pic\+Arry\+Menu\+En = new Picture\mbox{[}5\mbox{]}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_accf7a9ec5092e5872460755f3b81d6d5}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!sim@{sim}}
+\index{sim@{sim}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{sim}]{\setlength{\rightskip}{0pt plus 5cm}Simulation\+Basics kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+sim\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_abcbcea66aba5169a6d07c407d1e3c86d}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac951218e3771940c9b4555f3ac830d7f}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!state\+Num@{state\+Num}}
+\index{state\+Num@{state\+Num}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{state\+Num}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+state\+Num = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_ac951218e3771940c9b4555f3ac830d7f}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}{}\index{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}!x@{x}}
+\index{x@{x}!kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management@{kr\+::ac\+::kookmin\+::cs\+::hud\+::\+H\+U\+D\+Management}}
+\subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+hud.\+H\+U\+D\+Management.\+x\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management_a3a60a8d9a72d5d242796fdaa9c76905d}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Karasion/git/\+Capstone2015-\/\+Purple\+Ocean/src/kr/ac/kookmin/cs/hud/\hyperlink{_h_u_d_management_8java}{H\+U\+D\+Management.\+java}\end{DoxyCompactItemize}

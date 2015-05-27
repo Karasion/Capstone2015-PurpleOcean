@@ -1,0 +1,15 @@
+<map id="kr.ac.kookmin.cs.call.CallHud.update" name="kr.ac.kookmin.cs.call.CallHud.update">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a886a6345c6f2ed74e64914984e270f6d" title="Method to check whether or not the call state. " alt="" coords="305,5,477,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#ae53c044c1e3f19918e4594266629f4cf" title="kr.ac.kookmin.cs.hud.HUDManagement.get\lState" alt="" coords="253,71,528,112"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#aa3589b792b8862b3a04c58a6eb52ea23" title="Method to back up the previous state of HUD. " alt="" coords="227,137,554,163"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#afcbd7b4289361b3d773cafa29f033f89" title="kr.ac.kookmin.cs.call.Call\lListener.getSender" alt="" coords="305,188,477,229"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a647affa35bd2b8f70f6e785f817e8082" title="This method attach the node associated with the call to simulator. " alt="" coords="305,253,477,295"/>
+<area shape="rect" id="node8" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a88d77a9d61e931e5b8460e7bfaa9558f" title="This Method is to disable the menu icon. " alt="" coords="225,319,556,346"/>
+<area shape="rect" id="node9" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a7fceefa2570760dde2970fe8ffd8ceae" title="kr.ac.kookmin.cs.call.Call\lListener.getCallState" alt="" coords="305,371,477,412"/>
+<area shape="rect" id="node10" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#aa034521baf8a85af36a375906c693e47" title="This method is to change the layout to match the call to HUD. " alt="" coords="305,436,477,477"/>
+<area shape="rect" id="node11" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a3f58fc64836793d7010a1d46fa787e0d" title="This method detach the node associated with the call to simulator. " alt="" coords="305,501,477,543"/>
+<area shape="rect" id="node13" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a946946e34bd696cf5d51c9d7bd2da38e" title="Method to return the state of HUD to a previous state. " alt="" coords="229,567,553,594"/>
+<area shape="rect" id="node14" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a2d3e988e5636714778382ba504e00c6e" title="This Method is to enable the menu icon. " alt="" coords="227,618,554,645"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a57652e0e587a00547e4664e13e87453d" title="The Method is the ability to attach the HUD layout to the panel . " alt="" coords="605,261,899,287"/>
+<area shape="rect" id="node12" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#aa447140a88b6a509cf0c88518972ceb6" title="The Method is the ability to detach the HUD layout to the panel . " alt="" coords="604,509,900,535"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="kr.ac.kookmin.cs.music.MusicPlayer.MusicPlayer" name="kr.ac.kookmin.cs.music.MusicPlayer.MusicPlayer">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a449b2c9816ef1a55f8113b7155000d97" title="This method , to add a list of folders to dirList. " alt="" coords="253,5,453,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a51155c43158965823b24d0f69987be47" title="This method , added to the musicList only mp3 files in the folder. " alt="" coords="253,71,453,112"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae4d53ac419495684317e05ae42885e8a" title="This method adds a dirList and musicList together. " alt="" coords="253,136,453,177"/>
+</map>

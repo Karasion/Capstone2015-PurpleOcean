@@ -1,0 +1,4 @@
+<map id="kr.ac.kookmin.cs.hud.HUDManagement.disableMenu" name="kr.ac.kookmin.cs.hud.HUDManagement.disableMenu">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a28fc0dce1114387424d56d65aee6b304" title="Is a method to be executed in real time on the simulator . " alt="" coords="460,5,632,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a454c18c087d019b055fda4a631720819" title="Method to run the registered function in HUD menu. " alt="" coords="384,71,708,98"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="kr.ac.kookmin.cs.hud.HUDManagement.escapeMenu" name="kr.ac.kookmin.cs.hud.HUDManagement.escapeMenu">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#a3e66906fe591f6d39d6305ff17444464" title="When you press the push button in the G&#45;HUB, it is a method to be executed . " alt="" coords="384,5,616,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055" title="This method , turn off the HUD music player feature or prints the music list. " alt="" coords="400,71,600,112"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud.html#a1c2424be5b993ce96c3e2d0a8ebb952f" title="When you press the push button in the G&#45;HUB, it is a method to be executed . " alt="" coords="409,136,591,177"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#adc751c03c17698226693034b0a84074c" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_down" alt="" coords="664,71,864,112"/>
+</map>

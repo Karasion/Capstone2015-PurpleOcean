@@ -1,0 +1,9 @@
+<map id="kr.ac.kookmin.cs.hud.HUDManagement.attach" name="kr.ac.kookmin.cs.hud.HUDManagement.attach">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#aa92574e989e21ef14b0c53f0220dc488" title="This method , attach the node associated with the BSA to simulator. " alt="" coords="347,5,593,32"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a647affa35bd2b8f70f6e785f817e8082" title="This method attach the node associated with the call to simulator. " alt="" coords="384,57,556,98"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a63b8a146f415f2f9df8d7691b39f4e61" title="This method , Attach the node associated with the MusicPlayer to simulator. " alt="" coords="370,122,570,163"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud.html#ac77113a967501501241ec8fb024c8ac9" title="This method , attach the node associated with the sms to simulator. " alt="" coords="379,187,561,229"/>
+<area shape="rect" id="node8" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud.html#aa96a9ed0966f86c0819d4fdeba8f6837" title="Is a method to be executed in real time on the simulator . " alt="" coords="379,253,561,294"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#a74c1637acb3398ef86da500f100c630d" title="Is a method to be executed in real time on the simulator . " alt="" coords="641,5,892,32"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a28fc0dce1114387424d56d65aee6b304" title="Is a method to be executed in real time on the simulator . " alt="" coords="681,57,853,98"/>
+</map>

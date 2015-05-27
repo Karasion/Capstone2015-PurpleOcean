@@ -1,0 +1,7 @@
+<map id="kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.sendData" name="kr.ac.kookmin.cs.bluetooth.ProcessConnectionThread.sendData">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a8b9c6d3b52e1fe1e080f265eed49f0a9" title="It send a message to reject a phone call to the mobile in this method. " alt="" coords="287,71,459,112"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener.html#a2fdc9350dd23a0b6a706919b2cd2c59e" title="It sends a message of receiving a phone call to the mobile in this method. " alt="" coords="287,136,459,177"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#af65157e5939fc455ae649e188e38933d" title="When you press the push button in the G&#45;HUB, it is a method to be executed . " alt="" coords="507,5,679,47"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a3ecf7e9fb474bd63454ed6ffcf1a6396" title="When you press the right button in the G&#45;HUB, it is a method to be executed . " alt="" coords="507,71,679,112"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#aec9dbfa44efd5d6ae235938dbe407c48" title="When you press the left button in the G&#45;HUB, it is a method to be executed . " alt="" coords="507,136,679,177"/>
+</map>

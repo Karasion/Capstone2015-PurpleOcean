@@ -1,0 +1,5 @@
+<map id="kr.ac.kookmin.cs.music.MusicHud.musicPlayerAttach" name="kr.ac.kookmin.cs.music.MusicHud.musicPlayerAttach">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a63b8a146f415f2f9df8d7691b39f4e61" title="This method , Attach the node associated with the MusicPlayer to simulator. " alt="" coords="253,5,453,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6" title="This method is an operation when the music is selected by the HUD. " alt="" coords="253,71,453,112"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a125e06fca43397e8cfb8d01bfb2e9cbd" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_push" alt="" coords="501,71,701,112"/>
+</map>

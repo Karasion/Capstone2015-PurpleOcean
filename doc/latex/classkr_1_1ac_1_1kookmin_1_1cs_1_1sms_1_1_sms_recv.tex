@@ -1,0 +1,402 @@
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv}{}\section{kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv 클래스 참조}
+\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv}\index{kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv@{kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv}}
+
+
+It is a class related to the character of the reception of sms.  
+
+
+
+
+kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv에 대한 협력 다이어그램\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{정적 Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1af0ff6d2aaddfc050a6726c4311e88e}{add\+Msg} (String msg, String sender)
+\begin{DoxyCompactList}\small\item\em This method receives the information of the message , and add it to the list. \end{DoxyCompactList}\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a7acccf1bc87b320768d8c44eda52a976}{is\+Msg} ()
+\begin{DoxyCompactList}\small\item\em This method , to verify whether the message is in the list . \end{DoxyCompactList}\item 
+static String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ad09d597c0885dfb72ac8b1d35e8eb82a}{get\+New\+Msg} ()
+\begin{DoxyCompactList}\small\item\em This method serves to return the information of the received message is placed in the character string object . \end{DoxyCompactList}\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ac5381dd8b65a6bc17697d4ceb3eff192}{get\+New\+Msg\+Num} ()
+\begin{DoxyCompactList}\small\item\em This method returns the number of newly received message . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ac6e7d0ba1752260030b343a32e04b038}{left\+Msg} ()
+\begin{DoxyCompactList}\small\item\em This method , to select the next message . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a32b0d2046140ff456a8a33a88f069b33}{right\+Msg} ()
+\begin{DoxyCompactList}\small\item\em This method , to select the previous message . \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a5607c963dfb2568069905b189fcc1e1e}{clear\+Msg} ()
+\begin{DoxyCompactList}\small\item\em The method initializes the number of newly received messages . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{정적 Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+static Array\+List$<$ String $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ab66f609a7e9d8b44f412ce86f4201372}{msg\+List} = new Array\+List$<$String$>$()
+\item 
+static Array\+List$<$ String $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a486abb44de1e3587a26c1c05d4eb96a8}{sender\+List} = new Array\+List$<$String$>$()
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_aaf779b19a6535e13097318be45a1da55}{new\+Msg} = 0
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{current\+Msg} = 0
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a6463fdd6154cad89cd16cac0e0ffc1c1}{total\+Msg} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+It is a class related to the character of the reception of sms. 
+
+This class receives information associated with the message from the Bluetooth server , serves to process . \begin{DoxyAuthor}{작성자}
+Im-\/gisung, Ha-\/gimyeong 
+\end{DoxyAuthor}
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1af0ff6d2aaddfc050a6726c4311e88e}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!add\+Msg@{add\+Msg}}
+\index{add\+Msg@{add\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{add\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+add\+Msg (
+\begin{DoxyParamCaption}
+\item[{String}]{msg, }
+\item[{String}]{sender}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1af0ff6d2aaddfc050a6726c4311e88e}
+
+
+This method receives the information of the message , and add it to the list. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em msg} & is a character content into a single string object . \\
+\hline
+{\em sender} & is a string object , it is information of the caller . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+38   \{
+39     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ab66f609a7e9d8b44f412ce86f4201372}{msgList}.add(msg);
+40     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a486abb44de1e3587a26c1c05d4eb96a8}{senderList}.add(sender);
+41     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_aaf779b19a6535e13097318be45a1da55}{newMsg}++;
+42     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a6463fdd6154cad89cd16cac0e0ffc1c1}{totalMsg}++;
+43     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a6463fdd6154cad89cd16cac0e0ffc1c1}{totalMsg} - 1;
+44   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1af0ff6d2aaddfc050a6726c4311e88e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a5607c963dfb2568069905b189fcc1e1e}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!clear\+Msg@{clear\+Msg}}
+\index{clear\+Msg@{clear\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{clear\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+clear\+Msg (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a5607c963dfb2568069905b189fcc1e1e}
+
+
+The method initializes the number of newly received messages . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+172   \{
+173     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_aaf779b19a6535e13097318be45a1da55}{newMsg} = 0;
+174   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a5607c963dfb2568069905b189fcc1e1e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ad09d597c0885dfb72ac8b1d35e8eb82a}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!get\+New\+Msg@{get\+New\+Msg}}
+\index{get\+New\+Msg@{get\+New\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{get\+New\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}static String kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+get\+New\+Msg (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ad09d597c0885dfb72ac8b1d35e8eb82a}
+
+
+This method serves to return the information of the received message is placed in the character string object . 
+
+It returns a string object with the contents of the message sender and the message . 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+It is a string object with the content and sender information of the message . 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+67   \{
+68     String msg = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ab66f609a7e9d8b44f412ce86f4201372}{msgList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg});
+69     String fmStr = \textcolor{stringliteral}{""};
+70     \textcolor{keywordtype}{boolean} endState=\textcolor{keyword}{false};
+71     \textcolor{keywordtype}{int} msgLen = msg.length();
+72     \textcolor{keywordtype}{int} lineN = 4;
+73     \textcolor{keywordtype}{int} retN=0;
+74     \textcolor{keywordtype}{int} index=0;
+75     \textcolor{keywordtype}{int} lineSize = 11;
+76 
+77 
+78 
+79     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<lineN;i++) \{
+80       \textcolor{keywordflow}{if}(msgLen>0) \{
+81         \textcolor{keywordflow}{if}(msgLen > lineSize) \{
+82           String tmp=msg.substring(index, index+lineSize);
+83           \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} j=0; j<tmp.length();j++)
+84             \textcolor{keywordflow}{if}(tmp.charAt(j)==\textcolor{charliteral}{'\(\backslash\)n'}) \{
+85               retN++;
+86               \textcolor{keywordflow}{if}(retN>3) \{
+87                 fmStr+=tmp.substring(0,j+1);
+88                 endState=\textcolor{keyword}{true};
+89                 \textcolor{keywordflow}{break};
+90               \}
+91             \}
+92           \textcolor{keywordflow}{if}(endState)
+93             \textcolor{keywordflow}{break};
+94 
+95           fmStr +=msg.substring(index, index+lineSize);
+96           msgLen-=lineSize;
+97           index +=lineSize;
+98         \}
+99         \textcolor{keywordflow}{else}
+100         \{
+101           String tmp=msg.substring(index, msg.length());
+102           \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} j=0; j<tmp.length();j++)
+103             \textcolor{keywordflow}{if}(tmp.charAt(j)==\textcolor{charliteral}{'\(\backslash\)n'}) \{
+104               retN++;
+105               \textcolor{keywordflow}{if}(retN>3) \{
+106                 fmStr+=tmp.substring(0,j+1);
+107                 endState=\textcolor{keyword}{true};
+108                 \textcolor{keywordflow}{break};
+109               \}
+110             \}
+111           \textcolor{keywordflow}{if}(endState)
+112             \textcolor{keywordflow}{break};
+113           fmStr +=msg.substring(index, msg.length());
+114           msgLen -=lineSize;
+115         \} 
+116 
+117       \}
+118 
+119       \textcolor{keywordflow}{if}(retN<=i) \{
+120         fmStr+=\textcolor{stringliteral}{"\(\backslash\)n"};
+121         retN++;
+122         \textcolor{keywordflow}{if}(retN>3)
+123           \textcolor{keywordflow}{break};
+124       \}
+125 
+126     \}
+127 
+128     fmStr+=\textcolor{stringliteral}{"\(\backslash\)nfrom:"}+\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a486abb44de1e3587a26c1c05d4eb96a8}{senderList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg});
+129     \textcolor{keywordflow}{return} fmStr;
+130   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ad09d597c0885dfb72ac8b1d35e8eb82a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ac5381dd8b65a6bc17697d4ceb3eff192}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!get\+New\+Msg\+Num@{get\+New\+Msg\+Num}}
+\index{get\+New\+Msg\+Num@{get\+New\+Msg\+Num}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{get\+New\+Msg\+Num}]{\setlength{\rightskip}{0pt plus 5cm}static int kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+get\+New\+Msg\+Num (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ac5381dd8b65a6bc17697d4ceb3eff192}
+
+
+This method returns the number of newly received message . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Integer value of newly received message 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+138   \{
+139     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_aaf779b19a6535e13097318be45a1da55}{newMsg};
+140   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ac5381dd8b65a6bc17697d4ceb3eff192_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a7acccf1bc87b320768d8c44eda52a976}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!is\+Msg@{is\+Msg}}
+\index{is\+Msg@{is\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{is\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}static boolean kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+is\+Msg (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a7acccf1bc87b320768d8c44eda52a976}
+
+
+This method , to verify whether the message is in the list . 
+
+\begin{DoxyReturn}{반환값}
+true if msg is present in the list, it is false if it does not exist . 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+52   \{
+53     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a6463fdd6154cad89cd16cac0e0ffc1c1}{totalMsg}>0)
+54       \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+55     \textcolor{keywordflow}{else}
+56       \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+57   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a7acccf1bc87b320768d8c44eda52a976_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ac6e7d0ba1752260030b343a32e04b038}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!left\+Msg@{left\+Msg}}
+\index{left\+Msg@{left\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{left\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+left\+Msg (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ac6e7d0ba1752260030b343a32e04b038}
+
+
+This method , to select the next message . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+148   \{
+149     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg}--;
+150     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg}<0)
+151       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a6463fdd6154cad89cd16cac0e0ffc1c1}{totalMsg}-1;
+152   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ac6e7d0ba1752260030b343a32e04b038_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a32b0d2046140ff456a8a33a88f069b33}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!right\+Msg@{right\+Msg}}
+\index{right\+Msg@{right\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{right\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+right\+Msg (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a32b0d2046140ff456a8a33a88f069b33}
+
+
+This method , to select the previous message . 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+160   \{
+161     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg}++;
+162     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg} == \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a6463fdd6154cad89cd16cac0e0ffc1c1}{totalMsg})
+163       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{currentMsg} = 0;
+164   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a32b0d2046140ff456a8a33a88f069b33_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{멤버 데이타 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!current\+Msg@{current\+Msg}}
+\index{current\+Msg@{current\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{current\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+current\+Msg = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a1c638ce05403d24764158c952cd08996}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ab66f609a7e9d8b44f412ce86f4201372}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!msg\+List@{msg\+List}}
+\index{msg\+List@{msg\+List}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{msg\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+msg\+List = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_ab66f609a7e9d8b44f412ce86f4201372}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_aaf779b19a6535e13097318be45a1da55}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!new\+Msg@{new\+Msg}}
+\index{new\+Msg@{new\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{new\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+new\+Msg = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_aaf779b19a6535e13097318be45a1da55}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a486abb44de1e3587a26c1c05d4eb96a8}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!sender\+List@{sender\+List}}
+\index{sender\+List@{sender\+List}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{sender\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+sender\+List = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a486abb44de1e3587a26c1c05d4eb96a8}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a6463fdd6154cad89cd16cac0e0ffc1c1}{}\index{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}!total\+Msg@{total\+Msg}}
+\index{total\+Msg@{total\+Msg}!kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv@{kr\+::ac\+::kookmin\+::cs\+::sms\+::\+Sms\+Recv}}
+\subsubsection[{total\+Msg}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+sms.\+Sms\+Recv.\+total\+Msg = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv_a6463fdd6154cad89cd16cac0e0ffc1c1}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Karasion/git/\+Capstone2015-\/\+Purple\+Ocean/src/kr/ac/kookmin/cs/sms/\hyperlink{_sms_recv_8java}{Sms\+Recv.\+java}\end{DoxyCompactItemize}

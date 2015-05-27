@@ -1,0 +1,182 @@
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread}{}\section{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Wait\+Thread 클래스 참조}
+\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread}\index{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Wait\+Thread@{kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Wait\+Thread}}
+
+
+This class connect the Bluetooth -\/enabled mobile application and the server .  
+
+
+
+
+kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Wait\+Thread에 대한 상속 다이어그램 \+: \nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread__inherit__graph}
+\end{center}
+\end{figure}
+
+
+kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Wait\+Thread에 대한 협력 다이어그램\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_a201cbdb2225e5719cd079c0e5adf8430}{Wait\+Thread} ()
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_accab2e120919b2591531286efda41c03}{run} ()
+\begin{DoxyCompactList}\small\item\em this method is executed when \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread}{Wait\+Thread} Start() is called. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_a67b7f1b5d2691ea47589b2c32363a3bd}{wait\+For\+Connection} ()
+\begin{DoxyCompactList}\small\item\em This method connect the Bluetooth -\/enabled mobile application and the server. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+This class connect the Bluetooth -\/enabled mobile application and the server . 
+
+this class is executed when \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread}{Wait\+Thread} start is called. \begin{DoxyAuthor}{작성자}
+Im-\/gisung,Jo-\/gwanghyeun 
+\end{DoxyAuthor}
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_a201cbdb2225e5719cd079c0e5adf8430}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread}!Wait\+Thread@{Wait\+Thread}}
+\index{Wait\+Thread@{Wait\+Thread}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread}}
+\subsubsection[{Wait\+Thread}]{\setlength{\rightskip}{0pt plus 5cm}kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Wait\+Thread.\+Wait\+Thread (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_a201cbdb2225e5719cd079c0e5adf8430}
+
+
+constructor 
+
+Constructor 
+\begin{DoxyCode}
+36                         \{
+37     \}
+\end{DoxyCode}
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_accab2e120919b2591531286efda41c03}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread}!run@{run}}
+\index{run@{run}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Wait\+Thread.\+run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_accab2e120919b2591531286efda41c03}
+
+
+this method is executed when \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread}{Wait\+Thread} Start() is called. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+45                       \{
+46         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_a67b7f1b5d2691ea47589b2c32363a3bd}{waitForConnection}();       
+47     \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_accab2e120919b2591531286efda41c03_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_a67b7f1b5d2691ea47589b2c32363a3bd}{}\index{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread}!wait\+For\+Connection@{wait\+For\+Connection}}
+\index{wait\+For\+Connection@{wait\+For\+Connection}!kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread@{kr\+::ac\+::kookmin\+::cs\+::bluetooth\+::\+Wait\+Thread}}
+\subsubsection[{wait\+For\+Connection}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+bluetooth.\+Wait\+Thread.\+wait\+For\+Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_a67b7f1b5d2691ea47589b2c32363a3bd}
+
+
+This method connect the Bluetooth -\/enabled mobile application and the server. 
+
+Looking for a device to Bluetooth communication to wait until there is a connection request . 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+56                                      \{
+57         \textcolor{comment}{// retrieve the local Bluetooth device object}
+58         LocalDevice local = null;
+59         
+60         StreamConnectionNotifier notifier;
+61         StreamConnection connection = null;
+62         
+63         \textcolor{comment}{// setup the server to listen for connection}
+64         \textcolor{keywordflow}{try} \{
+65             local = LocalDevice.getLocalDevice();
+66             local.setDiscoverable(DiscoveryAgent.GIAC);
+67             
+68             UUID uuid = \textcolor{keyword}{new} UUID(\textcolor{stringliteral}{"04c6093b00001000800000805f9b34fb"}, \textcolor{keyword}{false});
+69             System.out.println(uuid.toString());
+70             
+71             String url = \textcolor{stringliteral}{"btspp://localhost:"} + uuid.toString() + \textcolor{stringliteral}{";name=RemoteBluetooth"};
+72             notifier = (StreamConnectionNotifier)Connector.open(url);
+73         \} \textcolor{keywordflow}{catch} (BluetoothStateException e) \{
+74             System.out.println(\textcolor{stringliteral}{"Bluetooth is not turned on."});
+75             e.printStackTrace();
+76             \textcolor{keywordflow}{return};
+77         \} \textcolor{keywordflow}{catch} (IOException e) \{
+78             e.printStackTrace();
+79             \textcolor{keywordflow}{return};
+80         \}
+81         
+82         \textcolor{comment}{// waiting for connection}
+83         \textcolor{keywordflow}{while}(\textcolor{keyword}{true}) \{
+84             \textcolor{keywordflow}{try} \{
+85                 System.out.println(\textcolor{stringliteral}{"waiting for connection..."});
+86                 connection = notifier.acceptAndOpen();
+87                 
+88                 Thread processThread = \textcolor{keyword}{new} Thread(\textcolor{keyword}{new} ProcessConnectionThread(connection));
+89                 processThread.start();
+90                 
+91             \} \textcolor{keywordflow}{catch} (Exception e) \{
+92                 e.printStackTrace();
+93                 \textcolor{keywordflow}{return};
+94             \}
+95         \}
+96     \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread_a67b7f1b5d2691ea47589b2c32363a3bd_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Karasion/git/\+Capstone2015-\/\+Purple\+Ocean/src/kr/ac/kookmin/cs/bluetooth/\hyperlink{_wait_thread_8java}{Wait\+Thread.\+java}\end{DoxyCompactItemize}

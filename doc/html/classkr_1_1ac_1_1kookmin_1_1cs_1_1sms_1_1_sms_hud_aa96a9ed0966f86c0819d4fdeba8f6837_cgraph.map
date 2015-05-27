@@ -1,0 +1,7 @@
+<map id="kr.ac.kookmin.cs.sms.SmsHud.update" name="kr.ac.kookmin.cs.sms.SmsHud.update">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv.html#a7acccf1bc87b320768d8c44eda52a976" title="This method , to verify whether the message is in the list . " alt="" coords="291,5,474,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv.html#ac5381dd8b65a6bc17697d4ceb3eff192" title="This method returns the number of newly received message . " alt="" coords="291,71,474,112"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a57652e0e587a00547e4664e13e87453d" title="The Method is the ability to attach the HUD layout to the panel . " alt="" coords="236,137,529,163"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#ae53c044c1e3f19918e4594266629f4cf" title="kr.ac.kookmin.cs.hud.HUDManagement.get\lState" alt="" coords="245,188,520,229"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv.html#ad09d597c0885dfb72ac8b1d35e8eb82a" title="This method serves to return the information of the received message is placed in the character strin..." alt="" coords="291,253,474,295"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="kr.ac.kookmin.cs.music.MusicHud.attach" name="kr.ac.kookmin.cs.music.MusicHud.attach">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6" title="This method , attach the music list and music title. " alt="" coords="300,5,500,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a57652e0e587a00547e4664e13e87453d" title="The Method is the ability to attach the HUD layout to the panel . " alt="" coords="253,71,547,98"/>
+</map>

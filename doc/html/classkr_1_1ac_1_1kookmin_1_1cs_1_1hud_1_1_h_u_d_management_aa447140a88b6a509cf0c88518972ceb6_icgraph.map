@@ -1,0 +1,8 @@
+<map id="kr.ac.kookmin.cs.hud.HUDManagement.detach" name="kr.ac.kookmin.cs.hud.HUDManagement.detach">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#a7f2ad3023b835013511046876de1b38b" title="This method , detach the node associated with the BSA to simulator. " alt="" coords="349,5,600,32"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a3f58fc64836793d7010a1d46fa787e0d" title="This method detach the node associated with the call to simulator. " alt="" coords="389,57,561,98"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1365ffaf9a1ea414b5ac1fa0461b1e17" title="This method , Detach the node associated with the MusicPlayer to simulator. " alt="" coords="375,122,575,163"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud.html#a2a7552edf772b43284e9d2f3b70fd759" title="This method , detach the node associated with the sms to simulator. " alt="" coords="383,187,566,229"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#a74c1637acb3398ef86da500f100c630d" title="Is a method to be executed in real time on the simulator . " alt="" coords="648,5,899,32"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a28fc0dce1114387424d56d65aee6b304" title="Is a method to be executed in real time on the simulator . " alt="" coords="687,57,859,98"/>
+</map>

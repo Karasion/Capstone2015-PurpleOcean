@@ -1,0 +1,339 @@
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener}{}\section{kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener 클래스 참조}
+\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener}\index{kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener@{kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener}}
+
+
+It is a class related to call.  
+
+
+
+
+kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener에 대한 협력 다이어그램\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{정적 Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a7fceefa2570760dde2970fe8ffd8ceae}{get\+Call\+State} ()
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_aec282649d8f8b5690d1bf7c5e7e73781}{set\+Call\+State} (int state)
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a886a6345c6f2ed74e64914984e270f6d}{is\+Call} ()
+\begin{DoxyCompactList}\small\item\em Method to check whether or not the call state. \end{DoxyCompactList}\item 
+static String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_afcbd7b4289361b3d773cafa29f033f89}{get\+Sender} ()
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a4a5fc9ec67f36eed4c2e934875abf007}{set\+Sender} (String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a87caf58642cf13014f53edb0fdcda07b}{sender})
+\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a11abb308347a972e68de7eed6b569a7b}{set\+End} ()
+\begin{DoxyCompactList}\small\item\em It wants to change to the end state of the call. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a8b9c6d3b52e1fe1e080f265eed49f0a9}{end\+Call} ()
+\begin{DoxyCompactList}\small\item\em It send a message to reject a phone call to the mobile in this method. \end{DoxyCompactList}\item 
+static void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a2fdc9350dd23a0b6a706919b2cd2c59e}{on\+Call} ()
+\begin{DoxyCompactList}\small\item\em It sends a message of receiving a phone call to the mobile in this method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{정적 Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a03420a995d78c4421f4fe92b75be5647}{call\+\_\+state} = 0
+\item 
+static String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a87caf58642cf13014f53edb0fdcda07b}{sender} = \char`\"{}\char`\"{}
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a43a92315d34bbf897048aea788679fbc}{flag} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+It is a class related to call. 
+
+This class is synchronized with the call state of the mobile . And the call action is implemented. \begin{DoxyAuthor}{작성자}
+Jo-\/kwanghyeon 
+\end{DoxyAuthor}
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a8b9c6d3b52e1fe1e080f265eed49f0a9}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!end\+Call@{end\+Call}}
+\index{end\+Call@{end\+Call}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{end\+Call}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+end\+Call (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a8b9c6d3b52e1fe1e080f265eed49f0a9}
+
+
+It send a message to reject a phone call to the mobile in this method. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+69                               \{
+70     ProcessConnectionThread.sendData(\textcolor{stringliteral}{"endCall"});
+71     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a03420a995d78c4421f4fe92b75be5647}{call\_state} = 0;
+72     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a43a92315d34bbf897048aea788679fbc}{flag} = \textcolor{keyword}{false};
+73   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a8b9c6d3b52e1fe1e080f265eed49f0a9_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a8b9c6d3b52e1fe1e080f265eed49f0a9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a7fceefa2570760dde2970fe8ffd8ceae}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!get\+Call\+State@{get\+Call\+State}}
+\index{get\+Call\+State@{get\+Call\+State}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{get\+Call\+State}]{\setlength{\rightskip}{0pt plus 5cm}static int kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+get\+Call\+State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a7fceefa2570760dde2970fe8ffd8ceae}
+
+\begin{DoxyCode}
+28                                   \{
+29     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a03420a995d78c4421f4fe92b75be5647}{call\_state};
+30   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a7fceefa2570760dde2970fe8ffd8ceae_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_afcbd7b4289361b3d773cafa29f033f89}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!get\+Sender@{get\+Sender}}
+\index{get\+Sender@{get\+Sender}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{get\+Sender}]{\setlength{\rightskip}{0pt plus 5cm}static String kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+get\+Sender (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_afcbd7b4289361b3d773cafa29f033f89}
+
+\begin{DoxyCode}
+45                                    \{
+46     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a87caf58642cf13014f53edb0fdcda07b}{sender};
+47   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_afcbd7b4289361b3d773cafa29f033f89_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a886a6345c6f2ed74e64914984e270f6d}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!is\+Call@{is\+Call}}
+\index{is\+Call@{is\+Call}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{is\+Call}]{\setlength{\rightskip}{0pt plus 5cm}static boolean kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+is\+Call (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a886a6345c6f2ed74e64914984e270f6d}
+
+
+Method to check whether or not the call state. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+It returns true if during a call , it returns false otherwise. 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+41                                 \{
+42     \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a43a92315d34bbf897048aea788679fbc}{flag};
+43   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a886a6345c6f2ed74e64914984e270f6d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a2fdc9350dd23a0b6a706919b2cd2c59e}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!on\+Call@{on\+Call}}
+\index{on\+Call@{on\+Call}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{on\+Call}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+on\+Call (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a2fdc9350dd23a0b6a706919b2cd2c59e}
+
+
+It sends a message of receiving a phone call to the mobile in this method. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+80                              \{
+81     ProcessConnectionThread.sendData(\textcolor{stringliteral}{"onCall"});
+82     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a03420a995d78c4421f4fe92b75be5647}{call\_state} = 1;
+83   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a2fdc9350dd23a0b6a706919b2cd2c59e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a2fdc9350dd23a0b6a706919b2cd2c59e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_aec282649d8f8b5690d1bf7c5e7e73781}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!set\+Call\+State@{set\+Call\+State}}
+\index{set\+Call\+State@{set\+Call\+State}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{set\+Call\+State}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+set\+Call\+State (
+\begin{DoxyParamCaption}
+\item[{int}]{state}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_aec282649d8f8b5690d1bf7c5e7e73781}
+
+\begin{DoxyCode}
+32                                             \{
+33     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a03420a995d78c4421f4fe92b75be5647}{call\_state} = state;
+34   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_aec282649d8f8b5690d1bf7c5e7e73781_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a11abb308347a972e68de7eed6b569a7b}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!set\+End@{set\+End}}
+\index{set\+End@{set\+End}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{set\+End}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+set\+End (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a11abb308347a972e68de7eed6b569a7b}
+
+
+It wants to change to the end state of the call. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+59                              \{
+60     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a03420a995d78c4421f4fe92b75be5647}{call\_state} = 0;
+61     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a43a92315d34bbf897048aea788679fbc}{flag} = \textcolor{keyword}{false};
+62   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a11abb308347a972e68de7eed6b569a7b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a4a5fc9ec67f36eed4c2e934875abf007}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!set\+Sender@{set\+Sender}}
+\index{set\+Sender@{set\+Sender}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{set\+Sender}]{\setlength{\rightskip}{0pt plus 5cm}static void kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+set\+Sender (
+\begin{DoxyParamCaption}
+\item[{String}]{sender}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a4a5fc9ec67f36eed4c2e934875abf007}
+
+\begin{DoxyCode}
+49                                               \{
+50     CallListener.sender = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a87caf58642cf13014f53edb0fdcda07b}{sender};
+51     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a43a92315d34bbf897048aea788679fbc}{flag} = \textcolor{keyword}{true};
+52   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a4a5fc9ec67f36eed4c2e934875abf007_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{멤버 데이타 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a03420a995d78c4421f4fe92b75be5647}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!call\+\_\+state@{call\+\_\+state}}
+\index{call\+\_\+state@{call\+\_\+state}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{call\+\_\+state}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+call\+\_\+state = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a03420a995d78c4421f4fe92b75be5647}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a43a92315d34bbf897048aea788679fbc}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!flag@{flag}}
+\index{flag@{flag}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{flag}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+flag = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a43a92315d34bbf897048aea788679fbc}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a87caf58642cf13014f53edb0fdcda07b}{}\index{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}!sender@{sender}}
+\index{sender@{sender}!kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener@{kr\+::ac\+::kookmin\+::cs\+::call\+::\+Call\+Listener}}
+\subsubsection[{sender}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+call.\+Call\+Listener.\+sender = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener_a87caf58642cf13014f53edb0fdcda07b}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Karasion/git/\+Capstone2015-\/\+Purple\+Ocean/src/kr/ac/kookmin/cs/call/\hyperlink{_call_listener_8java}{Call\+Listener.\+java}\end{DoxyCompactItemize}

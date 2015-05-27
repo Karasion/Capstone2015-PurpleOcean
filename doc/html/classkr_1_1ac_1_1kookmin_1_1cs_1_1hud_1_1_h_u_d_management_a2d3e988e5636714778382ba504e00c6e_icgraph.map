@@ -1,0 +1,8 @@
+<map id="kr.ac.kookmin.cs.hud.HUDManagement.enableMenu" name="kr.ac.kookmin.cs.hud.HUDManagement.enableMenu">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#a28fc0dce1114387424d56d65aee6b304" title="Is a method to be executed in real time on the simulator . " alt="" coords="459,12,631,53"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#af46086e2dbfc7fe58b45bc5d98fe08d8" title="Method to get out from the menu function running. " alt="" coords="380,78,711,105"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#a3e66906fe591f6d39d6305ff17444464" title="When you press the push button in the G&#45;HUB, it is a method to be executed . " alt="" coords="759,5,991,47"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055" title="This method , turn off the HUD music player feature or prints the music list. " alt="" coords="775,71,975,112"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud.html#a1c2424be5b993ce96c3e2d0a8ebb952f" title="When you press the push button in the G&#45;HUB, it is a method to be executed . " alt="" coords="783,136,966,177"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#adc751c03c17698226693034b0a84074c" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_down" alt="" coords="1039,71,1239,112"/>
+</map>

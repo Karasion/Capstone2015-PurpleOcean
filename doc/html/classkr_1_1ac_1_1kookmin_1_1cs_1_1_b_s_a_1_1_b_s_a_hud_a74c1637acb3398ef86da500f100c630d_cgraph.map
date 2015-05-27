@@ -1,0 +1,10 @@
+<map id="kr.ac.kookmin.cs.BSA.BSAHud.update" name="kr.ac.kookmin.cs.BSA.BSAHud.update">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#ae13f71ba28cbace432c6991b05e3389b" title="kr.ac.kookmin.cs.hud.HUDManagement.get\lKeyFlag" alt="" coords="304,5,579,47"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_dumy.html#a91ee92dabba61da78268000d16735492" title="kr.ac.kookmin.cs.BSA.BSADumy.get\lDetectFlag" alt="" coords="321,71,561,112"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#aa92574e989e21ef14b0c53f0220dc488" title="This method , attach the node associated with the BSA to simulator. " alt="" coords="318,137,565,163"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_dumy.html#a636e4ba1005c1d6c31079c086529f702" title="kr.ac.kookmin.cs.BSA.BSADumy.get\lBackFlag" alt="" coords="321,188,561,229"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#ae53c044c1e3f19918e4594266629f4cf" title="kr.ac.kookmin.cs.hud.HUDManagement.get\lState" alt="" coords="304,253,579,295"/>
+<area shape="rect" id="node8" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#a7f2ad3023b835013511046876de1b38b" title="This method , detach the node associated with the BSA to simulator. " alt="" coords="316,319,567,346"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a57652e0e587a00547e4664e13e87453d" title="The Method is the ability to attach the HUD layout to the panel . " alt="" coords="628,137,921,163"/>
+<area shape="rect" id="node9" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#aa447140a88b6a509cf0c88518972ceb6" title="The Method is the ability to detach the HUD layout to the panel . " alt="" coords="627,319,923,346"/>
+</map>

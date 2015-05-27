@@ -1,0 +1,7 @@
+<map id="kr.ac.kookmin.cs.music.MusicHud.key_act_left" name="kr.ac.kookmin.cs.music.MusicHud.key_act_left">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2b1956b10fac3122dcfb3f0dfc8b0be2" title="This method , to play the previous song. " alt="" coords="253,5,453,47"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a3dd6eb813563681e38a8dd9c981e886e" title="This method move up the cursor. " alt="" coords="253,71,453,112"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="253,136,453,177"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="501,5,701,47"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="501,136,701,177"/>
+</map>

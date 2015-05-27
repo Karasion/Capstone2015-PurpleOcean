@@ -1,0 +1,10 @@
+<map id="kr.ac.kookmin.cs.music.MusicHud.key_act_down" name="kr.ac.kookmin.cs.music.MusicHud.key_act_down">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055" title="This method , turn off the HUD music player feature or prints the music list. " alt="" coords="253,104,453,145"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a0dd8bf2b710c07fa45a75f725786e8ca" title="This method terminates the player, to reset the flag. " alt="" coords="567,5,767,47"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2244c315124be0b5818e39f729b08f7c" title="This method sets the index for output to lease a file that is currently running. " alt="" coords="567,71,767,112"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="567,136,767,177"/>
+<area shape="rect" id="node8" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#af46086e2dbfc7fe58b45bc5d98fe08d8" title="Method to get out from the menu function running. " alt="" coords="501,202,832,229"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="943,5,1143,47"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="943,136,1143,177"/>
+<area shape="rect" id="node9" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a2d3e988e5636714778382ba504e00c6e" title="This Method is to enable the menu icon. " alt="" coords="880,202,1207,229"/>
+</map>

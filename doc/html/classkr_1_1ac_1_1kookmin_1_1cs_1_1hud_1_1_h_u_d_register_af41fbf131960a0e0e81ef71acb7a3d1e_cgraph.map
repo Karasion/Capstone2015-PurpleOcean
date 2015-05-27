@@ -1,0 +1,7 @@
+<map id="kr.ac.kookmin.cs.hud.HUDRegister.hud_enrollment" name="kr.ac.kookmin.cs.hud.HUDRegister.hud_enrollment">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#a61e5431be2f589f6d4d32cf70efbe880" title="This method to register an instance of class BSA to HUDManagement. " alt="" coords="304,5,547,32"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html#abc601d5d5e5823dcfe2ec269a1df52d4" title="This method to register an instance of class CallHud to HUDManagement. " alt="" coords="339,57,511,98"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud.html#a6e359cc9e0d778e3625d02cfa80a1c9a" title="This method to register an instance of class SmsHud to HUDManagement. " alt="" coords="334,122,517,163"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a82fc32c08d1970254dbed692def97114" title="This method , Detach the node associated with the MusicPlayer to simulator. " alt="" coords="325,187,525,229"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a7b83ede582afefb75bfe90ed3c8fd688" title="The Method is a function of registering the HUD layout class to HUDManagement. " alt="" coords="595,97,884,124"/>
+</map>

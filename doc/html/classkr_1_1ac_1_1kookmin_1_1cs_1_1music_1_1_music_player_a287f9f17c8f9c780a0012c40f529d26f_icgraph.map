@@ -1,0 +1,9 @@
+<map id="kr.ac.kookmin.cs.music.MusicPlayer.getCursorPos" name="kr.ac.kookmin.cs.music.MusicPlayer.getCursorPos">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="253,104,453,145"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a25828b12e137bd16732c159aff4a3da3" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_right" alt="" coords="501,5,701,47"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a4968fce2a15ef40f69dbc5c1d163f6be" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_left" alt="" coords="501,71,701,112"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6" title="This method is an operation when the music is selected by the HUD. " alt="" coords="501,136,701,177"/>
+<area shape="rect" id="node7" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055" title="This method , turn off the HUD music player feature or prints the music list. " alt="" coords="501,201,701,243"/>
+<area shape="rect" id="node6" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a125e06fca43397e8cfb8d01bfb2e9cbd" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_push" alt="" coords="749,136,949,177"/>
+<area shape="rect" id="node8" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#adc751c03c17698226693034b0a84074c" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_down" alt="" coords="749,201,949,243"/>
+</map>

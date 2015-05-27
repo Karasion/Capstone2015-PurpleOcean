@@ -1,0 +1,1178 @@
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player}{}\section{kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player 클래스 참조}
+\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player}\index{kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player@{kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player}}
+
+
+This class is a core class associated with the music player.  
+
+
+
+
+kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player에 대한 상속 다이어그램 \+: \nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player에 대한 협력 다이어그램\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{클래스}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Mp3\+Filter}
+\begin{DoxyCompactList}\small\item\em This class is a filter class extension of the file to determine whether it is mp3. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a4eada02529f380a25164797ea5fa778e}{Music\+Player} (String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a38c60f5f214d244f8da3ba7287d29a39}{root\+Dir})
+\begin{DoxyCompactList}\small\item\em To initialize the \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player}{Music\+Player}. \end{DoxyCompactList}\item 
+int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad8a2c07b231ca2142a74cd0fd279a548}{select\+File} ()
+\begin{DoxyCompactList}\small\item\em This method , the ability to browse the selected file. \end{DoxyCompactList}\item 
+int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a287f9f17c8f9c780a0012c40f529d26f}{get\+Cursor\+Pos} ()
+\begin{DoxyCompactList}\small\item\em This method returns the position of the current position of the cursor. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a3dd6eb813563681e38a8dd9c981e886e}{up\+Move\+Cursor} ()
+\begin{DoxyCompactList}\small\item\em This method move up the cursor. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a6c1889cdb80e7b51c8f05f0296c9e28a}{down\+Move\+Cursor} ()
+\begin{DoxyCompactList}\small\item\em This method move down the cursor. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2244c315124be0b5818e39f729b08f7c}{adjust\+Cursor\+Pos} ()
+\begin{DoxyCompactList}\small\item\em This method sets the index for output to lease a file that is currently running. \end{DoxyCompactList}\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a333e46066801be56774f5c00b433afea}{get\+List} ()
+\begin{DoxyCompactList}\small\item\em This method return the music List. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2395b02bb068e9cd83ed436b659e011c}{close} ()
+\begin{DoxyCompactList}\small\item\em This method close the music player. \end{DoxyCompactList}\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2663e337f13310d1fb0f51fe66d69711}{get\+Playing\+Music\+Name} ()
+\begin{DoxyCompactList}\small\item\em This method returns the file name to match the type. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac1a3d2cb3bfa953b28cf03806fed0499}{play} ()
+\begin{DoxyCompactList}\small\item\em This method play the mp3 file to the sound card. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a909399c619c52785970eeed2e87e1f18}{next} ()
+\begin{DoxyCompactList}\small\item\em This method , to play the next song. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2b1956b10fac3122dcfb3f0dfc8b0be2}{previous} ()
+\begin{DoxyCompactList}\small\item\em This method , to play the previous song. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a79e3e5a9b9d94b7f6a090687d8690803}{run} ()
+\begin{DoxyCompactList}\small\item\em This method , to play a song to suit each state. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae71b11199920715b81a50122bb4d9e9d}{pause} ()  throws Interrupted\+Exception
+\begin{DoxyCompactList}\small\item\em This method , to pause a song. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a889d56a689747ddb862ae3a76f682803}{resume\+Music} ()  throws Interrupted\+Exception
+\begin{DoxyCompactList}\small\item\em This method , to resume a song. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a0dd8bf2b710c07fa45a75f725786e8ca}{delete\+Playing\+Mode} ()
+\begin{DoxyCompactList}\small\item\em This method terminates the player, to reset the flag. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public 속성}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a22eec123640d135ac5ad319b2a05d8e6}{run\+Flag} =false
+\item 
+boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a84e908ec2c02aac3801492aed4d1ae8a}{selecting\+F} =false
+\item 
+final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a56a46a09a7d67269c10a3f1284da0140}{I\+S\+D\+I\+R} =20
+\item 
+final int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a64d4cdb74ae72282cf0b345a3b9667d2}{I\+S\+F\+I\+L\+E} =21
+\end{DoxyCompactItemize}
+\subsection*{정적 Public 속성}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pause\+F} =false
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51b544eb635ea19154536647d01a4994}{is\+Play} = false
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af9d89823a5f820f1592ebe2acd21f711}{playing\+F} =false
+\item 
+static boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playing\+Mode\+Select\+State} =false
+\end{DoxyCompactItemize}
+\subsection*{Private 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51155c43158965823b24d0f69987be47}{find\+Music\+List} ()
+\begin{DoxyCompactList}\small\item\em This method , added to the music\+List only mp3 files in the folder. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a449b2c9816ef1a55f8113b7155000d97}{find\+Dir\+List} ()
+\begin{DoxyCompactList}\small\item\em This method , to add a list of folders to dir\+List. \end{DoxyCompactList}\item 
+void \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae4d53ac419495684317e05ae42885e8a}{make\+Total\+List} ()
+\begin{DoxyCompactList}\small\item\em This method adds a dir\+List and music\+List together. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+Player \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{player}
+\item 
+Array\+List$<$ String $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{music\+List} = new Array\+List$<$String$>$()
+\item 
+Array\+List$<$ String $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_afb08be6c6500433b6fd4ae05eb3bc981}{dir\+List} = new Array\+List$<$String$>$()
+\item 
+Array\+List$<$ String $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{total\+List} = new Array\+List$<$String$>$()
+\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}{path}
+\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{current\+Dir}
+\item 
+Array\+List$<$ String $>$ \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a30e3d7b8c44924c865dc3dd52e206809}{previous\+Dir} = new Array\+List$<$String$>$()
+\item 
+String \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a38c60f5f214d244f8da3ba7287d29a39}{root\+Dir}
+\item 
+boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af90561018301ec011dff450ffc1273ae}{end\+Flag} =false
+\item 
+boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2cbe57c0e490a5d3e85adff6bc53e34e}{previous\+F} =false
+\item 
+boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a5cbb89ee2337edc2838f332c8b5e5160}{next\+F} =false
+\item 
+boolean \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a75e8d73ae2ea36cdc3c38bde7a802ca7}{select\+F} =false
+\item 
+int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{present\+Cursor} =0
+\item 
+int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{start\+Ind}
+\item 
+int \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{end\+Ind}
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+This class is a core class associated with the music player. 
+
+There are basic methods necessary to music playback such as run,resume,pause,next,previous function \begin{DoxyAuthor}{작성자}
+Lee-\/\+Min\+Jae , Im-\/\+Gi\+Sung 
+\end{DoxyAuthor}
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a4eada02529f380a25164797ea5fa778e}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!Music\+Player@{Music\+Player}}
+\index{Music\+Player@{Music\+Player}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{Music\+Player}]{\setlength{\rightskip}{0pt plus 5cm}kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+Music\+Player (
+\begin{DoxyParamCaption}
+\item[{String}]{root\+Dir}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a4eada02529f380a25164797ea5fa778e}
+
+
+To initialize the \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player}{Music\+Player}. 
+
+Initializing the \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player}{Music\+Player} to root Directory you received as a parameter 
+\begin{DoxyParams}{매개변수}
+{\em a} & String argument \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+60                                      \{
+61     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a38c60f5f214d244f8da3ba7287d29a39}{rootDir};
+62     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}{path} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir};
+63     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a38c60f5f214d244f8da3ba7287d29a39}{rootDir} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a38c60f5f214d244f8da3ba7287d29a39}{rootDir};
+64     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a449b2c9816ef1a55f8113b7155000d97}{findDirList}();
+65     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51155c43158965823b24d0f69987be47}{findMusicList}();
+66     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae4d53ac419495684317e05ae42885e8a}{makeTotalList}();
+67     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}=0;
+68     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.size()<5)
+69       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.size();
+70     \textcolor{keywordflow}{else}
+71       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}=5;
+72   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a4eada02529f380a25164797ea5fa778e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2244c315124be0b5818e39f729b08f7c}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!adjust\+Cursor\+Pos@{adjust\+Cursor\+Pos}}
+\index{adjust\+Cursor\+Pos@{adjust\+Cursor\+Pos}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{adjust\+Cursor\+Pos}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+adjust\+Cursor\+Pos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2244c315124be0b5818e39f729b08f7c}
+
+
+This method sets the index for output to lease a file that is currently running. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+233   \{
+234     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.indexOf(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.get(pos));
+235     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.size()-\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor}>=5)
+236     \{
+237       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor};
+238       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}+5;
+239     \}
+240     \textcolor{keywordflow}{else}
+241     \{
+242       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.size();
+243       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}<=5)
+244         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}=0;
+245       \textcolor{keywordflow}{else}
+246         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}-5;
+247     \}
+248   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2244c315124be0b5818e39f729b08f7c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2395b02bb068e9cd83ed436b659e011c}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!close@{close}}
+\index{close@{close}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2395b02bb068e9cd83ed436b659e011c}
+
+
+This method close the music player. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+272                       \{
+273     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a22eec123640d135ac5ad319b2a05d8e6}{runFlag})
+274     \{
+275       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{player}.close();
+276       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af90561018301ec011dff450ffc1273ae}{endFlag}=\textcolor{keyword}{true};
+277     \}
+278   \}
+\end{DoxyCode}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a0dd8bf2b710c07fa45a75f725786e8ca}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!delete\+Playing\+Mode@{delete\+Playing\+Mode}}
+\index{delete\+Playing\+Mode@{delete\+Playing\+Mode}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{delete\+Playing\+Mode}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+delete\+Playing\+Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a0dd8bf2b710c07fa45a75f725786e8ca}
+
+
+This method terminates the player, to reset the flag. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{예외}
+{\em Interrupted\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyCode}
+463   \{
+464     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pauseF} && !\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playingModeSelectState})
+465     \{
+466       \textcolor{keywordflow}{try} \{
+467         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a889d56a689747ddb862ae3a76f682803}{resumeMusic}();
+468         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{player}.close();
+469         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pauseF}=\textcolor{keyword}{true};
+470         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a75e8d73ae2ea36cdc3c38bde7a802ca7}{selectF}=\textcolor{keyword}{true};
+471         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a84e908ec2c02aac3801492aed4d1ae8a}{selectingF}=\textcolor{keyword}{true};
+472       \} \textcolor{keywordflow}{catch} (InterruptedException e) \{
+473         \textcolor{comment}{// TODO Auto-generated catch blockaz}
+474         e.printStackTrace();
+475       \} 
+476     \}
+477     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af9d89823a5f820f1592ebe2acd21f711}{playingF}=\textcolor{keyword}{false};
+478     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a5cbb89ee2337edc2838f332c8b5e5160}{nextF}=\textcolor{keyword}{false};
+479     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2cbe57c0e490a5d3e85adff6bc53e34e}{previousF}=\textcolor{keyword}{false};
+480   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a0dd8bf2b710c07fa45a75f725786e8ca_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a0dd8bf2b710c07fa45a75f725786e8ca_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a6c1889cdb80e7b51c8f05f0296c9e28a}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!down\+Move\+Cursor@{down\+Move\+Cursor}}
+\index{down\+Move\+Cursor@{down\+Move\+Cursor}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{down\+Move\+Cursor}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+down\+Move\+Cursor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a6c1889cdb80e7b51c8f05f0296c9e28a}
+
+
+This method move down the cursor. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+212   \{
+213     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor}++;
+214     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor} >= \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.size())
+215       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.size()-1;
+216     \textcolor{keywordflow}{else}
+217     \{
+218       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor} >= \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd})
+219       \{
+220         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}++;
+221         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}-\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}>5)
+222           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}++;
+223       \}
+224     \}
+225   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a6c1889cdb80e7b51c8f05f0296c9e28a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a449b2c9816ef1a55f8113b7155000d97}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!find\+Dir\+List@{find\+Dir\+List}}
+\index{find\+Dir\+List@{find\+Dir\+List}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{find\+Dir\+List}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+find\+Dir\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a449b2c9816ef1a55f8113b7155000d97}
+
+
+This method , to add a list of folders to dir\+List. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+160                             \{
+161     File dir = \textcolor{keyword}{new} File(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir});
+162     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_afb08be6c6500433b6fd4ae05eb3bc981}{dirList}.clear();
+163     \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir}.equals(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a38c60f5f214d244f8da3ba7287d29a39}{rootDir}))
+164       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_afb08be6c6500433b6fd4ae05eb3bc981}{dirList}.add(\textcolor{stringliteral}{".."});
+165 
+166     \textcolor{keywordflow}{for}(File file : dir.listFiles())
+167     \{
+168       \textcolor{keywordflow}{if}(file.isDirectory())
+169         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_afb08be6c6500433b6fd4ae05eb3bc981}{dirList}.add(file.getName());
+170     \} 
+171   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a449b2c9816ef1a55f8113b7155000d97_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51155c43158965823b24d0f69987be47}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!find\+Music\+List@{find\+Music\+List}}
+\index{find\+Music\+List@{find\+Music\+List}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{find\+Music\+List}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+find\+Music\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51155c43158965823b24d0f69987be47}
+
+
+This method , added to the music\+List only mp3 files in the folder. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+143                               \{
+144     File home = \textcolor{keyword}{new} File(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir});
+145     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.clear();
+146     \textcolor{keywordflow}{if}(home.listFiles(\textcolor{keyword}{new} Mp3Filter()).length > 0)
+147     \{
+148       \textcolor{keywordflow}{for} (File file : home.listFiles(\textcolor{keyword}{new} Mp3Filter())) 
+149       \{
+150         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.add(file.getName());
+151       \}
+152     \}  
+153   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51155c43158965823b24d0f69987be47_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a287f9f17c8f9c780a0012c40f529d26f}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!get\+Cursor\+Pos@{get\+Cursor\+Pos}}
+\index{get\+Cursor\+Pos@{get\+Cursor\+Pos}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{get\+Cursor\+Pos}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+get\+Cursor\+Pos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a287f9f17c8f9c780a0012c40f529d26f}
+
+
+This method returns the position of the current position of the cursor. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+a integer argument 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+134   \{
+135     \textcolor{keywordtype}{int} pos = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor} - \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd};
+136     \textcolor{keywordflow}{return} pos;
+137   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a287f9f17c8f9c780a0012c40f529d26f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a333e46066801be56774f5c00b433afea}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!get\+List@{get\+List}}
+\index{get\+List@{get\+List}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{get\+List}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+get\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a333e46066801be56774f5c00b433afea}
+
+
+This method return the music List. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+String List 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+255   \{
+256     String showList=\textcolor{stringliteral}{""};
+257     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd};i<\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd};i++)
+258     \{
+259       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.get(i).length()>20)
+260         showList+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.get(i).substring(0, 19)+\textcolor{stringliteral}{"...\(\backslash\)n"};
+261       \textcolor{keywordflow}{else}
+262         showList+=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.get(i)+\textcolor{stringliteral}{"\(\backslash\)n"};
+263     \}
+264     \textcolor{keywordflow}{return} showList;
+265   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a333e46066801be56774f5c00b433afea_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2663e337f13310d1fb0f51fe66d69711}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!get\+Playing\+Music\+Name@{get\+Playing\+Music\+Name}}
+\index{get\+Playing\+Music\+Name@{get\+Playing\+Music\+Name}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{get\+Playing\+Music\+Name}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+get\+Playing\+Music\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2663e337f13310d1fb0f51fe66d69711}
+
+
+This method returns the file name to match the type. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+String argument print\+Format 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+286   \{
+287     String musicName=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.get(pos);
+288     String printFormat=\textcolor{stringliteral}{""};
+289 
+290     \textcolor{keywordflow}{if}(musicName.length() < 16)
+291       printFormat+=musicName;
+292     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(musicName.length() >15 && musicName.length() <=30)
+293       printFormat+=musicName.substring(0, 16) + \textcolor{stringliteral}{"\(\backslash\)n"} + musicName.substring(16, musicName.length());
+294     \textcolor{keywordflow}{else}
+295       printFormat+=musicName.substring(0, 16) + \textcolor{stringliteral}{"\(\backslash\)n"} + musicName.substring(16, 30)+\textcolor{stringliteral}{"..."};
+296     \textcolor{keywordflow}{return} printFormat;
+297   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2663e337f13310d1fb0f51fe66d69711_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae4d53ac419495684317e05ae42885e8a}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!make\+Total\+List@{make\+Total\+List}}
+\index{make\+Total\+List@{make\+Total\+List}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{make\+Total\+List}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+make\+Total\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae4d53ac419495684317e05ae42885e8a}
+
+
+This method adds a dir\+List and music\+List together. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+178   \{
+179     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.clear();
+180     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0; i<\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_afb08be6c6500433b6fd4ae05eb3bc981}{dirList}.size(); i++)
+181       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.add(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_afb08be6c6500433b6fd4ae05eb3bc981}{dirList}.get(i));
+182     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0; i<\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.size(); i++)
+183       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.add(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.get(i));
+184   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae4d53ac419495684317e05ae42885e8a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a909399c619c52785970eeed2e87e1f18}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!next@{next}}
+\index{next@{next}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{next}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a909399c619c52785970eeed2e87e1f18}
+
+
+This method , to play the next song. 
+
+Play songs of the following pos of Music\+List. If if the current song is the last song , play the first song 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+324   \{
+325     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pauseF})
+326     \{
+327       \textcolor{keywordflow}{try} \{
+328         \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playingModeSelectState})
+329         \{
+330           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a889d56a689747ddb862ae3a76f682803}{resumeMusic}();
+331           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pauseF}=\textcolor{keyword}{true};
+332           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playingModeSelectState} = \textcolor{keyword}{true};
+333         \}
+334       \} \textcolor{keywordflow}{catch} (InterruptedException e) \{
+335         \textcolor{comment}{// TODO Auto-generated catch block}
+336         e.printStackTrace();
+337       \}
+338     \}
+339     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{player}.close();
+340     \textcolor{keywordflow}{if}(pos== \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.size()-1) 
+341       pos = 0;
+342     \textcolor{keywordflow}{else} 
+343       pos++;
+344     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}{path} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir} + \textcolor{stringliteral}{"/"} + \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.get(pos);
+345     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a5cbb89ee2337edc2838f332c8b5e5160}{nextF}=\textcolor{keyword}{true};
+346   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a909399c619c52785970eeed2e87e1f18_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a909399c619c52785970eeed2e87e1f18_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae71b11199920715b81a50122bb4d9e9d}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!pause@{pause}}
+\index{pause@{pause}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{pause}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws Interrupted\+Exception}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae71b11199920715b81a50122bb4d9e9d}
+
+
+This method , to pause a song. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+420                                                  \{
+421     System.out.println(\textcolor{stringliteral}{"Pause"});
+422     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pauseF}=\textcolor{keyword}{true};
+423     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51b544eb635ea19154536647d01a4994}{isPlay} = \textcolor{keyword}{false};
+424     this.suspend();
+425   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae71b11199920715b81a50122bb4d9e9d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac1a3d2cb3bfa953b28cf03806fed0499}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!play@{play}}
+\index{play@{play}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{play}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac1a3d2cb3bfa953b28cf03806fed0499}
+
+
+This method play the mp3 file to the sound card. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{예외}
+{\em String\+Index\+Out\+Of\+Range\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyCode}
+304                      \{
+305     \textcolor{keywordflow}{try} \{
+306       FileInputStream fis = \textcolor{keyword}{new} FileInputStream(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}{path});
+307       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{player} = \textcolor{keyword}{new} Player(fis);
+308     \}
+309 
+310     \textcolor{keywordflow}{catch} (Exception e) \{
+311       System.out.println(\textcolor{stringliteral}{"Problem playing file "} + \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}{path});
+312       System.out.println(e);
+313     \}
+314 
+315   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac1a3d2cb3bfa953b28cf03806fed0499_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2b1956b10fac3122dcfb3f0dfc8b0be2}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!previous@{previous}}
+\index{previous@{previous}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{previous}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+previous (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2b1956b10fac3122dcfb3f0dfc8b0be2}
+
+
+This method , to play the previous song. 
+
+Play songs of the previous pos of Music\+List. If if the current song is the first song , play the last song 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{예외}
+{\em Interrupted\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyCode}
+356   \{
+357     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pauseF})
+358     \{
+359       \textcolor{keywordflow}{try} \{
+360         \textcolor{keywordflow}{if}(!\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playingModeSelectState})
+361         \{
+362           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a889d56a689747ddb862ae3a76f682803}{resumeMusic}();
+363           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pauseF}=\textcolor{keyword}{true};
+364           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playingModeSelectState} = \textcolor{keyword}{true};
+365         \}
+366       \} \textcolor{keywordflow}{catch} (InterruptedException e) \{
+367         \textcolor{comment}{// TODO Auto-generated catch block}
+368         e.printStackTrace();
+369       \}
+370     \}
+371     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{player}.close();
+372     \textcolor{keywordflow}{if}(pos== 0) pos = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.size()-1;
+373     \textcolor{keywordflow}{else} 
+374       pos--;
+375     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}{path} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir} + \textcolor{stringliteral}{"/"} + \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.get(pos);
+376     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2cbe57c0e490a5d3e85adff6bc53e34e}{previousF}=\textcolor{keyword}{true};
+377   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2b1956b10fac3122dcfb3f0dfc8b0be2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2b1956b10fac3122dcfb3f0dfc8b0be2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a889d56a689747ddb862ae3a76f682803}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!resume\+Music@{resume\+Music}}
+\index{resume\+Music@{resume\+Music}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{resume\+Music}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+resume\+Music (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws Interrupted\+Exception}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a889d56a689747ddb862ae3a76f682803}
+
+
+This method , to resume a song. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+432                                                        \{
+433     System.out.println(\textcolor{stringliteral}{"Resume"});
+434     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{pauseF}=\textcolor{keyword}{false};
+435     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51b544eb635ea19154536647d01a4994}{isPlay} = \textcolor{keyword}{true};
+436     this.resume();
+437   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a889d56a689747ddb862ae3a76f682803_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a79e3e5a9b9d94b7f6a090687d8690803}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!run@{run}}
+\index{run@{run}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a79e3e5a9b9d94b7f6a090687d8690803}
+
+
+This method , to play a song to suit each state. 
+
+Automatically it will play the next song and if the song is finished 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+385                     \{
+386 
+387     \textcolor{keywordflow}{try} \{ 
+388       \textcolor{keywordflow}{while} (\textcolor{keyword}{true}) \{ 
+389         \textcolor{keyword}{synchronized}(\textcolor{keyword}{this}) \{
+390           \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playingModeSelectState} || \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a84e908ec2c02aac3801492aed4d1ae8a}{selectingF}) 
+391             \textcolor{keywordflow}{continue};
+392           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac1a3d2cb3bfa953b28cf03806fed0499}{play}();
+393           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{player}.play();
+394           \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af90561018301ec011dff450ffc1273ae}{endFlag})
+395           \{
+396             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a22eec123640d135ac5ad319b2a05d8e6}{runFlag}=\textcolor{keyword}{false};
+397             System.exit(1);
+398           \}
+399           \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2cbe57c0e490a5d3e85adff6bc53e34e}{previousF})
+400             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2cbe57c0e490a5d3e85adff6bc53e34e}{previousF}=\textcolor{keyword}{false};
+401           \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a5cbb89ee2337edc2838f332c8b5e5160}{nextF})
+402             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a5cbb89ee2337edc2838f332c8b5e5160}{nextF}=\textcolor{keyword}{false};
+403           \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a75e8d73ae2ea36cdc3c38bde7a802ca7}{selectF})
+404             \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a75e8d73ae2ea36cdc3c38bde7a802ca7}{selectF}=\textcolor{keyword}{false};
+405           \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(pos<\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.size())
+406             this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a909399c619c52785970eeed2e87e1f18}{next}();
+407         \}   
+408       \}
+409     \}
+410     \textcolor{keywordflow}{catch} (Exception e) \{ 
+411       System.out.println(e);
+412     \}
+413   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a79e3e5a9b9d94b7f6a090687d8690803_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad8a2c07b231ca2142a74cd0fd279a548}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!select\+File@{select\+File}}
+\index{select\+File@{select\+File}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{select\+File}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+select\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad8a2c07b231ca2142a74cd0fd279a548}
+
+
+This method , the ability to browse the selected file. 
+
+If the selected file is mp3 files , start the selected file , returns I\+S\+F\+I\+L\+E If the selected file is Directory , update the Directory List , returns I\+S\+F\+D\+I\+R 
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+I\+S\+F\+I\+L\+E or I\+S\+D\+I\+R 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+82   \{
+83     String selectedFile = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.get(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor});
+84     this.\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}{path} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir} + \textcolor{stringliteral}{"/"} + selectedFile;
+85     \textcolor{keywordflow}{if}(selectedFile.endsWith(\textcolor{stringliteral}{".mp3"}))
+86     \{
+87       pos = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{musicList}.indexOf(selectedFile);
+88       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a22eec123640d135ac5ad319b2a05d8e6}{runFlag}==\textcolor{keyword}{false})
+89       \{
+90         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a22eec123640d135ac5ad319b2a05d8e6}{runFlag}=\textcolor{keyword}{true};
+91         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51b544eb635ea19154536647d01a4994}{isPlay} = \textcolor{keyword}{true};
+92         this.start();
+93       \}
+94       \textcolor{keywordflow}{else}
+95       \{
+96         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playingModeSelectState})
+97           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{playingModeSelectState}=\textcolor{keyword}{false};
+98         \textcolor{keywordflow}{else}
+99           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{player}.close();
+100         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a75e8d73ae2ea36cdc3c38bde7a802ca7}{selectF}=\textcolor{keyword}{true};
+101         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a84e908ec2c02aac3801492aed4d1ae8a}{selectingF}=\textcolor{keyword}{false};
+102       \}
+103       \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a64d4cdb74ae72282cf0b345a3b9667d2}{ISFILE};
+104     \}
+105     \textcolor{keywordflow}{else}
+106     \{
+107       \textcolor{keywordflow}{if}(selectedFile.equals(\textcolor{stringliteral}{".."}))
+108         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a30e3d7b8c44924c865dc3dd52e206809}{previousDir}.remove(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a30e3d7b8c44924c865dc3dd52e206809}{previousDir}.size()-1);
+109       \textcolor{keywordflow}{else}
+110       \{
+111         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a30e3d7b8c44924c865dc3dd52e206809}{previousDir}.add(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir});
+112         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir} = \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir} + \textcolor{stringliteral}{"/"} + selectedFile;
+113       \}
+114       System.out.println(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{currentDir});
+115       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a449b2c9816ef1a55f8113b7155000d97}{findDirList}();
+116       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51155c43158965823b24d0f69987be47}{findMusicList}();
+117       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae4d53ac419495684317e05ae42885e8a}{makeTotalList}();
+118       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}=0;
+119       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.size()<5)
+120         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}=\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{totalList}.size();
+121       \textcolor{keywordflow}{else}
+122         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}=5;
+123       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor}=0;
+124 
+125       \textcolor{keywordflow}{return} \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a56a46a09a7d67269c10a3f1284da0140}{ISDIR};
+126     \}
+127   \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad8a2c07b231ca2142a74cd0fd279a548_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad8a2c07b231ca2142a74cd0fd279a548_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a3dd6eb813563681e38a8dd9c981e886e}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!up\+Move\+Cursor@{up\+Move\+Cursor}}
+\index{up\+Move\+Cursor@{up\+Move\+Cursor}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{up\+Move\+Cursor}]{\setlength{\rightskip}{0pt plus 5cm}void kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+up\+Move\+Cursor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a3dd6eb813563681e38a8dd9c981e886e}
+
+
+This method move up the cursor. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em nothing} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+nothing 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+192   \{
+193     \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor}--;
+194     \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor} < 0)
+195       \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor} = 0;
+196     \textcolor{keywordflow}{else}
+197     \{
+198       \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{presentCursor} < \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd})
+199       \{
+200         \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}--;
+201         \textcolor{keywordflow}{if}(\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}-\hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{startInd}>5)
+202           \hyperlink{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{endInd}--;
+203       \}
+204     \}
+205   \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a3dd6eb813563681e38a8dd9c981e886e_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{멤버 데이타 문서화}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!current\+Dir@{current\+Dir}}
+\index{current\+Dir@{current\+Dir}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{current\+Dir}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+current\+Dir\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2614e5b1bf00c55b57e08354bcb6be19}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_afb08be6c6500433b6fd4ae05eb3bc981}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!dir\+List@{dir\+List}}
+\index{dir\+List@{dir\+List}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{dir\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+dir\+List = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_afb08be6c6500433b6fd4ae05eb3bc981}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af90561018301ec011dff450ffc1273ae}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!end\+Flag@{end\+Flag}}
+\index{end\+Flag@{end\+Flag}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{end\+Flag}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+end\+Flag =false\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af90561018301ec011dff450ffc1273ae}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!end\+Ind@{end\+Ind}}
+\index{end\+Ind@{end\+Ind}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{end\+Ind}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+end\+Ind\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ad162359e29d80d26914c27b6318901eb}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a56a46a09a7d67269c10a3f1284da0140}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!I\+S\+D\+I\+R@{I\+S\+D\+I\+R}}
+\index{I\+S\+D\+I\+R@{I\+S\+D\+I\+R}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{I\+S\+D\+I\+R}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+I\+S\+D\+I\+R =20}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a56a46a09a7d67269c10a3f1284da0140}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a64d4cdb74ae72282cf0b345a3b9667d2}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!I\+S\+F\+I\+L\+E@{I\+S\+F\+I\+L\+E}}
+\index{I\+S\+F\+I\+L\+E@{I\+S\+F\+I\+L\+E}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{I\+S\+F\+I\+L\+E}]{\setlength{\rightskip}{0pt plus 5cm}final int kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+I\+S\+F\+I\+L\+E =21}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a64d4cdb74ae72282cf0b345a3b9667d2}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51b544eb635ea19154536647d01a4994}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!is\+Play@{is\+Play}}
+\index{is\+Play@{is\+Play}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{is\+Play}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+is\+Play = false\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a51b544eb635ea19154536647d01a4994}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!music\+List@{music\+List}}
+\index{music\+List@{music\+List}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{music\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+music\+List = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a43bc24d44f1079340c3c9983c7df88a2}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a5cbb89ee2337edc2838f332c8b5e5160}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!next\+F@{next\+F}}
+\index{next\+F@{next\+F}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{next\+F}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+next\+F =false\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a5cbb89ee2337edc2838f332c8b5e5160}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!path@{path}}
+\index{path@{path}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{path}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+path\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae9763f1d531b65e0be29470b24704f4f}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!pause\+F@{pause\+F}}
+\index{pause\+F@{pause\+F}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{pause\+F}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+pause\+F =false\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a9cbd432293e5e11088c6bfb4b31db11c}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!player@{player}}
+\index{player@{player}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{player}]{\setlength{\rightskip}{0pt plus 5cm}Player kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+player\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae3ec295f2404ad30d9ff20208cda065e}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af9d89823a5f820f1592ebe2acd21f711}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!playing\+F@{playing\+F}}
+\index{playing\+F@{playing\+F}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{playing\+F}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+playing\+F =false\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af9d89823a5f820f1592ebe2acd21f711}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!playing\+Mode\+Select\+State@{playing\+Mode\+Select\+State}}
+\index{playing\+Mode\+Select\+State@{playing\+Mode\+Select\+State}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{playing\+Mode\+Select\+State}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+playing\+Mode\+Select\+State =false\hspace{0.3cm}{\ttfamily [static]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ae2610567e63c44b6bba0eabdd1868e33}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!present\+Cursor@{present\+Cursor}}
+\index{present\+Cursor@{present\+Cursor}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{present\+Cursor}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+present\+Cursor =0\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_aed823f56c3e5597d294d4f66a2d2fc54}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a30e3d7b8c44924c865dc3dd52e206809}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!previous\+Dir@{previous\+Dir}}
+\index{previous\+Dir@{previous\+Dir}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{previous\+Dir}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+previous\+Dir = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a30e3d7b8c44924c865dc3dd52e206809}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2cbe57c0e490a5d3e85adff6bc53e34e}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!previous\+F@{previous\+F}}
+\index{previous\+F@{previous\+F}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{previous\+F}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+previous\+F =false\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a2cbe57c0e490a5d3e85adff6bc53e34e}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a38c60f5f214d244f8da3ba7287d29a39}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!root\+Dir@{root\+Dir}}
+\index{root\+Dir@{root\+Dir}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{root\+Dir}]{\setlength{\rightskip}{0pt plus 5cm}String kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+root\+Dir\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a38c60f5f214d244f8da3ba7287d29a39}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a22eec123640d135ac5ad319b2a05d8e6}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!run\+Flag@{run\+Flag}}
+\index{run\+Flag@{run\+Flag}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{run\+Flag}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+run\+Flag =false}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a22eec123640d135ac5ad319b2a05d8e6}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a75e8d73ae2ea36cdc3c38bde7a802ca7}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!select\+F@{select\+F}}
+\index{select\+F@{select\+F}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{select\+F}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+select\+F =false\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a75e8d73ae2ea36cdc3c38bde7a802ca7}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a84e908ec2c02aac3801492aed4d1ae8a}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!selecting\+F@{selecting\+F}}
+\index{selecting\+F@{selecting\+F}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{selecting\+F}]{\setlength{\rightskip}{0pt plus 5cm}boolean kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+selecting\+F =false}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_a84e908ec2c02aac3801492aed4d1ae8a}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!start\+Ind@{start\+Ind}}
+\index{start\+Ind@{start\+Ind}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{start\+Ind}]{\setlength{\rightskip}{0pt plus 5cm}int kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+start\+Ind\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_af154b8f09fc298427ccfb1d0e7c94447}
+\hypertarget{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}{}\index{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}!total\+List@{total\+List}}
+\index{total\+List@{total\+List}!kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player@{kr\+::ac\+::kookmin\+::cs\+::music\+::\+Music\+Player}}
+\subsubsection[{total\+List}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ kr.\+ac.\+kookmin.\+cs.\+music.\+Music\+Player.\+total\+List = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [private]}}\label{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_ac7599b9b64999c9fcb1b7f1e6d32d188}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Karasion/git/\+Capstone2015-\/\+Purple\+Ocean/src/kr/ac/kookmin/cs/music/\hyperlink{_music_player_8java}{Music\+Player.\+java}\end{DoxyCompactItemize}

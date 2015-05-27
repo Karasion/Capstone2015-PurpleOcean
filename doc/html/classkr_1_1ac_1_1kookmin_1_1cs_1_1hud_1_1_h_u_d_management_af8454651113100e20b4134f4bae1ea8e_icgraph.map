@@ -1,0 +1,5 @@
+<map id="kr.ac.kookmin.cs.hud.HUDManagement.setMenuIcon" name="kr.ac.kookmin.cs.hud.HUDManagement.setMenuIcon">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html#a98a07afc224f8f9374e934cb69f1de00" title="It is a method of initializing the related elements to BSA. " alt="" coords="328,5,556,32"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a288f8c34da9a079df42ec19cd63148d8" title="To initialize the MusicPlayer to HUD. " alt="" coords="342,57,542,98"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud.html#ac31dd21aa4220865cb34708393e8d327" title="It is a method of initializing the related elements to sms. " alt="" coords="351,122,533,163"/>
+</map>

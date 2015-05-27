@@ -1,0 +1,6 @@
+<map id="kr.ac.kookmin.cs.hud.HUDClassTemplate" name="kr.ac.kookmin.cs.hud.HUDClassTemplate">
+<area shape="rect" id="node2" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud.html" title="This class serves to output information related to the BSA to Hud. " alt="" coords="5,439,212,663"/>
+<area shape="rect" id="node3" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud.html" title="This class serves to output information related to the call to HUD. " alt="" coords="237,365,431,736"/>
+<area shape="rect" id="node4" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html" title="This class serves to output information related to the MusicPlayer to HUD. " alt="" coords="456,292,679,809"/>
+<area shape="rect" id="node5" href="$classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud.html" title="This class serves to output information related to the sms to Hud. " alt="" coords="703,395,909,707"/>
+</map>

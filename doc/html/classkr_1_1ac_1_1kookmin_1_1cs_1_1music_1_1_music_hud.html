@@ -1,0 +1,1421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>Head-Up Display module for Driving Simulator: kr.ac.kookmin.cs.music.MusicHud 클래스 참조</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Head-Up Display module for Driving Simulator
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.8.9.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'검색');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="namespaces.html"><span>패키지</span></a></li>
+      <li class="current"><a href="annotated.html"><span>클래스</span></a></li>
+      <li><a href="files.html"><span>파일들</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="검색" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>클래스&#160;목록</span></a></li>
+      <li><a href="classes.html"><span>클래스&#160;색인</span></a></li>
+      <li><a href="inherits.html"><span>클래스&#160;계통도</span></a></li>
+      <li><a href="functions.html"><span>클래스&#160;멤버</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 멤버 함수</a> &#124;
+<a href="#pub-static-methods">정적 Public 멤버 함수</a> &#124;
+<a href="#pub-static-attribs">정적 Public 속성</a> &#124;
+<a href="#pri-static-methods">정적 Private 멤버 함수</a> &#124;
+<a href="#pri-static-attribs">정적 Private 속성</a> &#124;
+<a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud-members.html">모든 멤버 목록</a>  </div>
+  <div class="headertitle">
+<div class="title">kr.ac.kookmin.cs.music.MusicHud 클래스 참조</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>This class serves to output information related to the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to HUD.  
+ <a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#details">더 자세히 ...</a></p>
+<div class="dynheader">
+kr.ac.kookmin.cs.music.MusicHud에 대한 상속 다이어그램 : </div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud__inherit__graph.png" border="0" usemap="#kr_8ac_8kookmin_8cs_8music_8_music_hud_inherit__map" alt="Inheritance graph"/></div>
+<map name="kr_8ac_8kookmin_8cs_8music_8_music_hud_inherit__map" id="kr_8ac_8kookmin_8cs_8music_8_music_hud_inherit__map">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html" title="This class stub is a template for the HUD layout class. " alt="" coords="11,5,222,244"/></map>
+</div>
+<div class="dynheader">
+kr.ac.kookmin.cs.music.MusicHud에 대한 협력 다이어그램:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud__coll__graph.png" border="0" usemap="#kr_8ac_8kookmin_8cs_8music_8_music_hud_coll__map" alt="Collaboration graph"/></div>
+<map name="kr_8ac_8kookmin_8cs_8music_8_music_hud_coll__map" id="kr_8ac_8kookmin_8cs_8music_8_music_hud_coll__map">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html" title="This class stub is a template for the HUD layout class. " alt="" coords="5,343,216,582"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. " alt="" coords="499,189,699,736"/></map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 멤버 함수</h2></td></tr>
+<tr class="memitem:a288f8c34da9a079df42ec19cd63148d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a288f8c34da9a079df42ec19cd63148d8">init</a> (Simulator simulator)</td></tr>
+<tr class="memdesc:a288f8c34da9a079df42ec19cd63148d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">To initialize the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to HUD.  <a href="#a288f8c34da9a079df42ec19cd63148d8">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a288f8c34da9a079df42ec19cd63148d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae584a0310e4e5dab0582f46fdaf349"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#abae584a0310e4e5dab0582f46fdaf349">update</a> ()</td></tr>
+<tr class="memdesc:abae584a0310e4e5dab0582f46fdaf349"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class , to update the HUD <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a>.  <a href="#abae584a0310e4e5dab0582f46fdaf349">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:abae584a0310e4e5dab0582f46fdaf349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b8a146f415f2f9df8d7691b39f4e61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a63b8a146f415f2f9df8d7691b39f4e61">attach</a> ()</td></tr>
+<tr class="memdesc:a63b8a146f415f2f9df8d7691b39f4e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method , Attach the node associated with the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to simulator.  <a href="#a63b8a146f415f2f9df8d7691b39f4e61">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a63b8a146f415f2f9df8d7691b39f4e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1365ffaf9a1ea414b5ac1fa0461b1e17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1365ffaf9a1ea414b5ac1fa0461b1e17">detach</a> ()</td></tr>
+<tr class="memdesc:a1365ffaf9a1ea414b5ac1fa0461b1e17"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method , Detach the node associated with the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to simulator.  <a href="#a1365ffaf9a1ea414b5ac1fa0461b1e17">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a1365ffaf9a1ea414b5ac1fa0461b1e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6835471da6bda8dcc840f408af8183d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab6835471da6bda8dcc840f408af8183d">pause</a> ()</td></tr>
+<tr class="separator:ab6835471da6bda8dcc840f408af8183d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7fb72f5b746c53fb4f1d55f656062cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af7fb72f5b746c53fb4f1d55f656062cb">resume</a> ()</td></tr>
+<tr class="separator:af7fb72f5b746c53fb4f1d55f656062cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a125e06fca43397e8cfb8d01bfb2e9cbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a125e06fca43397e8cfb8d01bfb2e9cbd">key_act_push</a> ()</td></tr>
+<tr class="separator:a125e06fca43397e8cfb8d01bfb2e9cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25828b12e137bd16732c159aff4a3da3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a25828b12e137bd16732c159aff4a3da3">key_act_right</a> ()</td></tr>
+<tr class="separator:a25828b12e137bd16732c159aff4a3da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4968fce2a15ef40f69dbc5c1d163f6be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a4968fce2a15ef40f69dbc5c1d163f6be">key_act_left</a> ()</td></tr>
+<tr class="separator:a4968fce2a15ef40f69dbc5c1d163f6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc751c03c17698226693034b0a84074c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#adc751c03c17698226693034b0a84074c">key_act_down</a> ()</td></tr>
+<tr class="separator:adc751c03c17698226693034b0a84074c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template')"><img src="closed.png" alt="-"/>&#160;<a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html">kr.ac.kookmin.cs.hud.HUDClassTemplate</a>(으)로부터 상속된 Public 멤버 함수</td></tr>
+<tr class="memitem:a30a209182edaf92713b172109e0e4693 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#a30a209182edaf92713b172109e0e4693">init</a> (Simulator simulator)</td></tr>
+<tr class="memdesc:a30a209182edaf92713b172109e0e4693 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">You must initialize the elements of layout in this method. And you must also add a menu bar icon .  <a href="#a30a209182edaf92713b172109e0e4693">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a30a209182edaf92713b172109e0e4693 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053bfe4a8c5121e8910f1c6416e3da4c inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#a053bfe4a8c5121e8910f1c6416e3da4c">attach</a> ()</td></tr>
+<tr class="memdesc:a053bfe4a8c5121e8910f1c6416e3da4c inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inside this method it is necessary to implement the tasks required when HUD layout inserted.  <a href="#a053bfe4a8c5121e8910f1c6416e3da4c">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a053bfe4a8c5121e8910f1c6416e3da4c inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24cbcfc7dac21b475f806b9298b9846e inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#a24cbcfc7dac21b475f806b9298b9846e">detach</a> ()</td></tr>
+<tr class="memdesc:a24cbcfc7dac21b475f806b9298b9846e inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inside this method it is necessary to implement the tasks required when HUD layout deleted.  <a href="#a24cbcfc7dac21b475f806b9298b9846e">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a24cbcfc7dac21b475f806b9298b9846e inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50760c142875775a12df392814f4572 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#aa50760c142875775a12df392814f4572">update</a> ()</td></tr>
+<tr class="memdesc:aa50760c142875775a12df392814f4572 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method to implement the layout change .  <a href="#aa50760c142875775a12df392814f4572">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:aa50760c142875775a12df392814f4572 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb46b8cd2704ee02c1de01b8e60bae62 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#abb46b8cd2704ee02c1de01b8e60bae62">pause</a> ()</td></tr>
+<tr class="memdesc:abb46b8cd2704ee02c1de01b8e60bae62 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metho to implement what you need in the application that HUD is paused.  <a href="#abb46b8cd2704ee02c1de01b8e60bae62">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:abb46b8cd2704ee02c1de01b8e60bae62 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae546a0f18829e5012b1f0ae1c82ee4bb inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#ae546a0f18829e5012b1f0ae1c82ee4bb">resume</a> ()</td></tr>
+<tr class="memdesc:ae546a0f18829e5012b1f0ae1c82ee4bb inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metho to implement what you need in the application that HUD is resumed .  <a href="#ae546a0f18829e5012b1f0ae1c82ee4bb">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:ae546a0f18829e5012b1f0ae1c82ee4bb inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a030e54909c369e4b0e43b551561e238d inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#a030e54909c369e4b0e43b551561e238d">key_act_push</a> ()</td></tr>
+<tr class="memdesc:a030e54909c369e4b0e43b551561e238d inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metho to implement the action of push key.  <a href="#a030e54909c369e4b0e43b551561e238d">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a030e54909c369e4b0e43b551561e238d inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affc56ae2354935530ed2bd0c580d32f0 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#affc56ae2354935530ed2bd0c580d32f0">key_act_right</a> ()</td></tr>
+<tr class="memdesc:affc56ae2354935530ed2bd0c580d32f0 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metho to implement the action of right key.  <a href="#affc56ae2354935530ed2bd0c580d32f0">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:affc56ae2354935530ed2bd0c580d32f0 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a475ddeb053862cfd976e4a5a1548340e inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#a475ddeb053862cfd976e4a5a1548340e">key_act_left</a> ()</td></tr>
+<tr class="memdesc:a475ddeb053862cfd976e4a5a1548340e inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metho to implement the action of left key.  <a href="#a475ddeb053862cfd976e4a5a1548340e">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a475ddeb053862cfd976e4a5a1548340e inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6997c3296b9aa23172090ba4c03b0604 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#a6997c3296b9aa23172090ba4c03b0604">key_act_up</a> ()</td></tr>
+<tr class="memdesc:a6997c3296b9aa23172090ba4c03b0604 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metho to implement the action of up key.  <a href="#a6997c3296b9aa23172090ba4c03b0604">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a6997c3296b9aa23172090ba4c03b0604 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b533f34b6b984287388a344e732e00 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template.html#a56b533f34b6b984287388a344e732e00">key_act_down</a> ()</td></tr>
+<tr class="memdesc:a56b533f34b6b984287388a344e732e00 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metho to implement the action of down key.  <a href="#a56b533f34b6b984287388a344e732e00">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a56b533f34b6b984287388a344e732e00 inherit pub_methods_classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+정적 Public 멤버 함수</h2></td></tr>
+<tr class="memitem:a82fc32c08d1970254dbed692def97114"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a82fc32c08d1970254dbed692def97114">regist</a> ()</td></tr>
+<tr class="memdesc:a82fc32c08d1970254dbed692def97114"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method , Detach the node associated with the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to simulator.  <a href="#a82fc32c08d1970254dbed692def97114">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a82fc32c08d1970254dbed692def97114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa4845abd8ea1b4e32068d89d9174f6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6">selectMusic</a> ()</td></tr>
+<tr class="memdesc:a1fa4845abd8ea1b4e32068d89d9174f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is an operation when the music is selected by the HUD.  <a href="#a1fa4845abd8ea1b4e32068d89d9174f6">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a1fa4845abd8ea1b4e32068d89d9174f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6da3d2fbea51d7ef37c5a52815ba055"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055">musicPlayerUndo</a> ()</td></tr>
+<tr class="memdesc:ae6da3d2fbea51d7ef37c5a52815ba055"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method , turn off the HUD music player feature or prints the music list.  <a href="#ae6da3d2fbea51d7ef37c5a52815ba055">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:ae6da3d2fbea51d7ef37c5a52815ba055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf42a899b6500c3d8a1dec8379609ca7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">moveMusicCursor</a> ()</td></tr>
+<tr class="memdesc:acf42a899b6500c3d8a1dec8379609ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method , move to music cursor.  <a href="#acf42a899b6500c3d8a1dec8379609ca7">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:acf42a899b6500c3d8a1dec8379609ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+정적 Public 속성</h2></td></tr>
+<tr class="memitem:af25cdab8e5a88f811b459819038a70c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html">MusicPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a> = new <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html">MusicPlayer</a>(&quot;C:/�뷡&quot;)</td></tr>
+<tr class="separator:af25cdab8e5a88f811b459819038a70c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+정적 Private 멤버 함수</h2></td></tr>
+<tr class="memitem:a2d23de3888f3cbffeace98e3b724bfc6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6">musicPlayerAttach</a> ()</td></tr>
+<tr class="memdesc:a2d23de3888f3cbffeace98e3b724bfc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method , attach the music list and music title.  <a href="#a2d23de3888f3cbffeace98e3b724bfc6">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a2d23de3888f3cbffeace98e3b724bfc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+정적 Private 속성</h2></td></tr>
+<tr class="memitem:a2d171f7fe9d6cf9c23b0761140200db9"><td class="memItemLeft" align="right" valign="top">static SimulationBasics&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a></td></tr>
+<tr class="separator:a2d171f7fe9d6cf9c23b0761140200db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112c41a8f0a424f6923cd43b99503211"><td class="memItemLeft" align="right" valign="top">static Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a></td></tr>
+<tr class="separator:a112c41a8f0a424f6923cd43b99503211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addb589cc33df35a21681d999faa881a6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#addb589cc33df35a21681d999faa881a6">hud_state</a></td></tr>
+<tr class="separator:addb589cc33df35a21681d999faa881a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61438e8fe095f4107ba6e605cccfe3a6"><td class="memItemLeft" align="right" valign="top">static BitmapText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a></td></tr>
+<tr class="separator:a61438e8fe095f4107ba6e605cccfe3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac238a0ec556f0d8bcb9efa886e5ad832"><td class="memItemLeft" align="right" valign="top">static Picture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a></td></tr>
+<tr class="separator:ac238a0ec556f0d8bcb9efa886e5ad832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcaa70d03a722d3025ff792f2259a0e6"><td class="memItemLeft" align="right" valign="top">static Picture[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a> = new Picture[3]</td></tr>
+<tr class="separator:afcaa70d03a722d3025ff792f2259a0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16b011da1196907d7844c6837e62e1f"><td class="memItemLeft" align="right" valign="top">static Picture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">musicEquilizer</a></td></tr>
+<tr class="separator:ab16b011da1196907d7844c6837e62e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae29f4943d0035e117a4dcf09034c1022"><td class="memItemLeft" align="right" valign="top">static Picture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a></td></tr>
+<tr class="separator:ae29f4943d0035e117a4dcf09034c1022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a7f6730561df9e36d5391d4e8421d8"><td class="memItemLeft" align="right" valign="top">static Picture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a></td></tr>
+<tr class="separator:aa6a7f6730561df9e36d5391d4e8421d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5431db8f7b146c312b44f3e779dc7701"><td class="memItemLeft" align="right" valign="top">static BitmapText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a></td></tr>
+<tr class="separator:a5431db8f7b146c312b44f3e779dc7701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca776131928bd423fe6757a7dadbc1d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aeca776131928bd423fe6757a7dadbc1d">musicCursorPosX</a></td></tr>
+<tr class="separator:aeca776131928bd423fe6757a7dadbc1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5661d572a591ae020c8f923ae629bd08"><td class="memItemLeft" align="right" valign="top">static int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">musicCursorPosY</a> = new int[5]</td></tr>
+<tr class="separator:a5661d572a591ae020c8f923ae629bd08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363463423eca510f273cb977563daaec"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">x</a></td></tr>
+<tr class="separator:a363463423eca510f273cb977563daaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c591aef6e8eac3ae173f749cfba423"><td class="memItemLeft" align="right" valign="top">static Picture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a90c591aef6e8eac3ae173f749cfba423">icon_en</a></td></tr>
+<tr class="separator:a90c591aef6e8eac3ae173f749cfba423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
+<div class="textblock"><p>This class serves to output information related to the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to HUD. </p>
+<p>This class is the simulator , if the user performs a musicplayer function , is output information related to the musicplayer to the appropriate position of HUD. </p><dl class="section author"><dt>작성자</dt><dd>Lee-MinJae , Jo-KwangHyeon </dd></dl>
+</div><h2 class="groupheader">멤버 함수 문서화</h2>
+<a class="anchor" id="a63b8a146f415f2f9df8d7691b39f4e61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.attach </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method , Attach the node associated with the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to simulator. </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nothing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6">musicPlayerAttach</a>();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    HUDManagement.attach(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a112c41a8f0a424f6923cd43b99503211"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">kr.ac.kookmin.cs.music.MusicHud.musicPanel</a></div><div class="ttdeci">static Node musicPanel</div><div class="ttdef"><b>Definition:</b> MusicHud.java:30</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a2d23de3888f3cbffeace98e3b724bfc6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6">kr.ac.kookmin.cs.music.MusicHud.musicPlayerAttach</a></div><div class="ttdeci">static void musicPlayerAttach()</div><div class="ttdoc">This method , attach the music list and music title. </div><div class="ttdef"><b>Definition:</b> MusicHud.java:340</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a63b8a146f415f2f9df8d7691b39f4e61_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a63b8a146f415f2f9df8d7691b39f4e61_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a63b8a146f415f2f9df8d7691b39f4e61_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a63b8a146f415f2f9df8d7691b39f4e61_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6" title="This method , attach the music list and music title. " alt="" coords="300,5,500,47"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a57652e0e587a00547e4664e13e87453d" title="The Method is the ability to attach the HUD layout to the panel . " alt="" coords="253,71,547,98"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1365ffaf9a1ea414b5ac1fa0461b1e17"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.detach </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method , Detach the node associated with the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to simulator. </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nothing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    HUDManagement.detach(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a112c41a8f0a424f6923cd43b99503211"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">kr.ac.kookmin.cs.music.MusicHud.musicPanel</a></div><div class="ttdeci">static Node musicPanel</div><div class="ttdef"><b>Definition:</b> MusicHud.java:30</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1365ffaf9a1ea414b5ac1fa0461b1e17_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1365ffaf9a1ea414b5ac1fa0461b1e17_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1365ffaf9a1ea414b5ac1fa0461b1e17_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1365ffaf9a1ea414b5ac1fa0461b1e17_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#aa447140a88b6a509cf0c88518972ceb6" title="The Method is the ability to detach the HUD layout to the panel . " alt="" coords="253,13,549,39"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a288f8c34da9a079df42ec19cd63148d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.init </td>
+          <td>(</td>
+          <td class="paramtype">Simulator&#160;</td>
+          <td class="paramname"><em>simulator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>To initialize the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to HUD. </p>
+<p>To initialize the position and size of the required icon and list </p><dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">param</td><td>a Simulator argument return Nothing </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a> = simulator;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a> = <span class="keyword">new</span> Node(<span class="stringliteral">&quot;Music Panel&quot;</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    BitmapFont font = <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager().loadFont(<span class="stringliteral">&quot;Interface/Fonts/MSNeoGothic/MSNeoGothic.fnt&quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">x</a>=<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getSettings().getWidth()/2;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    y=<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getSettings().getHeight()/2-200;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// element for music player </span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a> = <span class="keyword">new</span> BitmapText(font,<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>.setName(<span class="stringliteral">&quot;music list&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>.setText(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>.setSize(font.getCharSet().getRenderedSize());</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>.setColor(ColorRGBA.White);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>.setLocalTranslation(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">x</a>-250,y-20,0);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aeca776131928bd423fe6757a7dadbc1d">musicCursorPosX</a> = <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">x</a> - 283;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">musicCursorPosY</a>[0] = y-43;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">musicCursorPosY</a>[1] = y-76;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">musicCursorPosY</a>[2] = y-108;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">musicCursorPosY</a>[3] = y-140;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">musicCursorPosY</a>[4] = y-172;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a> = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;musicCursor&quot;</span>);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a>.setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/musicplayer_arrow.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a>.setWidth(10);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a>.setHeight(11);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a>.setPosition(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aeca776131928bd423fe6757a7dadbc1d">musicCursorPosX</a>, <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">musicCursorPosY</a>[0]);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[0] = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;previous&quot;</span>);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[0].setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/musicplayer_backSkip.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[0].setWidth(46);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[0].setHeight(46);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[0].setPosition(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">x</a>-225, y-180);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[1] = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;play and pause&quot;</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[1].setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/musicplayer_pause.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[1].setWidth(64);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[1].setHeight(64);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[1].setPosition(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">x</a>-155, y-190);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[2] = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;next&quot;</span>);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[2].setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/musicplayer_nextSkip.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[2].setWidth(46);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[2].setHeight(46);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[2].setPosition(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">x</a>-65,y-180);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">musicEquilizer</a> = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;music equilizer&quot;</span>);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">musicEquilizer</a>.setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/equlizer_arrow_merged.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">musicEquilizer</a>.setWidth(307);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">musicEquilizer</a>.setHeight(72);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">musicEquilizer</a>.setPosition(690,226);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a> = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;musicBackground&quot;</span>);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a>.setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/directory_listbox.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a>.setWidth(322);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a>.setHeight(160);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a>.setPosition(690, 158);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a> = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;musicHighlight&quot;</span>);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a>.setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/directory_highlight.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a>.setWidth(322);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a>.setHeight(29);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a>.setPosition(690, 288);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a> = <span class="keyword">new</span> BitmapText(font,<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a>.setName(<span class="stringliteral">&quot;music name&quot;</span>);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a>.setText(<span class="stringliteral">&quot;fhdhahf&quot;</span>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a>.setSize(font.getCharSet().getRenderedSize());</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a>.setLocalTranslation(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">x</a>-210, y-30, 0);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="comment">/* menu icon initialization */</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a90c591aef6e8eac3ae173f749cfba423">icon_en</a> = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;musicIcon_en&quot;</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a90c591aef6e8eac3ae173f749cfba423">icon_en</a>.setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/menubar/menubar_music.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a90c591aef6e8eac3ae173f749cfba423">icon_en</a>.setWidth(80);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a90c591aef6e8eac3ae173f749cfba423">icon_en</a>.setHeight(80);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    icon_dis = <span class="keyword">new</span> Picture(<span class="stringliteral">&quot;musicIcon_dis&quot;</span>);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    icon_dis.setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/menubar/menubar_music_c.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    icon_dis.setWidth(80);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    icon_dis.setHeight(80);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    HUDManagement.setMenuIcon(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a90c591aef6e8eac3ae173f749cfba423">icon_en</a>, icon_dis, <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#addb589cc33df35a21681d999faa881a6">hud_state</a>);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a5661d572a591ae020c8f923ae629bd08"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">kr.ac.kookmin.cs.music.MusicHud.musicCursorPosY</a></div><div class="ttdeci">static int[] musicCursorPosY</div><div class="ttdef"><b>Definition:</b> MusicHud.java:44</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a112c41a8f0a424f6923cd43b99503211"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">kr.ac.kookmin.cs.music.MusicHud.musicPanel</a></div><div class="ttdeci">static Node musicPanel</div><div class="ttdef"><b>Definition:</b> MusicHud.java:30</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ae29f4943d0035e117a4dcf09034c1022"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">kr.ac.kookmin.cs.music.MusicHud.musicBackground</a></div><div class="ttdeci">static Picture musicBackground</div><div class="ttdef"><b>Definition:</b> MusicHud.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_aa6a7f6730561df9e36d5391d4e8421d8"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">kr.ac.kookmin.cs.music.MusicHud.musicHighlight</a></div><div class="ttdeci">static Picture musicHighlight</div><div class="ttdef"><b>Definition:</b> MusicHud.java:40</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a363463423eca510f273cb977563daaec"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a363463423eca510f273cb977563daaec">kr.ac.kookmin.cs.music.MusicHud.x</a></div><div class="ttdeci">static int x</div><div class="ttdef"><b>Definition:</b> MusicHud.java:46</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a61438e8fe095f4107ba6e605cccfe3a6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">kr.ac.kookmin.cs.music.MusicHud.musicList</a></div><div class="ttdeci">static BitmapText musicList</div><div class="ttdef"><b>Definition:</b> MusicHud.java:34</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_addb589cc33df35a21681d999faa881a6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#addb589cc33df35a21681d999faa881a6">kr.ac.kookmin.cs.music.MusicHud.hud_state</a></div><div class="ttdeci">static int hud_state</div><div class="ttdef"><b>Definition:</b> MusicHud.java:31</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a5431db8f7b146c312b44f3e779dc7701"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">kr.ac.kookmin.cs.music.MusicHud.musicName</a></div><div class="ttdeci">static BitmapText musicName</div><div class="ttdef"><b>Definition:</b> MusicHud.java:41</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ac238a0ec556f0d8bcb9efa886e5ad832"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">kr.ac.kookmin.cs.music.MusicHud.musicCursor</a></div><div class="ttdeci">static Picture musicCursor</div><div class="ttdef"><b>Definition:</b> MusicHud.java:36</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a2d171f7fe9d6cf9c23b0761140200db9"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">kr.ac.kookmin.cs.music.MusicHud.sim</a></div><div class="ttdeci">static SimulationBasics sim</div><div class="ttdef"><b>Definition:</b> MusicHud.java:29</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ab16b011da1196907d7844c6837e62e1f"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">kr.ac.kookmin.cs.music.MusicHud.musicEquilizer</a></div><div class="ttdeci">static Picture musicEquilizer</div><div class="ttdef"><b>Definition:</b> MusicHud.java:38</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_afcaa70d03a722d3025ff792f2259a0e6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">kr.ac.kookmin.cs.music.MusicHud.musicPlayerIcon</a></div><div class="ttdeci">static Picture[] musicPlayerIcon</div><div class="ttdef"><b>Definition:</b> MusicHud.java:37</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a90c591aef6e8eac3ae173f749cfba423"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a90c591aef6e8eac3ae173f749cfba423">kr.ac.kookmin.cs.music.MusicHud.icon_en</a></div><div class="ttdeci">static Picture icon_en</div><div class="ttdef"><b>Definition:</b> MusicHud.java:48</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_aeca776131928bd423fe6757a7dadbc1d"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aeca776131928bd423fe6757a7dadbc1d">kr.ac.kookmin.cs.music.MusicHud.musicCursorPosX</a></div><div class="ttdeci">static int musicCursorPosX</div><div class="ttdef"><b>Definition:</b> MusicHud.java:43</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a288f8c34da9a079df42ec19cd63148d8_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a288f8c34da9a079df42ec19cd63148d8_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a288f8c34da9a079df42ec19cd63148d8_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a288f8c34da9a079df42ec19cd63148d8_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#af8454651113100e20b4134f4bae1ea8e" title="The Method is a function of add the icon of HUD menu bar. " alt="" coords="253,5,528,47"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adc751c03c17698226693034b0a84074c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.key_act_down </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055">musicPlayerUndo</a>();</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ae6da3d2fbea51d7ef37c5a52815ba055"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055">kr.ac.kookmin.cs.music.MusicHud.musicPlayerUndo</a></div><div class="ttdeci">static void musicPlayerUndo()</div><div class="ttdoc">This method , turn off the HUD music player feature or prints the music list. </div><div class="ttdef"><b>Definition:</b> MusicHud.java:298</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_adc751c03c17698226693034b0a84074c_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_adc751c03c17698226693034b0a84074c_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_adc751c03c17698226693034b0a84074c_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_adc751c03c17698226693034b0a84074c_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055" title="This method , turn off the HUD music player feature or prints the music list. " alt="" coords="253,104,453,145"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a0dd8bf2b710c07fa45a75f725786e8ca" title="This method terminates the player, to reset the flag. " alt="" coords="567,5,767,47"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2244c315124be0b5818e39f729b08f7c" title="This method sets the index for output to lease a file that is currently running. " alt="" coords="567,71,767,112"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="567,136,767,177"/><area shape="rect" id="node8" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#af46086e2dbfc7fe58b45bc5d98fe08d8" title="Method to get out from the menu function running. " alt="" coords="501,202,832,229"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="943,5,1143,47"/><area shape="rect" id="node7" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="943,136,1143,177"/><area shape="rect" id="node9" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a2d3e988e5636714778382ba504e00c6e" title="This Method is to enable the menu icon. " alt="" coords="880,202,1207,229"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4968fce2a15ef40f69dbc5c1d163f6be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.key_act_left </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;  {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">playingF</a>)</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2b1956b10fac3122dcfb3f0dfc8b0be2">previous</a>();</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    {</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a3dd6eb813563681e38a8dd9c981e886e">upMoveCursor</a>();</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">moveMusicCursor</a>();</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    }</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_acf42a899b6500c3d8a1dec8379609ca7"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">kr.ac.kookmin.cs.music.MusicHud.moveMusicCursor</a></div><div class="ttdeci">static void moveMusicCursor()</div><div class="ttdoc">This method , move to music cursor. </div><div class="ttdef"><b>Definition:</b> MusicHud.java:326</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a2b1956b10fac3122dcfb3f0dfc8b0be2"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2b1956b10fac3122dcfb3f0dfc8b0be2">kr.ac.kookmin.cs.music.MusicPlayer.previous</a></div><div class="ttdeci">void previous()</div><div class="ttdoc">This method , to play the previous song. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:355</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_af9d89823a5f820f1592ebe2acd21f711"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">kr.ac.kookmin.cs.music.MusicPlayer.playingF</a></div><div class="ttdeci">static boolean playingF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a3dd6eb813563681e38a8dd9c981e886e"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a3dd6eb813563681e38a8dd9c981e886e">kr.ac.kookmin.cs.music.MusicPlayer.upMoveCursor</a></div><div class="ttdeci">void upMoveCursor()</div><div class="ttdoc">This method move up the cursor. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:191</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a4968fce2a15ef40f69dbc5c1d163f6be_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a4968fce2a15ef40f69dbc5c1d163f6be_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a4968fce2a15ef40f69dbc5c1d163f6be_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a4968fce2a15ef40f69dbc5c1d163f6be_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2b1956b10fac3122dcfb3f0dfc8b0be2" title="This method , to play the previous song. " alt="" coords="253,5,453,47"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a3dd6eb813563681e38a8dd9c981e886e" title="This method move up the cursor. " alt="" coords="253,71,453,112"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="253,136,453,177"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="501,5,701,47"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="501,136,701,177"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a125e06fca43397e8cfb8d01bfb2e9cbd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.key_act_push </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6">selectMusic</a>();</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a1fa4845abd8ea1b4e32068d89d9174f6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6">kr.ac.kookmin.cs.music.MusicHud.selectMusic</a></div><div class="ttdeci">static void selectMusic()</div><div class="ttdoc">This method is an operation when the music is selected by the HUD. </div><div class="ttdef"><b>Definition:</b> MusicHud.java:242</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a125e06fca43397e8cfb8d01bfb2e9cbd_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a125e06fca43397e8cfb8d01bfb2e9cbd_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a125e06fca43397e8cfb8d01bfb2e9cbd_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a125e06fca43397e8cfb8d01bfb2e9cbd_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6" title="This method is an operation when the music is selected by the HUD. " alt="" coords="253,136,453,177"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="501,5,701,47"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae71b11199920715b81a50122bb4d9e9d" title="This method , to pause a song. " alt="" coords="501,71,701,112"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ad8a2c07b231ca2142a74cd0fd279a548" title="This method , the ability to browse the selected file. " alt="" coords="501,136,701,177"/><area shape="rect" id="node9" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6" title="This method , attach the music list and music title. " alt="" coords="501,201,701,243"/><area shape="rect" id="node10" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="501,267,701,308"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a449b2c9816ef1a55f8113b7155000d97" title="This method , to add a list of folders to dirList. " alt="" coords="749,71,949,112"/><area shape="rect" id="node7" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a51155c43158965823b24d0f69987be47" title="This method , added to the musicList only mp3 files in the folder. " alt="" coords="749,136,949,177"/><area shape="rect" id="node8" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae4d53ac419495684317e05ae42885e8a" title="This method adds a dirList and musicList together. " alt="" coords="749,201,949,243"/><area shape="rect" id="node11" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="749,267,949,308"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a25828b12e137bd16732c159aff4a3da3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.key_act_right </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">playingF</a>)</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a909399c619c52785970eeed2e87e1f18">next</a>(); </div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a6c1889cdb80e7b51c8f05f0296c9e28a">downMoveCursor</a>();</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">moveMusicCursor</a>();</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a909399c619c52785970eeed2e87e1f18"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a909399c619c52785970eeed2e87e1f18">kr.ac.kookmin.cs.music.MusicPlayer.next</a></div><div class="ttdeci">void next()</div><div class="ttdoc">This method , to play the next song. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:323</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_acf42a899b6500c3d8a1dec8379609ca7"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">kr.ac.kookmin.cs.music.MusicHud.moveMusicCursor</a></div><div class="ttdeci">static void moveMusicCursor()</div><div class="ttdoc">This method , move to music cursor. </div><div class="ttdef"><b>Definition:</b> MusicHud.java:326</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a6c1889cdb80e7b51c8f05f0296c9e28a"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a6c1889cdb80e7b51c8f05f0296c9e28a">kr.ac.kookmin.cs.music.MusicPlayer.downMoveCursor</a></div><div class="ttdeci">void downMoveCursor()</div><div class="ttdoc">This method move down the cursor. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:211</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_af9d89823a5f820f1592ebe2acd21f711"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">kr.ac.kookmin.cs.music.MusicPlayer.playingF</a></div><div class="ttdeci">static boolean playingF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a25828b12e137bd16732c159aff4a3da3_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a25828b12e137bd16732c159aff4a3da3_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a25828b12e137bd16732c159aff4a3da3_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a25828b12e137bd16732c159aff4a3da3_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a909399c619c52785970eeed2e87e1f18" title="This method , to play the next song. " alt="" coords="253,5,453,47"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a6c1889cdb80e7b51c8f05f0296c9e28a" title="This method move down the cursor. " alt="" coords="253,71,453,112"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="253,136,453,177"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="501,5,701,47"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="501,136,701,177"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="acf42a899b6500c3d8a1dec8379609ca7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void kr.ac.kookmin.cs.music.MusicHud.moveMusicCursor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method , move to music cursor. </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nothing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<div class="fragment"><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="keywordtype">int</span> index = <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f">getCursorPos</a>();</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a>.setPosition(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aeca776131928bd423fe6757a7dadbc1d">musicCursorPosX</a>,<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">musicCursorPosY</a>[index]);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a>.setPosition(690, 288-(32*index));</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a5661d572a591ae020c8f923ae629bd08"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5661d572a591ae020c8f923ae629bd08">kr.ac.kookmin.cs.music.MusicHud.musicCursorPosY</a></div><div class="ttdeci">static int[] musicCursorPosY</div><div class="ttdef"><b>Definition:</b> MusicHud.java:44</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_aa6a7f6730561df9e36d5391d4e8421d8"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">kr.ac.kookmin.cs.music.MusicHud.musicHighlight</a></div><div class="ttdeci">static Picture musicHighlight</div><div class="ttdef"><b>Definition:</b> MusicHud.java:40</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a287f9f17c8f9c780a0012c40f529d26f"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f">kr.ac.kookmin.cs.music.MusicPlayer.getCursorPos</a></div><div class="ttdeci">int getCursorPos()</div><div class="ttdoc">This method returns the position of the current position of the cursor. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:133</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ac238a0ec556f0d8bcb9efa886e5ad832"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">kr.ac.kookmin.cs.music.MusicHud.musicCursor</a></div><div class="ttdeci">static Picture musicCursor</div><div class="ttdef"><b>Definition:</b> MusicHud.java:36</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_aeca776131928bd423fe6757a7dadbc1d"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aeca776131928bd423fe6757a7dadbc1d">kr.ac.kookmin.cs.music.MusicHud.musicCursorPosX</a></div><div class="ttdeci">static int musicCursorPosX</div><div class="ttdef"><b>Definition:</b> MusicHud.java:43</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_acf42a899b6500c3d8a1dec8379609ca7_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_acf42a899b6500c3d8a1dec8379609ca7_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_acf42a899b6500c3d8a1dec8379609ca7_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_acf42a899b6500c3d8a1dec8379609ca7_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="253,5,453,47"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_acf42a899b6500c3d8a1dec8379609ca7_icgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_acf42a899b6500c3d8a1dec8379609ca7_icgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_acf42a899b6500c3d8a1dec8379609ca7_icgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_acf42a899b6500c3d8a1dec8379609ca7_icgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a25828b12e137bd16732c159aff4a3da3" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_right" alt="" coords="253,5,453,47"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a4968fce2a15ef40f69dbc5c1d163f6be" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_left" alt="" coords="253,71,453,112"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6" title="This method is an operation when the music is selected by the HUD. " alt="" coords="253,136,453,177"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae6da3d2fbea51d7ef37c5a52815ba055" title="This method , turn off the HUD music player feature or prints the music list. " alt="" coords="253,201,453,243"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a125e06fca43397e8cfb8d01bfb2e9cbd" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_push" alt="" coords="501,136,701,177"/><area shape="rect" id="node7" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#adc751c03c17698226693034b0a84074c" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_down" alt="" coords="501,201,701,243"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2d23de3888f3cbffeace98e3b724bfc6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void kr.ac.kookmin.cs.music.MusicHud.musicPlayerAttach </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method , attach the music list and music title. </p>
+<p>Music playing : attach the music title Music stopped : attach a list of music </p><dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nothing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<div class="fragment"><div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  {</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">playingF</a>)</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    {</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;      <span class="comment">// detach element of previous state   </span></div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.detachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.detachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a>);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.detachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a>);</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.detachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a>);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;      <span class="comment">// attach element of next state</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">musicEquilizer</a>);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;3; i++)</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[i]);</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a>);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    }</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    {</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>);</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a>);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a>);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a>);</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    }</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a112c41a8f0a424f6923cd43b99503211"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">kr.ac.kookmin.cs.music.MusicHud.musicPanel</a></div><div class="ttdeci">static Node musicPanel</div><div class="ttdef"><b>Definition:</b> MusicHud.java:30</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ae29f4943d0035e117a4dcf09034c1022"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">kr.ac.kookmin.cs.music.MusicHud.musicBackground</a></div><div class="ttdeci">static Picture musicBackground</div><div class="ttdef"><b>Definition:</b> MusicHud.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_aa6a7f6730561df9e36d5391d4e8421d8"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">kr.ac.kookmin.cs.music.MusicHud.musicHighlight</a></div><div class="ttdeci">static Picture musicHighlight</div><div class="ttdef"><b>Definition:</b> MusicHud.java:40</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a61438e8fe095f4107ba6e605cccfe3a6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">kr.ac.kookmin.cs.music.MusicHud.musicList</a></div><div class="ttdeci">static BitmapText musicList</div><div class="ttdef"><b>Definition:</b> MusicHud.java:34</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a5431db8f7b146c312b44f3e779dc7701"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">kr.ac.kookmin.cs.music.MusicHud.musicName</a></div><div class="ttdeci">static BitmapText musicName</div><div class="ttdef"><b>Definition:</b> MusicHud.java:41</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ac238a0ec556f0d8bcb9efa886e5ad832"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">kr.ac.kookmin.cs.music.MusicHud.musicCursor</a></div><div class="ttdeci">static Picture musicCursor</div><div class="ttdef"><b>Definition:</b> MusicHud.java:36</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ab16b011da1196907d7844c6837e62e1f"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">kr.ac.kookmin.cs.music.MusicHud.musicEquilizer</a></div><div class="ttdeci">static Picture musicEquilizer</div><div class="ttdef"><b>Definition:</b> MusicHud.java:38</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_afcaa70d03a722d3025ff792f2259a0e6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">kr.ac.kookmin.cs.music.MusicHud.musicPlayerIcon</a></div><div class="ttdeci">static Picture[] musicPlayerIcon</div><div class="ttdef"><b>Definition:</b> MusicHud.java:37</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_af9d89823a5f820f1592ebe2acd21f711"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">kr.ac.kookmin.cs.music.MusicPlayer.playingF</a></div><div class="ttdeci">static boolean playingF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a2d23de3888f3cbffeace98e3b724bfc6_icgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a2d23de3888f3cbffeace98e3b724bfc6_icgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a2d23de3888f3cbffeace98e3b724bfc6_icgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a2d23de3888f3cbffeace98e3b724bfc6_icgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a63b8a146f415f2f9df8d7691b39f4e61" title="This method , Attach the node associated with the MusicPlayer to simulator. " alt="" coords="253,5,453,47"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a1fa4845abd8ea1b4e32068d89d9174f6" title="This method is an operation when the music is selected by the HUD. " alt="" coords="253,71,453,112"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a125e06fca43397e8cfb8d01bfb2e9cbd" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_push" alt="" coords="501,71,701,112"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae6da3d2fbea51d7ef37c5a52815ba055"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void kr.ac.kookmin.cs.music.MusicHud.musicPlayerUndo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method , turn off the HUD music player feature or prints the music list. </p>
+<p>State music is being played : Print a list of music Music stopped : Go menu bar </p><dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nothing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<div class="fragment"><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">playingF</a>)</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    {</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.detachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">musicEquilizer</a>);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;3; i++)</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.detachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[i]);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.detachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a>);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a0dd8bf2b710c07fa45a75f725786e8ca">deletePlayingMode</a>();</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      <span class="comment">// back up to element for previous state</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">musicCursor</a>);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">musicHighlight</a>);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">musicPanel</a>.attachChild(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">musicBackground</a>);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      <span class="comment">// updating cursor position</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2244c315124be0b5818e39f729b08f7c">adjustCursorPos</a>();</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">moveMusicCursor</a>();</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    }</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;      HUDManagement.escapeMenu();</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a112c41a8f0a424f6923cd43b99503211"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a112c41a8f0a424f6923cd43b99503211">kr.ac.kookmin.cs.music.MusicHud.musicPanel</a></div><div class="ttdeci">static Node musicPanel</div><div class="ttdef"><b>Definition:</b> MusicHud.java:30</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ae29f4943d0035e117a4dcf09034c1022"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ae29f4943d0035e117a4dcf09034c1022">kr.ac.kookmin.cs.music.MusicHud.musicBackground</a></div><div class="ttdeci">static Picture musicBackground</div><div class="ttdef"><b>Definition:</b> MusicHud.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a2244c315124be0b5818e39f729b08f7c"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2244c315124be0b5818e39f729b08f7c">kr.ac.kookmin.cs.music.MusicPlayer.adjustCursorPos</a></div><div class="ttdeci">void adjustCursorPos()</div><div class="ttdoc">This method sets the index for output to lease a file that is currently running. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:232</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_aa6a7f6730561df9e36d5391d4e8421d8"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#aa6a7f6730561df9e36d5391d4e8421d8">kr.ac.kookmin.cs.music.MusicHud.musicHighlight</a></div><div class="ttdeci">static Picture musicHighlight</div><div class="ttdef"><b>Definition:</b> MusicHud.java:40</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_acf42a899b6500c3d8a1dec8379609ca7"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">kr.ac.kookmin.cs.music.MusicHud.moveMusicCursor</a></div><div class="ttdeci">static void moveMusicCursor()</div><div class="ttdoc">This method , move to music cursor. </div><div class="ttdef"><b>Definition:</b> MusicHud.java:326</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a61438e8fe095f4107ba6e605cccfe3a6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">kr.ac.kookmin.cs.music.MusicHud.musicList</a></div><div class="ttdeci">static BitmapText musicList</div><div class="ttdef"><b>Definition:</b> MusicHud.java:34</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a0dd8bf2b710c07fa45a75f725786e8ca"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a0dd8bf2b710c07fa45a75f725786e8ca">kr.ac.kookmin.cs.music.MusicPlayer.deletePlayingMode</a></div><div class="ttdeci">void deletePlayingMode()</div><div class="ttdoc">This method terminates the player, to reset the flag. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:462</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a5431db8f7b146c312b44f3e779dc7701"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">kr.ac.kookmin.cs.music.MusicHud.musicName</a></div><div class="ttdeci">static BitmapText musicName</div><div class="ttdef"><b>Definition:</b> MusicHud.java:41</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ac238a0ec556f0d8bcb9efa886e5ad832"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ac238a0ec556f0d8bcb9efa886e5ad832">kr.ac.kookmin.cs.music.MusicHud.musicCursor</a></div><div class="ttdeci">static Picture musicCursor</div><div class="ttdef"><b>Definition:</b> MusicHud.java:36</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_ab16b011da1196907d7844c6837e62e1f"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#ab16b011da1196907d7844c6837e62e1f">kr.ac.kookmin.cs.music.MusicHud.musicEquilizer</a></div><div class="ttdeci">static Picture musicEquilizer</div><div class="ttdef"><b>Definition:</b> MusicHud.java:38</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_afcaa70d03a722d3025ff792f2259a0e6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">kr.ac.kookmin.cs.music.MusicHud.musicPlayerIcon</a></div><div class="ttdeci">static Picture[] musicPlayerIcon</div><div class="ttdef"><b>Definition:</b> MusicHud.java:37</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_af9d89823a5f820f1592ebe2acd21f711"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">kr.ac.kookmin.cs.music.MusicPlayer.playingF</a></div><div class="ttdeci">static boolean playingF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ae6da3d2fbea51d7ef37c5a52815ba055_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ae6da3d2fbea51d7ef37c5a52815ba055_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ae6da3d2fbea51d7ef37c5a52815ba055_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ae6da3d2fbea51d7ef37c5a52815ba055_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a0dd8bf2b710c07fa45a75f725786e8ca" title="This method terminates the player, to reset the flag. " alt="" coords="319,5,519,47"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2244c315124be0b5818e39f729b08f7c" title="This method sets the index for output to lease a file that is currently running. " alt="" coords="319,71,519,112"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="319,136,519,177"/><area shape="rect" id="node7" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#af46086e2dbfc7fe58b45bc5d98fe08d8" title="Method to get out from the menu function running. " alt="" coords="253,202,584,229"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="695,5,895,47"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="695,136,895,177"/><area shape="rect" id="node8" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a2d3e988e5636714778382ba504e00c6e" title="This Method is to enable the menu icon. " alt="" coords="632,202,959,229"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ae6da3d2fbea51d7ef37c5a52815ba055_icgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ae6da3d2fbea51d7ef37c5a52815ba055_icgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ae6da3d2fbea51d7ef37c5a52815ba055_icgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ae6da3d2fbea51d7ef37c5a52815ba055_icgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#adc751c03c17698226693034b0a84074c" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_down" alt="" coords="253,5,453,47"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab6835471da6bda8dcc840f408af8183d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.pause </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a51b544eb635ea19154536647d01a4994">isPlay</a>){</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        System.out.println(<span class="stringliteral">&quot;pause&quot;</span>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae71b11199920715b81a50122bb4d9e9d">pause</a>();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a9cbd432293e5e11088c6bfb4b31db11c">pauseF</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      } <span class="keywordflow">catch</span> (InterruptedException e) {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        e.printStackTrace();</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_ae71b11199920715b81a50122bb4d9e9d"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae71b11199920715b81a50122bb4d9e9d">kr.ac.kookmin.cs.music.MusicPlayer.pause</a></div><div class="ttdeci">void pause()</div><div class="ttdoc">This method , to pause a song. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:420</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a9cbd432293e5e11088c6bfb4b31db11c"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a9cbd432293e5e11088c6bfb4b31db11c">kr.ac.kookmin.cs.music.MusicPlayer.pauseF</a></div><div class="ttdeci">static boolean pauseF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:34</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a51b544eb635ea19154536647d01a4994"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a51b544eb635ea19154536647d01a4994">kr.ac.kookmin.cs.music.MusicPlayer.isPlay</a></div><div class="ttdeci">static boolean isPlay</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:38</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ab6835471da6bda8dcc840f408af8183d_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ab6835471da6bda8dcc840f408af8183d_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ab6835471da6bda8dcc840f408af8183d_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_ab6835471da6bda8dcc840f408af8183d_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae71b11199920715b81a50122bb4d9e9d" title="This method , to pause a song. " alt="" coords="253,5,453,47"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a82fc32c08d1970254dbed692def97114"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void kr.ac.kookmin.cs.music.MusicHud.regist </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method , Detach the node associated with the <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a> to simulator. </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nothing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<div class="fragment"><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    MusicHud music = <span class="keyword">new</span> MusicHud();</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#addb589cc33df35a21681d999faa881a6">hud_state</a> = HUDManagement.regist(music);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_addb589cc33df35a21681d999faa881a6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#addb589cc33df35a21681d999faa881a6">kr.ac.kookmin.cs.music.MusicHud.hud_state</a></div><div class="ttdeci">static int hud_state</div><div class="ttdef"><b>Definition:</b> MusicHud.java:31</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a82fc32c08d1970254dbed692def97114_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a82fc32c08d1970254dbed692def97114_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a82fc32c08d1970254dbed692def97114_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a82fc32c08d1970254dbed692def97114_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management.html#a7b83ede582afefb75bfe90ed3c8fd688" title="The Method is a function of registering the HUD layout class to HUDManagement. " alt="" coords="253,13,543,39"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a82fc32c08d1970254dbed692def97114_icgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a82fc32c08d1970254dbed692def97114_icgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a82fc32c08d1970254dbed692def97114_icgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a82fc32c08d1970254dbed692def97114_icgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_register.html#af41fbf131960a0e0e81ef71acb7a3d1e" title="kr.ac.kookmin.cs.hud.HUDRegister.hud\l_enrollment" alt="" coords="253,5,504,47"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af7fb72f5b746c53fb4f1d55f656062cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.resume </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a51b544eb635ea19154536647d01a4994">isPlay</a>){</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803">resumeMusic</a>();</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a9cbd432293e5e11088c6bfb4b31db11c">pauseF</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      } <span class="keywordflow">catch</span> (InterruptedException e) {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        e.printStackTrace();</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a9cbd432293e5e11088c6bfb4b31db11c"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a9cbd432293e5e11088c6bfb4b31db11c">kr.ac.kookmin.cs.music.MusicPlayer.pauseF</a></div><div class="ttdeci">static boolean pauseF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:34</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a889d56a689747ddb862ae3a76f682803"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803">kr.ac.kookmin.cs.music.MusicPlayer.resumeMusic</a></div><div class="ttdeci">void resumeMusic()</div><div class="ttdoc">This method , to resume a song. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:432</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a51b544eb635ea19154536647d01a4994"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a51b544eb635ea19154536647d01a4994">kr.ac.kookmin.cs.music.MusicPlayer.isPlay</a></div><div class="ttdeci">static boolean isPlay</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:38</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_af7fb72f5b746c53fb4f1d55f656062cb_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_af7fb72f5b746c53fb4f1d55f656062cb_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_af7fb72f5b746c53fb4f1d55f656062cb_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_af7fb72f5b746c53fb4f1d55f656062cb_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="253,5,453,47"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1fa4845abd8ea1b4e32068d89d9174f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void kr.ac.kookmin.cs.music.MusicHud.selectMusic </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method is an operation when the music is selected by the HUD. </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nothing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<dl class="exception"><dt>예외</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      <span class="comment">//mp3.playingF is true of the state : a state in which music is being played</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">playingF</a>)</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="comment">//mp3.pauseF is true of the state : a state in which music is stopped</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a9cbd432293e5e11088c6bfb4b31db11c">pauseF</a>)</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <span class="comment">//mp3.playingModeSelectState is true of the state : a state in which the music list is output</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;          <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae2610567e63c44b6bba0eabdd1868e33">playingModeSelectState</a>)</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;          {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae2610567e63c44b6bba0eabdd1868e33">playingModeSelectState</a>=<span class="keyword">false</span>;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a9cbd432293e5e11088c6bfb4b31db11c">pauseF</a>=<span class="keyword">false</span>;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;          }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a84e908ec2c02aac3801492aed4d1ae8a">selectingF</a>)</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;          {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a84e908ec2c02aac3801492aed4d1ae8a">selectingF</a>=<span class="keyword">false</span>;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a9cbd432293e5e11088c6bfb4b31db11c">pauseF</a>=<span class="keyword">false</span>;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;          }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;          <span class="comment">// The music is performed again</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;          <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803">resumeMusic</a>();</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;          <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[1].setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/musicplayer_pause.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        } <span class="keywordflow">catch</span> (InterruptedException e) {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;          e.printStackTrace();</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        }</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      <span class="comment">// Music is stopped </span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;          <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae71b11199920715b81a50122bb4d9e9d">pause</a>();</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;          <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[1].setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/musicplayer_play.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        } <span class="keywordflow">catch</span> (InterruptedException e) {</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;          e.printStackTrace();</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        }</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="comment">// Mp3player is executed if the selected file is mp3 files</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ad8a2c07b231ca2142a74cd0fd279a548">selectFile</a>()==<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a64d4cdb74ae72282cf0b345a3b9667d2">ISFILE</a>)</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;      {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">playingF</a>=<span class="keyword">true</span>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6">musicPlayerAttach</a>();</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">musicPlayerIcon</a>[1].setImage(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">sim</a>.getAssetManager(), <span class="stringliteral">&quot;Textures/icons/music/musicplayer_pause.png&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">moveMusicCursor</a>();</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    }</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_ad8a2c07b231ca2142a74cd0fd279a548"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ad8a2c07b231ca2142a74cd0fd279a548">kr.ac.kookmin.cs.music.MusicPlayer.selectFile</a></div><div class="ttdeci">int selectFile()</div><div class="ttdoc">This method , the ability to browse the selected file. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:81</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_acf42a899b6500c3d8a1dec8379609ca7"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7">kr.ac.kookmin.cs.music.MusicHud.moveMusicCursor</a></div><div class="ttdeci">static void moveMusicCursor()</div><div class="ttdoc">This method , move to music cursor. </div><div class="ttdef"><b>Definition:</b> MusicHud.java:326</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_ae71b11199920715b81a50122bb4d9e9d"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae71b11199920715b81a50122bb4d9e9d">kr.ac.kookmin.cs.music.MusicPlayer.pause</a></div><div class="ttdeci">void pause()</div><div class="ttdoc">This method , to pause a song. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:420</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a2d171f7fe9d6cf9c23b0761140200db9"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d171f7fe9d6cf9c23b0761140200db9">kr.ac.kookmin.cs.music.MusicHud.sim</a></div><div class="ttdeci">static SimulationBasics sim</div><div class="ttdef"><b>Definition:</b> MusicHud.java:29</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a64d4cdb74ae72282cf0b345a3b9667d2"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a64d4cdb74ae72282cf0b345a3b9667d2">kr.ac.kookmin.cs.music.MusicPlayer.ISFILE</a></div><div class="ttdeci">final int ISFILE</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:52</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_afcaa70d03a722d3025ff792f2259a0e6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#afcaa70d03a722d3025ff792f2259a0e6">kr.ac.kookmin.cs.music.MusicHud.musicPlayerIcon</a></div><div class="ttdeci">static Picture[] musicPlayerIcon</div><div class="ttdef"><b>Definition:</b> MusicHud.java:37</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_af9d89823a5f820f1592ebe2acd21f711"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">kr.ac.kookmin.cs.music.MusicPlayer.playingF</a></div><div class="ttdeci">static boolean playingF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a9cbd432293e5e11088c6bfb4b31db11c"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a9cbd432293e5e11088c6bfb4b31db11c">kr.ac.kookmin.cs.music.MusicPlayer.pauseF</a></div><div class="ttdeci">static boolean pauseF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:34</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a889d56a689747ddb862ae3a76f682803"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803">kr.ac.kookmin.cs.music.MusicPlayer.resumeMusic</a></div><div class="ttdeci">void resumeMusic()</div><div class="ttdoc">This method , to resume a song. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:432</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a84e908ec2c02aac3801492aed4d1ae8a"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a84e908ec2c02aac3801492aed4d1ae8a">kr.ac.kookmin.cs.music.MusicPlayer.selectingF</a></div><div class="ttdeci">boolean selectingF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:41</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_ae2610567e63c44b6bba0eabdd1868e33"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae2610567e63c44b6bba0eabdd1868e33">kr.ac.kookmin.cs.music.MusicPlayer.playingModeSelectState</a></div><div class="ttdeci">static boolean playingModeSelectState</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:40</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a2d23de3888f3cbffeace98e3b724bfc6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6">kr.ac.kookmin.cs.music.MusicHud.musicPlayerAttach</a></div><div class="ttdeci">static void musicPlayerAttach()</div><div class="ttdoc">This method , attach the music list and music title. </div><div class="ttdef"><b>Definition:</b> MusicHud.java:340</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1fa4845abd8ea1b4e32068d89d9174f6_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1fa4845abd8ea1b4e32068d89d9174f6_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1fa4845abd8ea1b4e32068d89d9174f6_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1fa4845abd8ea1b4e32068d89d9174f6_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a889d56a689747ddb862ae3a76f682803" title="This method , to resume a song. " alt="" coords="253,5,453,47"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae71b11199920715b81a50122bb4d9e9d" title="This method , to pause a song. " alt="" coords="253,71,453,112"/><area shape="rect" id="node4" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ad8a2c07b231ca2142a74cd0fd279a548" title="This method , the ability to browse the selected file. " alt="" coords="253,136,453,177"/><area shape="rect" id="node8" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a2d23de3888f3cbffeace98e3b724bfc6" title="This method , attach the music list and music title. " alt="" coords="253,201,453,243"/><area shape="rect" id="node9" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#acf42a899b6500c3d8a1dec8379609ca7" title="This method , move to music cursor. " alt="" coords="253,267,453,308"/><area shape="rect" id="node5" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a449b2c9816ef1a55f8113b7155000d97" title="This method , to add a list of folders to dirList. " alt="" coords="501,71,701,112"/><area shape="rect" id="node6" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a51155c43158965823b24d0f69987be47" title="This method , added to the musicList only mp3 files in the folder. " alt="" coords="501,136,701,177"/><area shape="rect" id="node7" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#ae4d53ac419495684317e05ae42885e8a" title="This method adds a dirList and musicList together. " alt="" coords="501,201,701,243"/><area shape="rect" id="node10" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a287f9f17c8f9c780a0012c40f529d26f" title="This method returns the position of the current position of the cursor. " alt="" coords="501,267,701,308"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1fa4845abd8ea1b4e32068d89d9174f6_icgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1fa4845abd8ea1b4e32068d89d9174f6_icgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1fa4845abd8ea1b4e32068d89d9174f6_icgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_a1fa4845abd8ea1b4e32068d89d9174f6_icgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a125e06fca43397e8cfb8d01bfb2e9cbd" title="kr.ac.kookmin.cs.music.Music\lHud.key_act_push" alt="" coords="253,5,453,47"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abae584a0310e4e5dab0582f46fdaf349"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kr.ac.kookmin.cs.music.MusicHud.update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This class , to update the HUD <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html" title="This class is a core class associated with the music player. ">MusicPlayer</a>. </p>
+<p>This method , in a state where the music is selected , the name of the music that was selected for musicName, and outputs the musicList while selecting the music </p><dl class="section return"><dt>반환값</dt><dd>nothing </dd></dl>
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">playingF</a>)</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">musicName</a>.setText(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2663e337f13310d1fb0f51fe66d69711">getPlayingMusicName</a>());</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      <a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">musicList</a>.setText(<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">mp3</a>.<a class="code" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a333e46066801be56774f5c00b433afea">getList</a>());</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  }</div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a333e46066801be56774f5c00b433afea"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a333e46066801be56774f5c00b433afea">kr.ac.kookmin.cs.music.MusicPlayer.getList</a></div><div class="ttdeci">String getList()</div><div class="ttdoc">This method return the music List. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:254</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a61438e8fe095f4107ba6e605cccfe3a6"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a61438e8fe095f4107ba6e605cccfe3a6">kr.ac.kookmin.cs.music.MusicHud.musicList</a></div><div class="ttdeci">static BitmapText musicList</div><div class="ttdef"><b>Definition:</b> MusicHud.java:34</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_a5431db8f7b146c312b44f3e779dc7701"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#a5431db8f7b146c312b44f3e779dc7701">kr.ac.kookmin.cs.music.MusicHud.musicName</a></div><div class="ttdeci">static BitmapText musicName</div><div class="ttdef"><b>Definition:</b> MusicHud.java:41</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_af9d89823a5f820f1592ebe2acd21f711"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#af9d89823a5f820f1592ebe2acd21f711">kr.ac.kookmin.cs.music.MusicPlayer.playingF</a></div><div class="ttdeci">static boolean playingF</div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:39</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_html_af25cdab8e5a88f811b459819038a70c4"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html#af25cdab8e5a88f811b459819038a70c4">kr.ac.kookmin.cs.music.MusicHud.mp3</a></div><div class="ttdeci">static MusicPlayer mp3</div><div class="ttdef"><b>Definition:</b> MusicHud.java:35</div></div>
+<div class="ttc" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player_html_a2663e337f13310d1fb0f51fe66d69711"><div class="ttname"><a href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2663e337f13310d1fb0f51fe66d69711">kr.ac.kookmin.cs.music.MusicPlayer.getPlayingMusicName</a></div><div class="ttdeci">String getPlayingMusicName()</div><div class="ttdoc">This method returns the file name to match the type. </div><div class="ttdef"><b>Definition:</b> MusicPlayer.java:285</div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_abae584a0310e4e5dab0582f46fdaf349_cgraph.png" border="0" usemap="#classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_abae584a0310e4e5dab0582f46fdaf349_cgraph" alt=""/></div>
+<map name="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_abae584a0310e4e5dab0582f46fdaf349_cgraph" id="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud_abae584a0310e4e5dab0582f46fdaf349_cgraph">
+<area shape="rect" id="node2" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a2663e337f13310d1fb0f51fe66d69711" title="This method returns the file name to match the type. " alt="" coords="253,5,453,47"/><area shape="rect" id="node3" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html#a333e46066801be56774f5c00b433afea" title="This method return the music List. " alt="" coords="253,71,453,112"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">멤버 데이타 문서화</h2>
+<a class="anchor" id="addb589cc33df35a21681d999faa881a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int kr.ac.kookmin.cs.music.MusicHud.hud_state</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a90c591aef6e8eac3ae173f749cfba423"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Picture kr.ac.kookmin.cs.music.MusicHud.icon_en</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af25cdab8e5a88f811b459819038a70c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html">MusicPlayer</a> kr.ac.kookmin.cs.music.MusicHud.mp3 = new <a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player.html">MusicPlayer</a>(&quot;C:/�뷡&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae29f4943d0035e117a4dcf09034c1022"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Picture kr.ac.kookmin.cs.music.MusicHud.musicBackground</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac238a0ec556f0d8bcb9efa886e5ad832"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Picture kr.ac.kookmin.cs.music.MusicHud.musicCursor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeca776131928bd423fe6757a7dadbc1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int kr.ac.kookmin.cs.music.MusicHud.musicCursorPosX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5661d572a591ae020c8f923ae629bd08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] kr.ac.kookmin.cs.music.MusicHud.musicCursorPosY = new int[5]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab16b011da1196907d7844c6837e62e1f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Picture kr.ac.kookmin.cs.music.MusicHud.musicEquilizer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa6a7f6730561df9e36d5391d4e8421d8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Picture kr.ac.kookmin.cs.music.MusicHud.musicHighlight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a61438e8fe095f4107ba6e605cccfe3a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BitmapText kr.ac.kookmin.cs.music.MusicHud.musicList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5431db8f7b146c312b44f3e779dc7701"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BitmapText kr.ac.kookmin.cs.music.MusicHud.musicName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a112c41a8f0a424f6923cd43b99503211"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Node kr.ac.kookmin.cs.music.MusicHud.musicPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afcaa70d03a722d3025ff792f2259a0e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Picture [] kr.ac.kookmin.cs.music.MusicHud.musicPlayerIcon = new Picture[3]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2d171f7fe9d6cf9c23b0761140200db9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SimulationBasics kr.ac.kookmin.cs.music.MusicHud.sim</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a363463423eca510f273cb977563daaec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int kr.ac.kookmin.cs.music.MusicHud.x</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.:<ul>
+<li>C:/Users/Karasion/git/Capstone2015-PurpleOcean/src/kr/ac/kookmin/cs/music/<a class="el" href="_music_hud_8java.html">MusicHud.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacekr.html">kr</a></li><li class="navelem"><a class="el" href="namespacekr_1_1ac.html">ac</a></li><li class="navelem"><a class="el" href="namespacekr_1_1ac_1_1kookmin.html">kookmin</a></li><li class="navelem"><a class="el" href="namespacekr_1_1ac_1_1kookmin_1_1cs.html">cs</a></li><li class="navelem"><a class="el" href="namespacekr_1_1ac_1_1kookmin_1_1cs_1_1music.html">music</a></li><li class="navelem"><a class="el" href="classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud.html">MusicHud</a></li>
+    <li class="footer">생성시간 : 수 5월 27 2015 17:48:09, 프로젝트명 : Head-Up Display module for Driving Simulator, 생성자 : 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

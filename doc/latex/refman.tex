@@ -1,0 +1,210 @@
+\documentclass[twoside]{book}
+
+% Packages required by doxygen
+\usepackage{fixltx2e}
+\usepackage{calc}
+\usepackage{doxygen}
+\usepackage[export]{adjustbox} % also loads graphicx
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\PassOptionsToPackage{warn}{textcomp}
+\usepackage{textcomp}
+\usepackage[nointegrals]{wasysym}
+\usepackage[table]{xcolor}
+
+% NLS support packages
+\usepackage{hfont}
+
+% Font selection
+\usepackage[T1]{fontenc}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage{amssymb}
+\usepackage{sectsty}
+\renewcommand{\familydefault}{\sfdefault}
+\allsectionsfont{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
+\renewcommand{\DoxyLabelFont}{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
+\newcommand{\+}{\discretionary{\mbox{\scriptsize$\hookleftarrow$}}{}{}}
+
+% Page & text layout
+\usepackage{geometry}
+\geometry{%
+  a4paper,%
+  top=2.5cm,%
+  bottom=2.5cm,%
+  left=2.5cm,%
+  right=2.5cm%
+}
+\tolerance=750
+\hfuzz=15pt
+\hbadness=750
+\setlength{\emergencystretch}{15pt}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.2cm}
+\makeatletter
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}{0ex}{-1.0ex}{1.0ex}{%
+    \normalfont\normalsize\bfseries\SS@parafont%
+  }%
+}
+\renewcommand{\subparagraph}{%
+  \@startsection{subparagraph}{5}{0ex}{-1.0ex}{1.0ex}{%
+    \normalfont\normalsize\bfseries\SS@subparafont%
+  }%
+}
+\makeatother
+
+% Headers & footers
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead[LE]{\fancyplain{}{\bfseries\thepage}}
+\fancyhead[CE]{\fancyplain{}{}}
+\fancyhead[RE]{\fancyplain{}{\bfseries\leftmark}}
+\fancyhead[LO]{\fancyplain{}{\bfseries\rightmark}}
+\fancyhead[CO]{\fancyplain{}{}}
+\fancyhead[RO]{\fancyplain{}{\bfseries\thepage}}
+\fancyfoot[LE]{\fancyplain{}{}}
+\fancyfoot[CE]{\fancyplain{}{}}
+\fancyfoot[RE]{\fancyplain{}{\bfseries\scriptsize 생성시간 \+: 수 5월 27 2015 17\+:48\+:09, 프로젝트명 \+: Head-\/\+Up Display module for Driving Simulator, 생성자 \+:  Doxygen }}
+\fancyfoot[LO]{\fancyplain{}{\bfseries\scriptsize 생성시간 \+: 수 5월 27 2015 17\+:48\+:09, 프로젝트명 \+: Head-\/\+Up Display module for Driving Simulator, 생성자 \+:  Doxygen }}
+\fancyfoot[CO]{\fancyplain{}{}}
+\fancyfoot[RO]{\fancyplain{}{}}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{%
+  \markboth{#1}{}%
+}
+\renewcommand{\sectionmark}[1]{%
+  \markright{\thesection\ #1}%
+}
+
+% Indices & bibliography
+\usepackage{natbib}
+\usepackage[titles]{tocloft}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{5}
+\makeindex
+
+% Hyperlinks (required, but should be loaded last)
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex,pagebackref=true]{hyperref}
+\else
+  \usepackage[ps2pdf,pagebackref=true]{hyperref}
+\fi
+\hypersetup{%
+  colorlinks=true,%
+  linkcolor=blue,%
+  citecolor=blue,%
+  unicode%
+}
+
+% Custom commands
+\newcommand{\clearemptydoublepage}{%
+  \newpage{\pagestyle{empty}\cleardoublepage}%
+}
+
+
+%===== C O N T E N T S =====
+
+\begin{document}
+
+% Titlepage & ToC
+\hypersetup{pageanchor=false,
+             bookmarks=true,
+             bookmarksnumbered=true,
+             pdfencoding=unicode
+            }
+\pagenumbering{roman}
+\begin{titlepage}
+\vspace*{7cm}
+\begin{center}%
+{\Large Head-\/\+Up Display module for Driving Simulator }\\
+\vspace*{1cm}
+{\large 다음에 의해 생성됨 \+:  Doxygen 1.8.9.1}\\
+\vspace*{0.5cm}
+{\small 수 5월 27 2015 17:48:09}\\
+\end{center}
+\end{titlepage}
+\clearemptydoublepage
+\tableofcontents
+\clearemptydoublepage
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+
+%--- Begin generated contents ---
+\chapter{Head-\/\+Up Display module for Driving Simulator}
+\label{index}\hypertarget{index}{}\input{index}
+\chapter{네임스페이스 색인}
+\input{namespaces}
+\chapter{계통도 색인}
+\input{hierarchy}
+\chapter{클래스 색인}
+\input{annotated}
+\chapter{파일 색인}
+\input{files}
+\chapter{네임스페이스 문서화}
+\input{namespacekr}
+\input{namespacekr_1_1ac}
+\input{namespacekr_1_1ac_1_1kookmin}
+\input{namespacekr_1_1ac_1_1kookmin_1_1cs}
+\input{namespacekr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth}
+\input{namespacekr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a}
+\input{namespacekr_1_1ac_1_1kookmin_1_1cs_1_1call}
+\input{namespacekr_1_1ac_1_1kookmin_1_1cs_1_1hud}
+\input{namespacekr_1_1ac_1_1kookmin_1_1cs_1_1music}
+\input{namespacekr_1_1ac_1_1kookmin_1_1cs_1_1sms}
+\input{namespacekr_1_1ac_1_1kookmin_1_1cs_1_1tool}
+\chapter{클래스 문서화}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_dumy}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1_b_s_a_1_1_b_s_a_hud}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_bt_data}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_hud}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1call_1_1_call_listener}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_class_template}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1tool_1_1_hud_layout_tool}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_management}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1hud_1_1_h_u_d_register}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_hud}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1music_1_1_music_player}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_process_connection_thread}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_remote_bluetooth_server}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_hud}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1sms_1_1_sms_recv}
+\input{classkr_1_1ac_1_1kookmin_1_1cs_1_1bluetooth_1_1_wait_thread}
+\chapter{파일 문서화}
+\input{_bt_data_8java}
+\input{_process_connection_thread_8java}
+\input{_remote_bluetooth_server_8java}
+\input{_wait_thread_8java}
+\input{_b_s_a_dumy_8java}
+\input{_b_s_a_hud_8java}
+\input{_call_hud_8java}
+\input{_call_listener_8java}
+\input{_h_u_d_class_template_8java}
+\input{_h_u_d_management_8java}
+\input{_h_u_d_register_8java}
+\input{_music_hud_8java}
+\input{_music_player_8java}
+\input{_sms_hud_8java}
+\input{_sms_recv_8java}
+\input{_hud_layout_tool_8java}
+%--- End generated contents ---
+
+% Index
+\backmatter
+\newpage
+\phantomsection
+\clearemptydoublepage
+\addcontentsline{toc}{chapter}{색인}
+\printindex
+
+\end{document}
