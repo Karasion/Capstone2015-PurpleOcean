@@ -30,9 +30,10 @@ import com.jme3.scene.control.CameraControl;
 import com.jme3.scene.shape.Cylinder;
 
 import eu.opends.car.Car;
-import eu.opends.hud.HUDManagement;
 import eu.opends.main.Simulator;
 import eu.opends.tools.PanelCenter;
+
+import kr.ac.kookmin.cs.hud.HUDManagement;
 
 /**
  * 

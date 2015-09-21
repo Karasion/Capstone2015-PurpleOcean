@@ -1,6 +1,6 @@
 package eu.opends.trigger;
 
-import eu.opends.hud.HUDManagement;
+import kr.ac.kookmin.cs.hud.HUDManagement;
 
 //Im gisung, Hong sunghyeon
 public class DisplayNavigatorAction extends TriggerAction {

@@ -38,8 +38,9 @@ import eu.opends.car.LightTexturesContainer.TurnSignalState;
 import eu.opends.environment.TrafficLight;
 import eu.opends.environment.TrafficLightCenter;
 import eu.opends.environment.TrafficLight.TrafficLightState;
-import eu.opends.hud.BSA.BSADumy;
 import eu.opends.main.Simulator;
+
+import kr.ac.kookmin.cs.BSA.BSADumy;
 
 /**
  * 
